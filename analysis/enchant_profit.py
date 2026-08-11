@@ -1,10 +1,21 @@
 from storage.storage import load_results
+from analysis.enchant_rules import ENCHANT_MATERIALS, ENCHANT_MAP
 
-ENCHANT_MATERIALS = [
-    "T4_RUNE","T5_RUNE","T6_RUNE","T7_RUNE","T8_RUNE",
-    "T4_SOUL","T5_SOUL","T6_SOUL","T7_SOUL","T8_SOUL",
-    "T4_RELIC","T5_RELIC","T6_RELIC","T7_RELIC","T8_RELIC"
-    ]
+def get_item_type(item_id):
+    parts = item_id.split("_")
+    if len(parts) < 2:
+        return "Unknown"
+    return parts[1]
+
+def get_item_enchant_level(item_id):
+    name = item_id
+    if "@" in name:
+        parts = name.split("@")
+        if parts[1] == '' or not (parts[1].isdigit()):
+            return None
+        return int(parts[1])
+    else:
+        return 0
 
 def group_data(data):
     grouped = {}
@@ -24,4 +35,14 @@ def get_lowest_sell(data):
             continue
         lowest[item_id] = min(sell_prices)
     return lowest
+
+def get_enchant_material_prices(lowest_prices):
+    material_prices = {}
+    for material_id in ENCHANT_MATERIALS:
+        material_prices[material_id] = lowest_prices.get(material_id)
+    return material_prices
+
+def get_materials(base_id, target_id):
+    item_type = get_item_type(base_id)
+    material_cost = ENCHANT_MAP[item_type]
 
