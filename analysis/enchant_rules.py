@@ -11,8 +11,8 @@ ENCHANT_MAP = {
     "CAPE": 96,
     "SHOES": 96,
     "OFF": 96,
-    "CHEST": 192,
+    "ARMOR": 192,
     "BAG": 192,
-    "1H": 288,
+    "MAIN": 288,
     "2H": 384,
 }
