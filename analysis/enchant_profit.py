@@ -50,17 +50,38 @@ def get_lowest_sell(data: dict) -> dict:
 def get_enchant_material_prices(lowest_prices: dict) -> dict:
     material_prices = {}
     for material_id in ENCHANT_MATERIALS:
-        material_prices[material_id] = lowest_prices.get(material_id)
-    print(material_prices)    
+        material_prices[material_id] = lowest_prices.get(material_id)    
     return material_prices
 
 def calculate_material_cost(materials: dict, prices: dict) -> dict:
-    material_cost = {}
-    for material, amount in materials.items():
-        price = amount * prices.get(material)
-        print(f'{material} {price}')
-        material_cost[material] = price
-    return material_cost
+    breakdown = {}
+    missing = []
+    total = 0
+
+    for material_id, qty in materials.items():
+        unit_price = prices.get(material_id)
+        if unit_price is None or unit_price <= 0:
+            missing.append(material_id)
+            continue
+
+        cost = qty * unit_price
+        breakdown[material_id] = cost
+        total += cost
+
+    if missing:
+        return {
+            "ok": False,
+            "reason": "missing_prices", 
+            "missing": missing,
+            "breakdown": breakdown,
+            "total": total
+            }
+    
+    return {
+        "ok": True,
+        "breakdown": breakdown,
+        "total": total
+        }
 
 def get_materials(base_id: str, target_id: str) -> dict:
     enchant_level_materials = {
@@ -111,3 +132,39 @@ def get_materials(base_id: str, target_id: str) -> dict:
         materials[material_id] += amount_per_level
     return dict(materials)
             
+def get_current_sell_price(item_id, lowest_prices):
+    if item_id not in lowest_prices:
+        return None
+    return lowest_prices.get(item_id)
+
+def evaluate_flip(base_id, target_id, lowest_prices):
+    reqired_materials = get_materials(base_id, target_id)
+    if reqired_materials is None:
+        return {
+            "ok": False,
+            "reason": "invalid material requirements"
+        }
+    base_price = get_current_sell_price(base_id, lowest_prices)
+    target_price = get_current_sell_price(target_id, lowest_prices)
+    if not cost_result["ok"]:
+        return {
+            "ok": False,
+            "reason": "missing material prices",
+            "missing": cost_result["missing"]
+        }
+    material_prices = get_enchant_material_prices(lowest_prices)
+    cost_result = calculate_material_cost(reqired_materials, material_prices)
+    
+    total_cost = base_price + cost_result["total"]
+    profit = target_price - total_cost
+    return {
+        "ok": True,
+        "base_id": base_id,
+        "target_id": target_id,
+        "base_price": base_price,
+        "target_price": target_price,
+        "required_materials": reqired_materials,
+        "material_cost": cost_result["total"],
+        "total_cost": total_cost,
+        "profit": profit
+    }
