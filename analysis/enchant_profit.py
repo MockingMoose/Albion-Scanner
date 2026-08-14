@@ -1,6 +1,14 @@
-from storage.storage import load_results
 from analysis.enchant_rules import ENCHANT_MATERIALS, ENCHANT_MAP
 from collections import defaultdict
+
+def check_item_types_match(base_item, target_item):
+    if "@" in target_item:
+        stripped = target_item.split("@")
+        stripped = stripped[0]
+    if base_item == stripped:
+        return True
+    else:
+        return False
 
 def get_item_type(item_id):
     if "@" in item_id:
@@ -8,9 +16,16 @@ def get_item_type(item_id):
         parts = parts[0].split("_")
     else:
         parts = item_id.split("_")
+
     if len(parts) < 2:
         return "Unknown"
-    return str(parts[1])
+    
+    for part in parts:
+        if part in ENCHANT_MAP.keys():
+            return part
+        else: 
+            continue
+    
 
 def get_item_tier(item_id):
     parts = item_id.split("_")
@@ -102,24 +117,20 @@ def get_materials(base_id: str, target_id: str) -> dict:
     if target_enchant < base_enchant:
         print("Cannot Enchant, Target level is less than base level")
         return None
+    
     if base_id == target_id:
         print("Cannot Enchant, Item enchant levels are the same")
         return None
 
-    target_item_type = get_item_type(target_id)
+    if not check_item_types_match(base_id, target_id):
+        print("Items do not match")
+        return None
+
     base_item_type = get_item_type(base_id)
-
-    if base_tier != target_tier:
-        print("Item Tiers Do Not Match")
-        return None
-    if base_item_type != target_item_type:
-        print("Item Types Do Not Match")
-        return None
-
 
     if base_item_type not in ENCHANT_MAP:
         print("Item Type Does Not Exist")
-        return None
+    
 
     amount_per_level = ENCHANT_MAP[base_item_type]
     materials = defaultdict(int)
@@ -139,24 +150,40 @@ def get_current_sell_price(item_id, lowest_prices):
 
 def evaluate_flip(base_id, target_id, lowest_prices):
     reqired_materials = get_materials(base_id, target_id)
+
     if reqired_materials is None:
         return {
             "ok": False,
             "reason": "invalid material requirements"
         }
+    
     base_price = get_current_sell_price(base_id, lowest_prices)
     target_price = get_current_sell_price(target_id, lowest_prices)
+
+    if base_price is None:
+        return {
+            "ok": False,
+            "reason": "missing base price"
+        }
+    if target_price is None:
+        return {
+            "ok": False,
+            "reason": "missing target price"
+        }
+    
+    material_prices = get_enchant_material_prices(lowest_prices)
+    cost_result = calculate_material_cost(reqired_materials, material_prices)
+
     if not cost_result["ok"]:
         return {
             "ok": False,
             "reason": "missing material prices",
             "missing": cost_result["missing"]
         }
-    material_prices = get_enchant_material_prices(lowest_prices)
-    cost_result = calculate_material_cost(reqired_materials, material_prices)
-    
+
     total_cost = base_price + cost_result["total"]
     profit = target_price - total_cost
+
     return {
         "ok": True,
         "base_id": base_id,
