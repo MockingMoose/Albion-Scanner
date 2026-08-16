@@ -1,15 +1,12 @@
 from analysis.enchant_rules import ENCHANT_MATERIALS, ENCHANT_MAP
 from collections import defaultdict
 
-def check_item_types_match(base_item, target_item):
-    if "@" in target_item:
-        stripped = target_item.split("@")
-        stripped = stripped[0]
-    if base_item == stripped:
-        return True
-    else:
-        return False
+def strip(item_id):
+    return item_id.split("@")[0]
 
+def check_item_types_match(base_item, target_item):
+    return strip(base_item) == strip(target_item)
+    
 def get_item_type(item_id):
     if "@" in item_id:
         parts = item_id.split("@")
