@@ -26,7 +26,6 @@ def get_item_type(item_id):
         else: 
             continue
     
-
 def get_item_tier(item_id):
     parts = item_id.split("_")
     if len(parts) <2:
@@ -115,22 +114,22 @@ def get_materials(base_id: str, target_id: str) -> dict:
         return None
 
     if target_enchant < base_enchant:
-        print("Cannot Enchant, Target level is less than base level")
+        print("Cannot Enchant, Target level is less than base level", base_id, target_id)
         return None
     
     if base_id == target_id:
-        print("Cannot Enchant, Item enchant levels are the same")
+        print("Cannot Enchant, Item enchant levels are the same", base_id, target_id)
         return None
 
     if not check_item_types_match(base_id, target_id):
-        print("Items do not match")
+        print("Items do not match", base_id, target_id)
         return None
 
     base_item_type = get_item_type(base_id)
 
     if base_item_type not in ENCHANT_MAP:
-        print("Item Type Does Not Exist")
-    
+        print("Item Type Does Not Exist", base_item_type)
+        return None
 
     amount_per_level = ENCHANT_MAP[base_item_type]
     materials = defaultdict(int)

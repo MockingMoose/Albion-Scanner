@@ -1,22 +1,35 @@
 import json
+import os
 
-from scanner.scan import batched_scan
+from scanner.scan import batched_scan, build_item_list, chunk_items_by_url_limit, generate_enchants
 from storage.storage import save_results, load_results
+from analysis.flip_scan import run_flip_scan
 import analysis.enchant_profit as ep
 
 if __name__ == "__main__":
-    #results = batched_scan()
-    #save_results(results)
-    #print(f"Scan complete. Saved {len(results)} entries.")
+    cities = ["Bridgewatch"]
+    results = batched_scan(cities)
+    save_results(results)
+    print(f"Scan complete. Saved {len(results)} entries.")
+
+    BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+    STORAGE_FILE = os.path.join(BASE_DIR, "albion-scanner/data", "all_items.json")
+
     data = load_results()
 
+    def load_results():
+        with open(STORAGE_FILE , "r") as f:
+            return json.load(f)
+        
+    items = load_results()
     grouped = ep.group_data(data)
 
-    print(ep.get_item_type("T6_ARTEFACT_ARMOR_STAFF"))
-    #lowest = get_lowest_sell(grouped)
-    #needed_materials = get_materials("T6_CAPE", "T6_CAPE@2")
-    #material_prices = get_enchant_material_prices(lowest)
+    lowest = ep.get_lowest_sell(grouped)
 
-    #print(get_current_sell_price("T4_BAG@2", lowest))
-    #print(evaluate_flip("T4_BAG", "T4_BAG@2", lowest))
-    
+    results = (run_flip_scan(items, lowest))
+
+    def save_results(results):
+        with open("/profits.json", "w") as f:
+            json.dump(results, f, indent=2)
+
+    save_results(results)
