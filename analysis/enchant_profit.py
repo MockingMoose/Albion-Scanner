@@ -8,20 +8,14 @@ def check_item_types_match(base_item, target_item):
     return strip(base_item) == strip(target_item)
     
 def get_item_type(item_id):
-    if "@" in item_id:
-        parts = item_id.split("@")
-        parts = parts[0].split("_")
-    else:
-        parts = item_id.split("_")
+    parts = item_id.split("@")[0].split("_")
 
-    if len(parts) < 2:
-        return "Unknown"
-    
     for part in parts:
-        if part in ENCHANT_MAP.keys():
-            return part
-        else: 
-            continue
+        clean = part.strip().upper()
+        if clean in ENCHANT_MAP:
+            return clean
+
+    return "Unknown"
     
 def get_item_tier(item_id):
     parts = item_id.split("_")
@@ -41,27 +35,37 @@ def get_item_enchant_level(item_id):
 
 def group_data(data):
     grouped = {}
+
     for entry in data:
         item_id = entry["item"]
+
         if item_id not in grouped:
             grouped[item_id] = []
+
         grouped[item_id].append(entry)
+
     return grouped
         
 def get_lowest_sell(data: dict) -> dict:
     lowest = {}
+
     for item_id, entries in data.items():
         sell_prices = [e["sell_price"] for e in entries if e["sell_price"] > 0]
+
         if not sell_prices:
             lowest[item_id] = None
             continue
+
         lowest[item_id] = min(sell_prices)
+
     return lowest
 
 def get_enchant_material_prices(lowest_prices: dict) -> dict:
     material_prices = {}
+
     for material_id in ENCHANT_MATERIALS:
         material_prices[material_id] = lowest_prices.get(material_id)    
+
     return material_prices
 
 def calculate_material_cost(materials: dict, prices: dict) -> dict:
@@ -104,7 +108,6 @@ def get_materials(base_id: str, target_id: str) -> dict:
     base_enchant = get_item_enchant_level(base_id)
     target_enchant = get_item_enchant_level(target_id)
     base_tier = get_item_tier(base_id)
-    target_tier = get_item_tier(target_id)
 
     if target_enchant is None:
         print("Target Enchant Is None")
@@ -124,19 +127,26 @@ def get_materials(base_id: str, target_id: str) -> dict:
 
     base_item_type = get_item_type(base_id)
 
+    if base_item_type == "Unknown":
+        return None
+
     if base_item_type not in ENCHANT_MAP:
         print("Item Type Does Not Exist", base_item_type)
         return None
 
     amount_per_level = ENCHANT_MAP[base_item_type]
     materials = defaultdict(int)
+
     for level in range(base_enchant + 1, target_enchant + 1):
         material_name = enchant_level_materials.get(level)
+
         if material_name is None:
             print("Cannot Enchant")
             return None
+        
         material_id = f"{base_tier}_{material_name}"
         materials[material_id] += amount_per_level
+
     return dict(materials)
             
 def get_current_sell_price(item_id, lowest_prices):
@@ -179,6 +189,12 @@ def evaluate_flip(base_id, target_id, lowest_prices):
 
     total_cost = base_price + cost_result["total"]
     profit = target_price - total_cost
+
+    if profit <= 0:
+        return {
+            "ok": False,
+            "reason": "profit is negative or zero"
+        }
 
     return {
         "ok": True,

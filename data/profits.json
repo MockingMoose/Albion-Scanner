@@ -1,33 +1,6 @@
 [
   {
     "ok": true,
-    "base_id": "T8_HEAD_PLATE_ROYAL",
-    "target_id": "T8_HEAD_PLATE_ROYAL@1",
-    "base_price": 1449994,
-    "target_price": 2499998,
-    "required_materials": {
-      "T8_RUNE": 96
-    },
-    "material_cost": 265344,
-    "total_cost": 1715338,
-    "profit": 784660
-  },
-  {
-    "ok": true,
-    "base_id": "T5_ARMOR_PLATE_ROYAL",
-    "target_id": "T5_ARMOR_PLATE_ROYAL@2",
-    "base_price": 291995,
-    "target_price": 1049999,
-    "required_materials": {
-      "T5_RUNE": 192,
-      "T5_SOUL": 192
-    },
-    "material_cost": 48960,
-    "total_cost": 340955,
-    "profit": 709044
-  },
-  {
-    "ok": true,
     "base_id": "T6_MAIN_1HCROSSBOW",
     "target_id": "T6_MAIN_1HCROSSBOW@3",
     "base_price": 53826,
@@ -37,9 +10,65 @@
       "T6_SOUL": 288,
       "T6_RELIC": 288
     },
-    "material_cost": 866016,
-    "total_cost": 919842,
-    "profit": 370157
+    "material_cost": 908640,
+    "total_cost": 962466,
+    "profit": 327533
+  },
+  {
+    "ok": true,
+    "base_id": "T6_MAIN_1HCROSSBOW@1",
+    "target_id": "T6_MAIN_1HCROSSBOW@3",
+    "base_price": 110991,
+    "target_price": 1289999,
+    "required_materials": {
+      "T6_SOUL": 288,
+      "T6_RELIC": 288
+    },
+    "material_cost": 858528,
+    "total_cost": 969519,
+    "profit": 320480
+  },
+  {
+    "ok": true,
+    "base_id": "T6_MAIN_1HCROSSBOW@2",
+    "target_id": "T6_MAIN_1HCROSSBOW@3",
+    "base_price": 372992,
+    "target_price": 1289999,
+    "required_materials": {
+      "T6_RELIC": 288
+    },
+    "material_cost": 633024,
+    "total_cost": 1006016,
+    "profit": 283983
+  },
+  {
+    "ok": true,
+    "base_id": "T6_ARMOR_PLATE_SET1",
+    "target_id": "T6_ARMOR_PLATE_SET1@3",
+    "base_price": 18025,
+    "target_price": 900594,
+    "required_materials": {
+      "T6_RUNE": 192,
+      "T6_SOUL": 192,
+      "T6_RELIC": 192
+    },
+    "material_cost": 605760,
+    "total_cost": 623785,
+    "profit": 276809
+  },
+  {
+    "ok": true,
+    "base_id": "T6_ARMOR_PLATE_SET1@1",
+    "target_id": "T6_ARMOR_PLATE_SET1@3",
+    "base_price": 63216,
+    "target_price": 900594,
+    "required_materials": {
+      "T6_SOUL": 192,
+      "T6_RELIC": 192
+    },
+    "material_cost": 572352,
+    "total_cost": 635568,
+    "profit": 265026
   },
   {
     "ok": true,
@@ -52,9 +81,160 @@
       "T5_SOUL": 288,
       "T5_RELIC": 288
     },
-    "material_cost": 284256,
-    "total_cost": 300157,
-    "profit": 259826
+    "material_cost": 279936,
+    "total_cost": 295837,
+    "profit": 264146
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_1HCROSSBOW@1",
+    "target_id": "T5_MAIN_1HCROSSBOW@3",
+    "base_price": 32000,
+    "target_price": 559983,
+    "required_materials": {
+      "T5_SOUL": 288,
+      "T5_RELIC": 288
+    },
+    "material_cost": 268704,
+    "total_cost": 300704,
+    "profit": 259279
+  },
+  {
+    "ok": true,
+    "base_id": "T7_2H_DUALSWORD@2",
+    "target_id": "T7_2H_DUALSWORD@3",
+    "base_price": 1999999,
+    "target_price": 5700000,
+    "required_materials": {
+      "T7_RELIC": 384
+    },
+    "material_cost": 3455616,
+    "total_cost": 5455615,
+    "profit": 244385
+  },
+  {
+    "ok": true,
+    "base_id": "T7_2H_BOW",
+    "target_id": "T7_2H_BOW@2",
+    "base_price": 92000,
+    "target_price": 1449999,
+    "required_materials": {
+      "T7_RUNE": 384,
+      "T7_SOUL": 384
+    },
+    "material_cost": 1129344,
+    "total_cost": 1221344,
+    "profit": 228655
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON",
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@3",
+    "base_price": 24996,
+    "target_price": 528999,
+    "required_materials": {
+      "T5_RUNE": 288,
+      "T5_SOUL": 288,
+      "T5_RELIC": 288
+    },
+    "material_cost": 279936,
+    "total_cost": 304932,
+    "profit": 224067
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_1HCROSSBOW@2",
+    "target_id": "T5_MAIN_1HCROSSBOW@3",
+    "base_price": 129995,
+    "target_price": 559983,
+    "required_materials": {
+      "T5_RELIC": 288
+    },
+    "material_cost": 206208,
+    "total_cost": 336203,
+    "profit": 223780
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON@1",
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@3",
+    "base_price": 50990,
+    "target_price": 528999,
+    "required_materials": {
+      "T5_SOUL": 288,
+      "T5_RELIC": 288
+    },
+    "material_cost": 268704,
+    "total_cost": 319694,
+    "profit": 209305
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@3",
+    "base_price": 139990,
+    "target_price": 528999,
+    "required_materials": {
+      "T5_RELIC": 288
+    },
+    "material_cost": 206208,
+    "total_cost": 346198,
+    "profit": 182801
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_PLATE_SET1",
+    "target_id": "T5_ARMOR_PLATE_SET1@3",
+    "base_price": 7973,
+    "target_price": 338000,
+    "required_materials": {
+      "T5_RUNE": 192,
+      "T5_SOUL": 192,
+      "T5_RELIC": 192
+    },
+    "material_cost": 186624,
+    "total_cost": 194597,
+    "profit": 143403
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_PLATE_SET1@1",
+    "target_id": "T5_ARMOR_PLATE_SET1@3",
+    "base_price": 16268,
+    "target_price": 338000,
+    "required_materials": {
+      "T5_SOUL": 192,
+      "T5_RELIC": 192
+    },
+    "material_cost": 179136,
+    "total_cost": 195404,
+    "profit": 142596
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_PLATE_SET1@2",
+    "target_id": "T5_ARMOR_PLATE_SET1@3",
+    "base_price": 58936,
+    "target_price": 338000,
+    "required_materials": {
+      "T5_RELIC": 192
+    },
+    "material_cost": 137472,
+    "total_cost": 196408,
+    "profit": 141592
+  },
+  {
+    "ok": true,
+    "base_id": "T5_HEAD_CLOTH_SET2@2",
+    "target_id": "T5_HEAD_CLOTH_SET2@3",
+    "base_price": 18980,
+    "target_price": 228990,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 68736,
+    "total_cost": 87716,
+    "profit": 141274
   },
   {
     "ok": true,
@@ -66,52 +246,35 @@
       "T6_RUNE": 192,
       "T6_SOUL": 192
     },
-    "material_cost": 164928,
-    "total_cost": 745851,
-    "profit": 154024
+    "material_cost": 183744,
+    "total_cost": 764667,
+    "profit": 135208
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_LEATHER_ROYAL",
-    "target_id": "T5_HEAD_LEATHER_ROYAL@2",
-    "base_price": 165500,
-    "target_price": 335775,
+    "base_id": "T6_MAIN_CURSEDSTAFF_AVALON@1",
+    "target_id": "T6_MAIN_CURSEDSTAFF_AVALON@2",
+    "base_price": 129998,
+    "target_price": 479999,
     "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
+      "T6_SOUL": 288
     },
-    "material_cost": 24480,
-    "total_cost": 189980,
-    "profit": 145795
+    "material_cost": 225504,
+    "total_cost": 355502,
+    "profit": 124497
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_PLATE_ROYAL",
-    "target_id": "T5_HEAD_PLATE_ROYAL@2",
-    "base_price": 250000,
-    "target_price": 399995,
+    "base_id": "T4_OFF_TOME_CRYSTAL@2",
+    "target_id": "T4_OFF_TOME_CRYSTAL@3",
+    "base_price": 369995,
+    "target_price": 540092,
     "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
+      "T4_RELIC": 96
     },
-    "material_cost": 24480,
-    "total_cost": 274480,
-    "profit": 125515
-  },
-  {
-    "ok": true,
-    "base_id": "T5_SHOES_PLATE_KEEPER",
-    "target_id": "T5_SHOES_PLATE_KEEPER@3",
-    "base_price": 19995,
-    "target_price": 239984,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96,
-      "T5_RELIC": 96
-    },
-    "material_cost": 94752,
-    "total_cost": 114747,
-    "profit": 125237
+    "material_cost": 48480,
+    "total_cost": 418475,
+    "profit": 121617
   },
   {
     "ok": true,
@@ -122,36 +285,63 @@
     "required_materials": {
       "T4_RUNE": 384
     },
-    "material_cost": 3456,
-    "total_cost": 308455,
-    "profit": 108538
+    "material_cost": 3072,
+    "total_cost": 308071,
+    "profit": 108922
   },
   {
     "ok": true,
-    "base_id": "T5_ARMOR_PLATE_ROYAL",
-    "target_id": "T5_ARMOR_PLATE_ROYAL@1",
-    "base_price": 291995,
-    "target_price": 400000,
+    "base_id": "T6_ARMOR_LEATHER_ROYAL@1",
+    "target_id": "T6_ARMOR_LEATHER_ROYAL@2",
+    "base_price": 649972,
+    "target_price": 899875,
     "required_materials": {
-      "T5_RUNE": 192
+      "T6_SOUL": 192
     },
-    "material_cost": 7872,
-    "total_cost": 299867,
-    "profit": 100133
+    "material_cost": 150336,
+    "total_cost": 800308,
+    "profit": 99567
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_PLATE_KEEPER",
-    "target_id": "T5_HEAD_PLATE_KEEPER@2",
-    "base_price": 38990,
-    "target_price": 155553,
+    "base_id": "T5_2H_ROCKSTAFF_KEEPER",
+    "target_id": "T5_2H_ROCKSTAFF_KEEPER@2",
+    "base_price": 53727,
+    "target_price": 249999,
     "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
+      "T5_RUNE": 384,
+      "T5_SOUL": 384
     },
-    "material_cost": 24480,
-    "total_cost": 63470,
-    "profit": 92083
+    "material_cost": 98304,
+    "total_cost": 152031,
+    "profit": 97968
+  },
+  {
+    "ok": true,
+    "base_id": "T5_OFF_HORN_KEEPER@2",
+    "target_id": "T5_OFF_HORN_KEEPER@3",
+    "base_price": 39389,
+    "target_price": 204994,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 68736,
+    "total_cost": 108125,
+    "profit": 96869
+  },
+  {
+    "ok": true,
+    "base_id": "T5_OFF_HORN_KEEPER@1",
+    "target_id": "T5_OFF_HORN_KEEPER@3",
+    "base_price": 25553,
+    "target_price": 204994,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 89568,
+    "total_cost": 115121,
+    "profit": 89873
   },
   {
     "ok": true,
@@ -163,49 +353,9 @@
       "T5_RUNE": 96,
       "T5_SOUL": 96
     },
-    "material_cost": 24480,
-    "total_cost": 203480,
-    "profit": 85475
-  },
-  {
-    "ok": true,
-    "base_id": "T6_SHOES_CLOTH_ROYAL",
-    "target_id": "T6_SHOES_CLOTH_ROYAL@1",
-    "base_price": 304999,
-    "target_price": 400935,
-    "required_materials": {
-      "T6_RUNE": 96
-    },
-    "material_cost": 15648,
-    "total_cost": 320647,
-    "profit": 80288
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_PLATE_FEY",
-    "target_id": "T5_HEAD_PLATE_FEY@2",
-    "base_price": 54999,
-    "target_price": 157771,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
-    },
-    "material_cost": 24480,
-    "total_cost": 79479,
-    "profit": 78292
-  },
-  {
-    "ok": true,
-    "base_id": "T7_OFF_LAMP_UNDEAD",
-    "target_id": "T7_OFF_LAMP_UNDEAD@1",
-    "base_price": 179997,
-    "target_price": 299997,
-    "required_materials": {
-      "T7_RUNE": 96
-    },
-    "material_cost": 44928,
-    "total_cost": 224925,
-    "profit": 75072
+    "material_cost": 24576,
+    "total_cost": 203576,
+    "profit": 85379
   },
   {
     "ok": true,
@@ -218,36 +368,35 @@
       "T5_SOUL": 192,
       "T5_RELIC": 192
     },
-    "material_cost": 189504,
-    "total_cost": 205097,
-    "profit": 72901
+    "material_cost": 186624,
+    "total_cost": 202217,
+    "profit": 75781
   },
   {
     "ok": true,
-    "base_id": "T6_MAIN_1HCROSSBOW",
-    "target_id": "T6_MAIN_1HCROSSBOW@2",
-    "base_price": 53826,
-    "target_price": 372992,
+    "base_id": "T7_OFF_LAMP_UNDEAD",
+    "target_id": "T7_OFF_LAMP_UNDEAD@1",
+    "base_price": 179997,
+    "target_price": 299997,
     "required_materials": {
-      "T6_RUNE": 288,
-      "T6_SOUL": 288
+      "T7_RUNE": 96
     },
-    "material_cost": 247392,
-    "total_cost": 301218,
-    "profit": 71774
+    "material_cost": 45024,
+    "total_cost": 225021,
+    "profit": 74976
   },
   {
     "ok": true,
-    "base_id": "T6_2H_CROSSBOW_CANNON_AVALON",
-    "target_id": "T6_2H_CROSSBOW_CANNON_AVALON@1",
-    "base_price": 121979,
-    "target_price": 249990,
+    "base_id": "T5_2H_ROCKSTAFF_KEEPER",
+    "target_id": "T5_2H_ROCKSTAFF_KEEPER@1",
+    "base_price": 53727,
+    "target_price": 138420,
     "required_materials": {
-      "T6_RUNE": 384
+      "T5_RUNE": 384
     },
-    "material_cost": 62592,
-    "total_cost": 184571,
-    "profit": 65419
+    "material_cost": 14976,
+    "total_cost": 68703,
+    "profit": 69717
   },
   {
     "ok": true,
@@ -258,22 +407,49 @@
     "required_materials": {
       "T7_RUNE": 96
     },
-    "material_cost": 44928,
-    "total_cost": 114928,
-    "profit": 64035
+    "material_cost": 45024,
+    "total_cost": 115024,
+    "profit": 63939
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_LEATHER_ROYAL",
-    "target_id": "T5_HEAD_LEATHER_ROYAL@1",
-    "base_price": 165500,
-    "target_price": 229998,
+    "base_id": "T5_CAPEITEM_FW_MARTLOCK@1",
+    "target_id": "T5_CAPEITEM_FW_MARTLOCK@2",
+    "base_price": 79996,
+    "target_price": 163996,
     "required_materials": {
-      "T5_RUNE": 96
+      "T5_SOUL": 96
     },
-    "material_cost": 3936,
-    "total_cost": 169436,
-    "profit": 60562
+    "material_cost": 20832,
+    "total_cost": 100828,
+    "profit": 63168
+  },
+  {
+    "ok": true,
+    "base_id": "T5_HEAD_PLATE_SET2@2",
+    "target_id": "T5_HEAD_PLATE_SET2@3",
+    "base_price": 19999,
+    "target_price": 149998,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 68736,
+    "total_cost": 88735,
+    "profit": 61263
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_CLOTH_KEEPER@1",
+    "target_id": "T5_ARMOR_CLOTH_KEEPER@3",
+    "base_price": 38460,
+    "target_price": 277998,
+    "required_materials": {
+      "T5_SOUL": 192,
+      "T5_RELIC": 192
+    },
+    "material_cost": 179136,
+    "total_cost": 217596,
+    "profit": 60402
   },
   {
     "ok": true,
@@ -284,23 +460,9 @@
     "required_materials": {
       "T4_RUNE": 96
     },
-    "material_cost": 864,
-    "total_cost": 70863,
-    "profit": 59135
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_BOW_CRYSTAL",
-    "target_id": "T4_2H_BOW_CRYSTAL@2",
-    "base_price": 304999,
-    "target_price": 399000,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 340327,
-    "profit": 58673
+    "material_cost": 768,
+    "total_cost": 70767,
+    "profit": 59231
   },
   {
     "ok": true,
@@ -313,49 +475,49 @@
       "T5_SOUL": 96,
       "T5_RELIC": 96
     },
-    "material_cost": 94752,
-    "total_cost": 273752,
-    "profit": 57211
+    "material_cost": 93312,
+    "total_cost": 272312,
+    "profit": 58651
   },
   {
     "ok": true,
-    "base_id": "T5_OFF_SHIELD_AVALON",
-    "target_id": "T5_OFF_SHIELD_AVALON@2",
-    "base_price": 28856,
-    "target_price": 107498,
+    "base_id": "T4_2H_BOW_CRYSTAL",
+    "target_id": "T4_2H_BOW_CRYSTAL@2",
+    "base_price": 304999,
+    "target_price": 399000,
     "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
+      "T4_RUNE": 384,
+      "T4_SOUL": 384
     },
-    "material_cost": 24480,
-    "total_cost": 53336,
-    "profit": 54162
+    "material_cost": 41088,
+    "total_cost": 346087,
+    "profit": 52913
   },
   {
     "ok": true,
-    "base_id": "T6_OFF_TOTEM_KEEPER",
-    "target_id": "T6_OFF_TOTEM_KEEPER@1",
-    "base_price": 47989,
-    "target_price": 113413,
+    "base_id": "T5_ARMOR_CLOTH_KEEPER@2",
+    "target_id": "T5_ARMOR_CLOTH_KEEPER@3",
+    "base_price": 90980,
+    "target_price": 277998,
     "required_materials": {
-      "T6_RUNE": 96
+      "T5_RELIC": 192
     },
-    "material_cost": 15648,
-    "total_cost": 63637,
-    "profit": 49776
+    "material_cost": 137472,
+    "total_cost": 228452,
+    "profit": 49546
   },
   {
     "ok": true,
-    "base_id": "T6_HEAD_PLATE_AVALON",
-    "target_id": "T6_HEAD_PLATE_AVALON@1",
-    "base_price": 134999,
-    "target_price": 197882,
+    "base_id": "T5_MAIN_FROSTSTAFF_AVALON@2",
+    "target_id": "T5_MAIN_FROSTSTAFF_AVALON@3",
+    "base_price": 69195,
+    "target_price": 322834,
     "required_materials": {
-      "T6_RUNE": 96
+      "T5_RELIC": 288
     },
-    "material_cost": 15648,
-    "total_cost": 150647,
-    "profit": 47235
+    "material_cost": 206208,
+    "total_cost": 275403,
+    "profit": 47431
   },
   {
     "ok": true,
@@ -366,9 +528,102 @@
     "required_materials": {
       "T5_RUNE": 96
     },
-    "material_cost": 3936,
-    "total_cost": 182936,
-    "profit": 46934
+    "material_cost": 3744,
+    "total_cost": 182744,
+    "profit": 47126
+  },
+  {
+    "ok": true,
+    "base_id": "T6_HEAD_PLATE_AVALON",
+    "target_id": "T6_HEAD_PLATE_AVALON@1",
+    "base_price": 134999,
+    "target_price": 197882,
+    "required_materials": {
+      "T6_RUNE": 96
+    },
+    "material_cost": 16704,
+    "total_cost": 151703,
+    "profit": 46179
+  },
+  {
+    "ok": true,
+    "base_id": "T6_ARMOR_LEATHER_SET3@1",
+    "target_id": "T6_ARMOR_LEATHER_SET3@2",
+    "base_price": 103992,
+    "target_price": 299928,
+    "required_materials": {
+      "T6_SOUL": 192
+    },
+    "material_cost": 150336,
+    "total_cost": 254328,
+    "profit": 45600
+  },
+  {
+    "ok": true,
+    "base_id": "T6_OFF_HORN_KEEPER@1",
+    "target_id": "T6_OFF_HORN_KEEPER@2",
+    "base_price": 69736,
+    "target_price": 189981,
+    "required_materials": {
+      "T6_SOUL": 96
+    },
+    "material_cost": 75168,
+    "total_cost": 144904,
+    "profit": 45077
+  },
+  {
+    "ok": true,
+    "base_id": "T6_MAIN_1HCROSSBOW",
+    "target_id": "T6_MAIN_1HCROSSBOW@2",
+    "base_price": 53826,
+    "target_price": 372992,
+    "required_materials": {
+      "T6_RUNE": 288,
+      "T6_SOUL": 288
+    },
+    "material_cost": 275616,
+    "total_cost": 329442,
+    "profit": 43550
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_MORGANA@2",
+    "target_id": "T5_SHOES_CLOTH_MORGANA@3",
+    "base_price": 90289,
+    "target_price": 200500,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 68736,
+    "total_cost": 159025,
+    "profit": 41475
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON",
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+    "base_price": 24996,
+    "target_price": 139990,
+    "required_materials": {
+      "T5_RUNE": 288,
+      "T5_SOUL": 288
+    },
+    "material_cost": 73728,
+    "total_cost": 98724,
+    "profit": 41266
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_GATHERER_ORE",
+    "target_id": "T5_SHOES_GATHERER_ORE@1",
+    "base_price": 29997,
+    "target_price": 74997,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3744,
+    "total_cost": 33741,
+    "profit": 41256
   },
   {
     "ok": true,
@@ -380,9 +635,24 @@
       "T5_RUNE": 288,
       "T5_SOUL": 288
     },
-    "material_cost": 73440,
-    "total_cost": 89341,
-    "profit": 40654
+    "material_cost": 73728,
+    "total_cost": 89629,
+    "profit": 40366
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_CLOTH_ROYAL",
+    "target_id": "T4_HEAD_CLOTH_ROYAL@3",
+    "base_price": 69999,
+    "target_price": 169000,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96,
+      "T4_RELIC": 96
+    },
+    "material_cost": 58752,
+    "total_cost": 128751,
+    "profit": 40249
   },
   {
     "ok": true,
@@ -394,22 +664,65 @@
       "T5_RUNE": 288,
       "T5_SOUL": 288
     },
-    "material_cost": 73440,
-    "total_cost": 90437,
-    "profit": 39559
+    "material_cost": 73728,
+    "total_cost": 90725,
+    "profit": 39271
   },
   {
     "ok": true,
-    "base_id": "T6_ARMOR_LEATHER_ROYAL",
-    "target_id": "T6_ARMOR_LEATHER_ROYAL@1",
-    "base_price": 580923,
-    "target_price": 649972,
+    "base_id": "T5_HEAD_CLOTH_ROYAL@1",
+    "target_id": "T5_HEAD_CLOTH_ROYAL@2",
+    "base_price": 229870,
+    "target_price": 288955,
     "required_materials": {
-      "T6_RUNE": 192
+      "T5_SOUL": 96
     },
-    "material_cost": 31296,
-    "total_cost": 612219,
-    "profit": 37753
+    "material_cost": 20832,
+    "total_cost": 250702,
+    "profit": 38253
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_PLATE_SET1",
+    "target_id": "T4_ARMOR_PLATE_SET1@3",
+    "base_price": 3801,
+    "target_price": 159499,
+    "required_materials": {
+      "T4_RUNE": 192,
+      "T4_SOUL": 192,
+      "T4_RELIC": 192
+    },
+    "material_cost": 117504,
+    "total_cost": 121305,
+    "profit": 38194
+  },
+  {
+    "ok": true,
+    "base_id": "T5_BAG",
+    "target_id": "T5_BAG@3",
+    "base_price": 15679,
+    "target_price": 239996,
+    "required_materials": {
+      "T5_RUNE": 192,
+      "T5_SOUL": 192,
+      "T5_RELIC": 192
+    },
+    "material_cost": 186624,
+    "total_cost": 202303,
+    "profit": 37693
+  },
+  {
+    "ok": true,
+    "base_id": "T6_MAIN_1HCROSSBOW@1",
+    "target_id": "T6_MAIN_1HCROSSBOW@2",
+    "base_price": 110991,
+    "target_price": 372992,
+    "required_materials": {
+      "T6_SOUL": 288
+    },
+    "material_cost": 225504,
+    "total_cost": 336495,
+    "profit": 36497
   },
   {
     "ok": true,
@@ -420,37 +733,89 @@
     "required_materials": {
       "T7_RUNE": 96
     },
-    "material_cost": 44928,
-    "total_cost": 81896,
-    "profit": 36094
+    "material_cost": 45024,
+    "total_cost": 81992,
+    "profit": 35998
   },
   {
     "ok": true,
-    "base_id": "T5_BAG",
+    "base_id": "T5_BAG@1",
     "target_id": "T5_BAG@3",
-    "base_price": 14659,
+    "base_price": 24993,
     "target_price": 239996,
     "required_materials": {
-      "T5_RUNE": 192,
       "T5_SOUL": 192,
       "T5_RELIC": 192
     },
-    "material_cost": 189504,
-    "total_cost": 204163,
-    "profit": 35833
+    "material_cost": 179136,
+    "total_cost": 204129,
+    "profit": 35867
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_PLATE_KEEPER",
-    "target_id": "T5_HEAD_PLATE_KEEPER@1",
-    "base_price": 38990,
-    "target_price": 77300,
+    "base_id": "T6_ARMOR_LEATHER_ROYAL",
+    "target_id": "T6_ARMOR_LEATHER_ROYAL@1",
+    "base_price": 580923,
+    "target_price": 649972,
     "required_materials": {
-      "T5_RUNE": 96
+      "T6_RUNE": 192
     },
-    "material_cost": 3936,
-    "total_cost": 42926,
-    "profit": 34374
+    "material_cost": 33408,
+    "total_cost": 614331,
+    "profit": 35641
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_1HCROSSBOW@1",
+    "target_id": "T5_MAIN_1HCROSSBOW@2",
+    "base_price": 32000,
+    "target_price": 129995,
+    "required_materials": {
+      "T5_SOUL": 288
+    },
+    "material_cost": 62496,
+    "total_cost": 94496,
+    "profit": 35499
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_MORGANA@1",
+    "target_id": "T5_SHOES_CLOTH_MORGANA@3",
+    "base_price": 75493,
+    "target_price": 200500,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 89568,
+    "total_cost": 165061,
+    "profit": 35439
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_LEATHER_UNDEAD",
+    "target_id": "T5_ARMOR_LEATHER_UNDEAD@1",
+    "base_price": 26770,
+    "target_price": 69171,
+    "required_materials": {
+      "T5_RUNE": 192
+    },
+    "material_cost": 7488,
+    "total_cost": 34258,
+    "profit": 34913
+  },
+  {
+    "ok": true,
+    "base_id": "T5_HEAD_LEATHER_SET3@2",
+    "target_id": "T5_HEAD_LEATHER_SET3@3",
+    "base_price": 74988,
+    "target_price": 177798,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 68736,
+    "total_cost": 143724,
+    "profit": 34074
   },
   {
     "ok": true,
@@ -461,9 +826,61 @@
     "required_materials": {
       "T4_RUNE": 384
     },
-    "material_cost": 3456,
-    "total_cost": 84356,
-    "profit": 33515
+    "material_cost": 3072,
+    "total_cost": 83972,
+    "profit": 33899
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_PLATE_SET1@2",
+    "target_id": "T4_ARMOR_PLATE_SET1@3",
+    "base_price": 30942,
+    "target_price": 159499,
+    "required_materials": {
+      "T4_RELIC": 192
+    },
+    "material_cost": 96960,
+    "total_cost": 127902,
+    "profit": 31597
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_LEATHER_SET2@1",
+    "target_id": "T5_SHOES_LEATHER_SET2@2",
+    "base_price": 12879,
+    "target_price": 64997,
+    "required_materials": {
+      "T5_SOUL": 96
+    },
+    "material_cost": 20832,
+    "total_cost": 33711,
+    "profit": 31286
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_LEATHER_SET3@1",
+    "target_id": "T5_ARMOR_LEATHER_SET3@2",
+    "base_price": 22000,
+    "target_price": 93989,
+    "required_materials": {
+      "T5_SOUL": 192
+    },
+    "material_cost": 41664,
+    "total_cost": 63664,
+    "profit": 30325
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPEITEM_FW_LYMHURST",
+    "target_id": "T5_CAPEITEM_FW_LYMHURST@1",
+    "base_price": 80000,
+    "target_price": 113989,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3744,
+    "total_cost": 83744,
+    "profit": 30245
   },
   {
     "ok": true,
@@ -475,9 +892,22 @@
       "T4_RUNE": 192,
       "T4_SOUL": 192
     },
-    "material_cost": 17664,
-    "total_cost": 58128,
-    "profit": 31852
+    "material_cost": 20544,
+    "total_cost": 61008,
+    "profit": 28972
+  },
+  {
+    "ok": true,
+    "base_id": "T5_2H_ROCKSTAFF_KEEPER@1",
+    "target_id": "T5_2H_ROCKSTAFF_KEEPER@2",
+    "base_price": 138420,
+    "target_price": 249999,
+    "required_materials": {
+      "T5_SOUL": 384
+    },
+    "material_cost": 83328,
+    "total_cost": 221748,
+    "profit": 28251
   },
   {
     "ok": true,
@@ -489,23 +919,48 @@
       "T4_RUNE": 96,
       "T4_SOUL": 96
     },
-    "material_cost": 8832,
-    "total_cost": 78831,
-    "profit": 29634
+    "material_cost": 10272,
+    "total_cost": 80271,
+    "profit": 28194
   },
   {
     "ok": true,
-    "base_id": "T4_MAIN_FIRESTAFF",
-    "target_id": "T4_MAIN_FIRESTAFF@2",
-    "base_price": 4982,
-    "target_price": 58212,
+    "base_id": "T4_ARMOR_LEATHER_AVALON@1",
+    "target_id": "T4_ARMOR_LEATHER_AVALON@2",
+    "base_price": 43986,
+    "target_price": 89980,
     "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288
+      "T4_SOUL": 192
     },
-    "material_cost": 26496,
-    "total_cost": 31478,
-    "profit": 26734
+    "material_cost": 19008,
+    "total_cost": 62994,
+    "profit": 26986
+  },
+  {
+    "ok": true,
+    "base_id": "T7_SHOES_LEATHER_SET3@1",
+    "target_id": "T7_SHOES_LEATHER_SET3@2",
+    "base_price": 135945,
+    "target_price": 399993,
+    "required_materials": {
+      "T7_SOUL": 96
+    },
+    "material_cost": 237312,
+    "total_cost": 373257,
+    "profit": 26736
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON@1",
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+    "base_price": 50990,
+    "target_price": 139990,
+    "required_materials": {
+      "T5_SOUL": 288
+    },
+    "material_cost": 62496,
+    "total_cost": 113486,
+    "profit": 26504
   },
   {
     "ok": true,
@@ -517,9 +972,9 @@
       "T5_RUNE": 192,
       "T5_SOUL": 192
     },
-    "material_cost": 48960,
-    "total_cost": 64553,
-    "profit": 26427
+    "material_cost": 49152,
+    "total_cost": 64745,
+    "profit": 26235
   },
   {
     "ok": true,
@@ -530,9 +985,23 @@
     "required_materials": {
       "T6_RUNE": 96
     },
-    "material_cost": 15648,
-    "total_cost": 35628,
-    "profit": 26323
+    "material_cost": 16704,
+    "total_cost": 36684,
+    "profit": 25267
+  },
+  {
+    "ok": true,
+    "base_id": "T5_2H_CLAYMORE",
+    "target_id": "T5_2H_CLAYMORE@2",
+    "base_price": 17983,
+    "target_price": 139996,
+    "required_materials": {
+      "T5_RUNE": 384,
+      "T5_SOUL": 384
+    },
+    "material_cost": 98304,
+    "total_cost": 116287,
+    "profit": 23709
   },
   {
     "ok": true,
@@ -543,24 +1012,118 @@
     "required_materials": {
       "T4_RUNE": 96
     },
-    "material_cost": 864,
-    "total_cost": 29863,
-    "profit": 22897
+    "material_cost": 768,
+    "total_cost": 29767,
+    "profit": 22993
+  },
+  {
+    "ok": true,
+    "base_id": "T4_MAIN_FIRESTAFF",
+    "target_id": "T4_MAIN_FIRESTAFF@2",
+    "base_price": 4982,
+    "target_price": 58212,
+    "required_materials": {
+      "T4_RUNE": 288,
+      "T4_SOUL": 288
+    },
+    "material_cost": 30816,
+    "total_cost": 35798,
+    "profit": 22414
   },
   {
     "ok": true,
     "base_id": "T4_SHOES_LEATHER_MORGANA",
     "target_id": "T4_SHOES_LEATHER_MORGANA@3",
-    "base_price": 7294,
+    "base_price": 7291,
     "target_price": 87886,
     "required_materials": {
       "T4_RUNE": 96,
       "T4_SOUL": 96,
       "T4_RELIC": 96
     },
-    "material_cost": 59616,
-    "total_cost": 66910,
-    "profit": 20976
+    "material_cost": 58752,
+    "total_cost": 66043,
+    "profit": 21843
+  },
+  {
+    "ok": true,
+    "base_id": "T4_MAIN_FIRESTAFF@1",
+    "target_id": "T4_MAIN_FIRESTAFF@2",
+    "base_price": 7994,
+    "target_price": 58212,
+    "required_materials": {
+      "T4_SOUL": 288
+    },
+    "material_cost": 28512,
+    "total_cost": 36506,
+    "profit": 21706
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_LEATHER_MORGANA@1",
+    "target_id": "T4_SHOES_LEATHER_MORGANA@3",
+    "base_price": 8235,
+    "target_price": 87886,
+    "required_materials": {
+      "T4_SOUL": 96,
+      "T4_RELIC": 96
+    },
+    "material_cost": 57984,
+    "total_cost": 66219,
+    "profit": 21667
+  },
+  {
+    "ok": true,
+    "base_id": "T5_BAG@2",
+    "target_id": "T5_BAG@3",
+    "base_price": 81977,
+    "target_price": 239996,
+    "required_materials": {
+      "T5_RELIC": 192
+    },
+    "material_cost": 137472,
+    "total_cost": 219449,
+    "profit": 20547
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_MORGANA@1",
+    "target_id": "T4_ARMOR_LEATHER_MORGANA@2",
+    "base_price": 4998,
+    "target_price": 41683,
+    "required_materials": {
+      "T4_SOUL": 192
+    },
+    "material_cost": 19008,
+    "total_cost": 24006,
+    "profit": 17677
+  },
+  {
+    "ok": true,
+    "base_id": "T5_BAG",
+    "target_id": "T5_BAG@2",
+    "base_price": 15679,
+    "target_price": 81977,
+    "required_materials": {
+      "T5_RUNE": 192,
+      "T5_SOUL": 192
+    },
+    "material_cost": 49152,
+    "total_cost": 64831,
+    "profit": 17146
+  },
+  {
+    "ok": true,
+    "base_id": "T5_2H_BOW_AVALON",
+    "target_id": "T5_2H_BOW_AVALON@1",
+    "base_price": 47988,
+    "target_price": 79996,
+    "required_materials": {
+      "T5_RUNE": 384
+    },
+    "material_cost": 14976,
+    "total_cost": 62964,
+    "profit": 17032
   },
   {
     "ok": true,
@@ -572,9 +1135,51 @@
       "T4_RUNE": 192,
       "T4_SOUL": 192
     },
-    "material_cost": 17664,
-    "total_cost": 20111,
-    "profit": 19815
+    "material_cost": 20544,
+    "total_cost": 22991,
+    "profit": 16935
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_BOW_AVALON",
+    "target_id": "T4_2H_BOW_AVALON@2",
+    "base_price": 41992,
+    "target_price": 99999,
+    "required_materials": {
+      "T4_RUNE": 384,
+      "T4_SOUL": 384
+    },
+    "material_cost": 41088,
+    "total_cost": 83080,
+    "profit": 16919
+  },
+  {
+    "ok": true,
+    "base_id": "T7_SHOES_LEATHER_SET3",
+    "target_id": "T7_SHOES_LEATHER_SET3@2",
+    "base_price": 100979,
+    "target_price": 399993,
+    "required_materials": {
+      "T7_RUNE": 96,
+      "T7_SOUL": 96
+    },
+    "material_cost": 282336,
+    "total_cost": 383315,
+    "profit": 16678
+  },
+  {
+    "ok": true,
+    "base_id": "T4_OFF_DEMONSKULL_HELL",
+    "target_id": "T4_OFF_DEMONSKULL_HELL@2",
+    "base_price": 39997,
+    "target_price": 66622,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 10272,
+    "total_cost": 50269,
+    "profit": 16353
   },
   {
     "ok": true,
@@ -586,64 +1191,9 @@
       "T4_RUNE": 192,
       "T4_SOUL": 192
     },
-    "material_cost": 17664,
-    "total_cost": 22463,
-    "profit": 19220
-  },
-  {
-    "ok": true,
-    "base_id": "T5_BAG",
-    "target_id": "T5_BAG@2",
-    "base_price": 14659,
-    "target_price": 81974,
-    "required_materials": {
-      "T5_RUNE": 192,
-      "T5_SOUL": 192
-    },
-    "material_cost": 48960,
-    "total_cost": 63619,
-    "profit": 18355
-  },
-  {
-    "ok": true,
-    "base_id": "T6_BAG",
-    "target_id": "T6_BAG@3",
-    "base_price": 47576,
-    "target_price": 642993,
-    "required_materials": {
-      "T6_RUNE": 192,
-      "T6_SOUL": 192,
-      "T6_RELIC": 192
-    },
-    "material_cost": 577344,
-    "total_cost": 624920,
-    "profit": 18073
-  },
-  {
-    "ok": true,
-    "base_id": "T5_OFF_SHIELD_AVALON",
-    "target_id": "T5_OFF_SHIELD_AVALON@1",
-    "base_price": 28856,
-    "target_price": 49969,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 3936,
-    "total_cost": 32792,
-    "profit": 17177
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_BOW_AVALON",
-    "target_id": "T5_2H_BOW_AVALON@1",
-    "base_price": 47988,
-    "target_price": 79996,
-    "required_materials": {
-      "T5_RUNE": 384
-    },
-    "material_cost": 15744,
-    "total_cost": 63732,
-    "profit": 16264
+    "material_cost": 20544,
+    "total_cost": 25343,
+    "profit": 16340
   },
   {
     "ok": true,
@@ -654,22 +1204,9 @@
     "required_materials": {
       "T5_RUNE": 96
     },
-    "material_cost": 3936,
-    "total_cost": 253935,
-    "profit": 16059
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_UNDEAD",
-    "target_id": "T4_ARMOR_LEATHER_UNDEAD@1",
-    "base_price": 20000,
-    "target_price": 36903,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 21728,
-    "profit": 15175
+    "material_cost": 3744,
+    "total_cost": 253743,
+    "profit": 16251
   },
   {
     "ok": true,
@@ -680,298 +1217,115 @@
     "required_materials": {
       "T5_RUNE": 192
     },
-    "material_cost": 7872,
-    "total_cost": 23465,
-    "profit": 14995
+    "material_cost": 7488,
+    "total_cost": 23081,
+    "profit": 15379
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_CLOTH_ROYAL",
-    "target_id": "T4_HEAD_CLOTH_ROYAL@3",
-    "base_price": 69999,
-    "target_price": 144442,
+    "base_id": "T4_ARMOR_LEATHER_UNDEAD",
+    "target_id": "T4_ARMOR_LEATHER_UNDEAD@1",
+    "base_price": 20000,
+    "target_price": 36903,
+    "required_materials": {
+      "T4_RUNE": 192
+    },
+    "material_cost": 1536,
+    "total_cost": 21536,
+    "profit": 15367
+  },
+  {
+    "ok": true,
+    "base_id": "T5_BAG@1",
+    "target_id": "T5_BAG@2",
+    "base_price": 24993,
+    "target_price": 81977,
+    "required_materials": {
+      "T5_SOUL": 192
+    },
+    "material_cost": 41664,
+    "total_cost": 66657,
+    "profit": 15320
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_SET1@2",
+    "target_id": "T5_SHOES_CLOTH_SET1@3",
+    "base_price": 24990,
+    "target_price": 108978,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 68736,
+    "total_cost": 93726,
+    "profit": 15252
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON",
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@1",
+    "base_price": 24996,
+    "target_price": 50990,
+    "required_materials": {
+      "T5_RUNE": 288
+    },
+    "material_cost": 11232,
+    "total_cost": 36228,
+    "profit": 14762
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_MORGANA",
+    "target_id": "T4_CAPEITEM_MORGANA@3",
+    "base_price": 283988,
+    "target_price": 357293,
     "required_materials": {
       "T4_RUNE": 96,
       "T4_SOUL": 96,
       "T4_RELIC": 96
     },
-    "material_cost": 59616,
-    "total_cost": 129615,
-    "profit": 14827
+    "material_cost": 58752,
+    "total_cost": 342740,
+    "profit": 14553
   },
   {
     "ok": true,
-    "base_id": "T5_SHOES_PLATE_SET3",
-    "target_id": "T5_SHOES_PLATE_SET3@2",
-    "base_price": 2996,
-    "target_price": 42209,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
-    },
-    "material_cost": 24480,
-    "total_cost": 27476,
-    "profit": 14733
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_CROSSBOW_CANNON_AVALON",
-    "target_id": "T4_2H_CROSSBOW_CANNON_AVALON@2",
-    "base_price": 38988,
-    "target_price": 87903,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 74316,
-    "profit": 13587
-  },
-  {
-    "ok": true,
-    "base_id": "T6_MAIN_SPEAR",
-    "target_id": "T6_MAIN_SPEAR@1",
-    "base_price": 38991,
-    "target_price": 98994,
-    "required_materials": {
-      "T6_RUNE": 288
-    },
-    "material_cost": 46944,
-    "total_cost": 85935,
-    "profit": 13059
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET3",
-    "target_id": "T4_SHOES_LEATHER_SET3@2",
-    "base_price": 2185,
-    "target_price": 23989,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 8832,
-    "total_cost": 11017,
-    "profit": 12972
-  },
-  {
-    "ok": true,
-    "base_id": "T6_HEAD_PLATE_SET3",
-    "target_id": "T6_HEAD_PLATE_SET3@1",
-    "base_price": 12980,
-    "target_price": 41480,
+    "base_id": "T6_HEAD_LEATHER_MORGANA",
+    "target_id": "T6_HEAD_LEATHER_MORGANA@1",
+    "base_price": 40979,
+    "target_price": 71991,
     "required_materials": {
       "T6_RUNE": 96
     },
-    "material_cost": 15648,
-    "total_cost": 28628,
-    "profit": 12852
+    "material_cost": 16704,
+    "total_cost": 57683,
+    "profit": 14308
   },
   {
     "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET1",
-    "target_id": "T4_ARMOR_LEATHER_SET1@2",
-    "base_price": 2185,
-    "target_price": 32185,
+    "base_id": "T5_HEAD_LEATHER_SET2@1",
+    "target_id": "T5_HEAD_LEATHER_SET2@2",
+    "base_price": 24998,
+    "target_price": 60000,
     "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
+      "T5_SOUL": 96
     },
-    "material_cost": 17664,
-    "total_cost": 19849,
-    "profit": 12336
+    "material_cost": 20832,
+    "total_cost": 45830,
+    "profit": 14170
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_CLOTH_MORGANA",
-    "target_id": "T4_HEAD_CLOTH_MORGANA@1",
-    "base_price": 45993,
-    "target_price": 58999,
+    "base_id": "T5_CAPEITEM_FW_BRIDGEWATCH@2",
+    "target_id": "T5_CAPEITEM_FW_BRIDGEWATCH@3",
+    "base_price": 87996,
+    "target_price": 170012,
     "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 864,
-    "total_cost": 46857,
-    "profit": 12142
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_PLATE_AVALON",
-    "target_id": "T4_HEAD_PLATE_AVALON@1",
-    "base_price": 97000,
-    "target_price": 109985,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 864,
-    "total_cost": 97864,
-    "profit": 12121
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET3",
-    "target_id": "T4_SHOES_LEATHER_SET3@3",
-    "base_price": 2185,
-    "target_price": 73750,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 61801,
-    "profit": 11949
-  },
-  {
-    "ok": true,
-    "base_id": "T5_ARMOR_GATHERER_ORE",
-    "target_id": "T5_ARMOR_GATHERER_ORE@1",
-    "base_price": 4999,
-    "target_price": 23989,
-    "required_materials": {
-      "T5_RUNE": 192
-    },
-    "material_cost": 7872,
-    "total_cost": 12871,
-    "profit": 11118
-  },
-  {
-    "ok": true,
-    "base_id": "T5_SHOES_CLOTH_SET1",
-    "target_id": "T5_SHOES_CLOTH_SET1@3",
-    "base_price": 3500,
-    "target_price": 108978,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96,
       "T5_RELIC": 96
     },
-    "material_cost": 94752,
-    "total_cost": 98252,
-    "profit": 10726
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_CLOTH_KEEPER",
-    "target_id": "T4_ARMOR_CLOTH_KEEPER@2",
-    "base_price": 5999,
-    "target_price": 33963,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
-    },
-    "material_cost": 17664,
-    "total_cost": 23663,
-    "profit": 10300
-  },
-  {
-    "ok": true,
-    "base_id": "T6_MAIN_1HCROSSBOW",
-    "target_id": "T6_MAIN_1HCROSSBOW@1",
-    "base_price": 53826,
-    "target_price": 110991,
-    "required_materials": {
-      "T6_RUNE": 288
-    },
-    "material_cost": 46944,
-    "total_cost": 100770,
-    "profit": 10221
-  },
-  {
-    "ok": true,
-    "base_id": "T7_BAG",
-    "target_id": "T7_BAG@1",
-    "base_price": 130000,
-    "target_price": 229951,
-    "required_materials": {
-      "T7_RUNE": 192
-    },
-    "material_cost": 89856,
-    "total_cost": 219856,
-    "profit": 10095
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_CLOTH_MORGANA",
-    "target_id": "T4_HEAD_CLOTH_MORGANA@2",
-    "base_price": 45993,
-    "target_price": 64698,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 8832,
-    "total_cost": 54825,
-    "profit": 9873
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_RAM_KEEPER",
-    "target_id": "T4_2H_RAM_KEEPER@1",
-    "base_price": 6991,
-    "target_price": 19984,
-    "required_materials": {
-      "T4_RUNE": 384
-    },
-    "material_cost": 3456,
-    "total_cost": 10447,
-    "profit": 9537
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_MORGANA",
-    "target_id": "T4_HEAD_LEATHER_MORGANA@3",
-    "base_price": 12898,
-    "target_price": 81967,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 72514,
-    "profit": 9453
-  },
-  {
-    "ok": true,
-    "base_id": "T6_BAG",
-    "target_id": "T6_BAG@1",
-    "base_price": 47576,
-    "target_price": 88037,
-    "required_materials": {
-      "T6_RUNE": 192
-    },
-    "material_cost": 31296,
-    "total_cost": 78872,
-    "profit": 9165
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_PLATE_AVALON",
-    "target_id": "T4_HEAD_PLATE_AVALON@2",
-    "base_price": 97000,
-    "target_price": 114969,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 8832,
-    "total_cost": 105832,
-    "profit": 9137
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET2",
-    "target_id": "T4_ARMOR_LEATHER_SET2@2",
-    "base_price": 1352,
-    "target_price": 27959,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
-    },
-    "material_cost": 17664,
-    "total_cost": 19016,
-    "profit": 8943
+    "material_cost": 68736,
+    "total_cost": 156732,
+    "profit": 13280
   },
   {
     "ok": true,
@@ -984,9 +1338,198 @@
       "T5_SOUL": 288,
       "T5_RELIC": 288
     },
-    "material_cost": 284256,
-    "total_cost": 301253,
-    "profit": 8745
+    "material_cost": 279936,
+    "total_cost": 296933,
+    "profit": 13065
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_LEATHER_SET3",
+    "target_id": "T4_SHOES_LEATHER_SET3@3",
+    "base_price": 2190,
+    "target_price": 73750,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96,
+      "T4_RELIC": 96
+    },
+    "material_cost": 58752,
+    "total_cost": 60942,
+    "profit": 12808
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_PLATE_AVALON",
+    "target_id": "T4_HEAD_PLATE_AVALON@1",
+    "base_price": 97000,
+    "target_price": 109985,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 97768,
+    "profit": 12217
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_SET1",
+    "target_id": "T5_SHOES_CLOTH_SET1@3",
+    "base_price": 3500,
+    "target_price": 108978,
+    "required_materials": {
+      "T5_RUNE": 96,
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 93312,
+    "total_cost": 96812,
+    "profit": 12166
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_CLOTH_ROYAL@2",
+    "target_id": "T4_HEAD_CLOTH_ROYAL@3",
+    "base_price": 108465,
+    "target_price": 169000,
+    "required_materials": {
+      "T4_RELIC": 96
+    },
+    "material_cost": 48480,
+    "total_cost": 156945,
+    "profit": 12055
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_UNDEAD@2",
+    "target_id": "T4_ARMOR_LEATHER_UNDEAD@3",
+    "base_price": 38998,
+    "target_price": 147973,
+    "required_materials": {
+      "T4_RELIC": 192
+    },
+    "material_cost": 96960,
+    "total_cost": 135958,
+    "profit": 12015
+  },
+  {
+    "ok": true,
+    "base_id": "T5_2H_BOW@2",
+    "target_id": "T5_2H_BOW@3",
+    "base_price": 69994,
+    "target_price": 356739,
+    "required_materials": {
+      "T5_RELIC": 384
+    },
+    "material_cost": 274944,
+    "total_cost": 344938,
+    "profit": 11801
+  },
+  {
+    "ok": true,
+    "base_id": "T6_ARMOR_PLATE_SET1",
+    "target_id": "T6_ARMOR_PLATE_SET1@1",
+    "base_price": 18025,
+    "target_price": 63216,
+    "required_materials": {
+      "T6_RUNE": 192
+    },
+    "material_cost": 33408,
+    "total_cost": 51433,
+    "profit": 11783
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_LEATHER_SET3",
+    "target_id": "T4_SHOES_LEATHER_SET3@2",
+    "base_price": 2190,
+    "target_price": 23989,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 10272,
+    "total_cost": 12462,
+    "profit": 11527
+  },
+  {
+    "ok": true,
+    "base_id": "T5_HEAD_CLOTH_ROYAL@1",
+    "target_id": "T5_HEAD_CLOTH_ROYAL@3",
+    "base_price": 229870,
+    "target_price": 330963,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 89568,
+    "total_cost": 319438,
+    "profit": 11525
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_GATHERER_ORE",
+    "target_id": "T5_ARMOR_GATHERER_ORE@1",
+    "base_price": 4999,
+    "target_price": 23989,
+    "required_materials": {
+      "T5_RUNE": 192
+    },
+    "material_cost": 7488,
+    "total_cost": 12487,
+    "profit": 11502
+  },
+  {
+    "ok": true,
+    "base_id": "T6_HEAD_PLATE_SET3",
+    "target_id": "T6_HEAD_PLATE_SET3@1",
+    "base_price": 12980,
+    "target_price": 40963,
+    "required_materials": {
+      "T6_RUNE": 96
+    },
+    "material_cost": 16704,
+    "total_cost": 29684,
+    "profit": 11279
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_BOW_AVALON@1",
+    "target_id": "T4_2H_BOW_AVALON@2",
+    "base_price": 50882,
+    "target_price": 99999,
+    "required_materials": {
+      "T4_SOUL": 384
+    },
+    "material_cost": 38016,
+    "total_cost": 88898,
+    "profit": 11101
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_CLOTH_KEEPER@1",
+    "target_id": "T5_ARMOR_CLOTH_KEEPER@2",
+    "base_price": 38460,
+    "target_price": 90980,
+    "required_materials": {
+      "T5_SOUL": 192
+    },
+    "material_cost": 41664,
+    "total_cost": 80124,
+    "profit": 10856
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_CLOTH_SET3",
+    "target_id": "T4_HEAD_CLOTH_SET3@2",
+    "base_price": 1130,
+    "target_price": 21999,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 10272,
+    "total_cost": 11402,
+    "profit": 10597
   },
   {
     "ok": true,
@@ -999,23 +1542,216 @@
       "T4_SOUL": 192,
       "T4_RELIC": 192
     },
-    "material_cost": 119232,
-    "total_cost": 139232,
-    "profit": 8741
+    "material_cost": 117504,
+    "total_cost": 137504,
+    "profit": 10469
   },
   {
     "ok": true,
-    "base_id": "T4_2H_DUALSWORD",
-    "target_id": "T4_2H_DUALSWORD@2",
-    "base_price": 6099,
-    "target_price": 49998,
+    "base_id": "T4_HEAD_LEATHER_MORGANA",
+    "target_id": "T4_HEAD_LEATHER_MORGANA@3",
+    "base_price": 12899,
+    "target_price": 81967,
     "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
+      "T4_RUNE": 96,
+      "T4_SOUL": 96,
+      "T4_RELIC": 96
     },
-    "material_cost": 35328,
-    "total_cost": 41427,
-    "profit": 8571
+    "material_cost": 58752,
+    "total_cost": 71651,
+    "profit": 10316
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_UNDEAD@2",
+    "target_id": "T4_CAPEITEM_UNDEAD@3",
+    "base_price": 259988,
+    "target_price": 318697,
+    "required_materials": {
+      "T4_RELIC": 96
+    },
+    "material_cost": 48480,
+    "total_cost": 308468,
+    "profit": 10229
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_RAM_KEEPER",
+    "target_id": "T4_2H_RAM_KEEPER@1",
+    "base_price": 6991,
+    "target_price": 19984,
+    "required_materials": {
+      "T4_RUNE": 384
+    },
+    "material_cost": 3072,
+    "total_cost": 10063,
+    "profit": 9921
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPEITEM_FW_BRECILIEN",
+    "target_id": "T5_CAPEITEM_FW_BRECILIEN@3",
+    "base_price": 129981,
+    "target_price": 232998,
+    "required_materials": {
+      "T5_RUNE": 96,
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 93312,
+    "total_cost": 223293,
+    "profit": 9705
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_LEATHER_SET1",
+    "target_id": "T4_HEAD_LEATHER_SET1@2",
+    "base_price": 1930,
+    "target_price": 21870,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 10272,
+    "total_cost": 12202,
+    "profit": 9668
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_SMUGGLER",
+    "target_id": "T4_CAPEITEM_SMUGGLER@2",
+    "base_price": 70997,
+    "target_price": 90906,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 10272,
+    "total_cost": 81269,
+    "profit": 9637
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET1",
+    "target_id": "T4_ARMOR_LEATHER_SET1@2",
+    "base_price": 2185,
+    "target_price": 32185,
+    "required_materials": {
+      "T4_RUNE": 192,
+      "T4_SOUL": 192
+    },
+    "material_cost": 20544,
+    "total_cost": 22729,
+    "profit": 9456
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_LEATHER_SET3",
+    "target_id": "T4_HEAD_LEATHER_SET3@2",
+    "base_price": 1831,
+    "target_price": 21497,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 10272,
+    "total_cost": 12103,
+    "profit": 9394
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_LEATHER_SET2",
+    "target_id": "T4_HEAD_LEATHER_SET2@2",
+    "base_price": 1999,
+    "target_price": 21610,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 10272,
+    "total_cost": 12271,
+    "profit": 9339
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_MORGANA@1",
+    "target_id": "T4_CAPEITEM_MORGANA@3",
+    "base_price": 289992,
+    "target_price": 357293,
+    "required_materials": {
+      "T4_SOUL": 96,
+      "T4_RELIC": 96
+    },
+    "material_cost": 57984,
+    "total_cost": 347976,
+    "profit": 9317
+  },
+  {
+    "ok": true,
+    "base_id": "T5_2H_RAM_KEEPER@2",
+    "target_id": "T5_2H_RAM_KEEPER@3",
+    "base_price": 108997,
+    "target_price": 392995,
+    "required_materials": {
+      "T5_RELIC": 384
+    },
+    "material_cost": 274944,
+    "total_cost": 383941,
+    "profit": 9054
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_MORGANA@1",
+    "target_id": "T4_ARMOR_LEATHER_MORGANA@3",
+    "base_price": 4998,
+    "target_price": 129996,
+    "required_materials": {
+      "T4_SOUL": 192,
+      "T4_RELIC": 192
+    },
+    "material_cost": 115968,
+    "total_cost": 120966,
+    "profit": 9030
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_SET1@1",
+    "target_id": "T5_SHOES_CLOTH_SET1@3",
+    "base_price": 10454,
+    "target_price": 108978,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 89568,
+    "total_cost": 100022,
+    "profit": 8956
+  },
+  {
+    "ok": true,
+    "base_id": "T7_BAG",
+    "target_id": "T7_BAG@1",
+    "base_price": 130990,
+    "target_price": 229933,
+    "required_materials": {
+      "T7_RUNE": 192
+    },
+    "material_cost": 90048,
+    "total_cost": 221038,
+    "profit": 8895
+  },
+  {
+    "ok": true,
+    "base_id": "T5_BAG_INSIGHT@2",
+    "target_id": "T5_BAG_INSIGHT@3",
+    "base_price": 88964,
+    "target_price": 235000,
+    "required_materials": {
+      "T5_RELIC": 192
+    },
+    "material_cost": 137472,
+    "total_cost": 226436,
+    "profit": 8564
   },
   {
     "ok": true,
@@ -1026,130 +1762,37 @@
     "required_materials": {
       "T4_RUNE": 384
     },
-    "material_cost": 3456,
-    "total_cost": 8910,
-    "profit": 8088
+    "material_cost": 3072,
+    "total_cost": 8526,
+    "profit": 8472
   },
   {
     "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET3",
-    "target_id": "T4_ARMOR_LEATHER_SET3@2",
-    "base_price": 2149,
-    "target_price": 27500,
+    "base_id": "T4_CAPEITEM_FW_MARTLOCK",
+    "target_id": "T4_CAPEITEM_FW_MARTLOCK@2",
+    "base_price": 47049,
+    "target_price": 65476,
     "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
     },
-    "material_cost": 17664,
-    "total_cost": 19813,
-    "profit": 7687
+    "material_cost": 10272,
+    "total_cost": 57321,
+    "profit": 8155
   },
   {
     "ok": true,
-    "base_id": "T6_ARMOR_PLATE_SET3",
-    "target_id": "T6_ARMOR_PLATE_SET3@1",
-    "base_price": 19998,
-    "target_price": 58967,
+    "base_id": "T4_HEAD_PLATE_AVALON",
+    "target_id": "T4_HEAD_PLATE_AVALON@2",
+    "base_price": 97000,
+    "target_price": 114969,
     "required_materials": {
-      "T6_RUNE": 192
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
     },
-    "material_cost": 31296,
-    "total_cost": 51294,
-    "profit": 7673
-  },
-  {
-    "ok": true,
-    "base_id": "T4_BAG",
-    "target_id": "T4_BAG@2",
-    "base_price": 4777,
-    "target_price": 29978,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
-    },
-    "material_cost": 17664,
-    "total_cost": 22441,
-    "profit": 7537
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_GATHERER_ORE",
-    "target_id": "T5_HEAD_GATHERER_ORE@1",
-    "base_price": 5000,
-    "target_price": 15969,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 3936,
-    "total_cost": 8936,
-    "profit": 7033
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_INFERNOSTAFF",
-    "target_id": "T4_2H_INFERNOSTAFF@2",
-    "base_price": 5995,
-    "target_price": 47994,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 41323,
-    "profit": 6671
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_1HCROSSBOW",
-    "target_id": "T4_MAIN_1HCROSSBOW@2",
-    "base_price": 6999,
-    "target_price": 40000,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288
-    },
-    "material_cost": 26496,
-    "total_cost": 33495,
-    "profit": 6505
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_PLATE_HELL",
-    "target_id": "T4_ARMOR_PLATE_HELL@1",
-    "base_price": 3747,
-    "target_price": 11968,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 5475,
-    "profit": 6493
-  },
-  {
-    "ok": true,
-    "base_id": "T4_OFF_TOTEM_KEEPER",
-    "target_id": "T4_OFF_TOTEM_KEEPER@1",
-    "base_price": 37462,
-    "target_price": 44700,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 864,
-    "total_cost": 38326,
-    "profit": 6374
-  },
-  {
-    "ok": true,
-    "base_id": "T6_SHOES_PLATE_SET3",
-    "target_id": "T6_SHOES_PLATE_SET3@1",
-    "base_price": 11996,
-    "target_price": 33992,
-    "required_materials": {
-      "T6_RUNE": 96
-    },
-    "material_cost": 15648,
-    "total_cost": 27644,
-    "profit": 6348
+    "material_cost": 10272,
+    "total_cost": 107272,
+    "profit": 7697
   },
   {
     "ok": true,
@@ -1162,35 +1805,155 @@
       "T4_SOUL": 192,
       "T4_RELIC": 192
     },
-    "material_cost": 119232,
-    "total_cost": 124031,
-    "profit": 5965
+    "material_cost": 117504,
+    "total_cost": 122303,
+    "profit": 7693
   },
   {
     "ok": true,
-    "base_id": "T4_2H_BOW_AVALON",
-    "target_id": "T4_2H_BOW_AVALON@1",
-    "base_price": 41992,
-    "target_price": 50882,
+    "base_id": "T4_ARMOR_CLOTH_KEEPER",
+    "target_id": "T4_ARMOR_CLOTH_KEEPER@2",
+    "base_price": 5999,
+    "target_price": 33965,
+    "required_materials": {
+      "T4_RUNE": 192,
+      "T4_SOUL": 192
+    },
+    "material_cost": 20544,
+    "total_cost": 26543,
+    "profit": 7422
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_LEATHER_SET3@2",
+    "target_id": "T5_SHOES_LEATHER_SET3@3",
+    "base_price": 68988,
+    "target_price": 144997,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 68736,
+    "total_cost": 137724,
+    "profit": 7273
+  },
+  {
+    "ok": true,
+    "base_id": "T5_HEAD_GATHERER_ORE",
+    "target_id": "T5_HEAD_GATHERER_ORE@1",
+    "base_price": 5000,
+    "target_price": 15969,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3744,
+    "total_cost": 8744,
+    "profit": 7225
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET1@1",
+    "target_id": "T4_ARMOR_LEATHER_SET1@2",
+    "base_price": 5999,
+    "target_price": 32185,
+    "required_materials": {
+      "T4_SOUL": 192
+    },
+    "material_cost": 19008,
+    "total_cost": 25007,
+    "profit": 7178
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_LEATHER_SET2@1",
+    "target_id": "T4_HEAD_LEATHER_SET2@2",
+    "base_price": 4981,
+    "target_price": 21610,
+    "required_materials": {
+      "T4_SOUL": 96
+    },
+    "material_cost": 9504,
+    "total_cost": 14485,
+    "profit": 7125
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPEITEM_FW_BRIDGEWATCH@1",
+    "target_id": "T5_CAPEITEM_FW_BRIDGEWATCH@3",
+    "base_price": 73389,
+    "target_price": 170012,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 89568,
+    "total_cost": 162957,
+    "profit": 7055
+  },
+  {
+    "ok": true,
+    "base_id": "T6_MAIN_1HCROSSBOW",
+    "target_id": "T6_MAIN_1HCROSSBOW@1",
+    "base_price": 53826,
+    "target_price": 110991,
+    "required_materials": {
+      "T6_RUNE": 288
+    },
+    "material_cost": 50112,
+    "total_cost": 103938,
+    "profit": 7053
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_DUALSCIMITAR_UNDEAD",
+    "target_id": "T4_2H_DUALSCIMITAR_UNDEAD@1",
+    "base_price": 28993,
+    "target_price": 38799,
     "required_materials": {
       "T4_RUNE": 384
     },
-    "material_cost": 3456,
-    "total_cost": 45448,
-    "profit": 5434
+    "material_cost": 3072,
+    "total_cost": 32065,
+    "profit": 6734
   },
   {
     "ok": true,
-    "base_id": "T4_SHOES_PLATE_KEEPER",
-    "target_id": "T4_SHOES_PLATE_KEEPER@1",
-    "base_price": 4999,
-    "target_price": 10971,
+    "base_id": "T4_ARMOR_PLATE_HELL",
+    "target_id": "T4_ARMOR_PLATE_HELL@1",
+    "base_price": 3747,
+    "target_price": 11968,
     "required_materials": {
-      "T4_RUNE": 96
+      "T4_RUNE": 192
     },
-    "material_cost": 864,
-    "total_cost": 5863,
-    "profit": 5108
+    "material_cost": 1536,
+    "total_cost": 5283,
+    "profit": 6685
+  },
+  {
+    "ok": true,
+    "base_id": "T6_BAG",
+    "target_id": "T6_BAG@1",
+    "base_price": 47960,
+    "target_price": 88037,
+    "required_materials": {
+      "T6_RUNE": 192
+    },
+    "material_cost": 33408,
+    "total_cost": 81368,
+    "profit": 6669
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_PLATE_SET1",
+    "target_id": "T4_ARMOR_PLATE_SET1@2",
+    "base_price": 3801,
+    "target_price": 30942,
+    "required_materials": {
+      "T4_RUNE": 192,
+      "T4_SOUL": 192
+    },
+    "material_cost": 20544,
+    "total_cost": 24345,
+    "profit": 6597
   },
   {
     "ok": true,
@@ -1203,37 +1966,128 @@
       "T4_SOUL": 192,
       "T4_RELIC": 192
     },
-    "material_cost": 119232,
-    "total_cost": 125231,
-    "profit": 4748
+    "material_cost": 117504,
+    "total_cost": 123503,
+    "profit": 6476
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_PLATE_SET1",
-    "target_id": "T4_HEAD_PLATE_SET1@2",
-    "base_price": 1447,
-    "target_price": 14997,
+    "base_id": "T4_OFF_TOTEM_KEEPER",
+    "target_id": "T4_OFF_TOTEM_KEEPER@1",
+    "base_price": 37462,
+    "target_price": 44700,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 38230,
+    "profit": 6470
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_SMUGGLER",
+    "target_id": "T4_CAPEITEM_SMUGGLER@1",
+    "base_price": 70997,
+    "target_price": 77994,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 71765,
+    "profit": 6229
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET2",
+    "target_id": "T4_ARMOR_LEATHER_SET2@2",
+    "base_price": 1352,
+    "target_price": 27959,
+    "required_materials": {
+      "T4_RUNE": 192,
+      "T4_SOUL": 192
+    },
+    "material_cost": 20544,
+    "total_cost": 21896,
+    "profit": 6063
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_BOW_AVALON",
+    "target_id": "T4_2H_BOW_AVALON@1",
+    "base_price": 41992,
+    "target_price": 50882,
+    "required_materials": {
+      "T4_RUNE": 384
+    },
+    "material_cost": 3072,
+    "total_cost": 45064,
+    "profit": 5818
+  },
+  {
+    "ok": true,
+    "base_id": "T6_ARMOR_PLATE_SET3",
+    "target_id": "T6_ARMOR_PLATE_SET3@1",
+    "base_price": 19998,
+    "target_price": 58967,
+    "required_materials": {
+      "T6_RUNE": 192
+    },
+    "material_cost": 33408,
+    "total_cost": 53406,
+    "profit": 5561
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPEITEM_FW_BRECILIEN",
+    "target_id": "T5_CAPEITEM_FW_BRECILIEN@1",
+    "base_price": 129981,
+    "target_price": 139243,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3744,
+    "total_cost": 133725,
+    "profit": 5518
+  },
+  {
+    "ok": true,
+    "base_id": "T6_SHOES_CLOTH_MORGANA",
+    "target_id": "T6_SHOES_CLOTH_MORGANA@1",
+    "base_price": 77991,
+    "target_price": 99979,
+    "required_materials": {
+      "T6_RUNE": 96
+    },
+    "material_cost": 16704,
+    "total_cost": 94695,
+    "profit": 5284
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_MORGANA",
+    "target_id": "T4_CAPEITEM_MORGANA@1",
+    "base_price": 283988,
+    "target_price": 289992,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 284756,
+    "profit": 5236
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_FW_THETFORD",
+    "target_id": "T4_CAPEITEM_FW_THETFORD@2",
+    "base_price": 53774,
+    "target_price": 68962,
     "required_materials": {
       "T4_RUNE": 96,
       "T4_SOUL": 96
     },
-    "material_cost": 8832,
-    "total_cost": 10279,
-    "profit": 4718
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_CLOTH_KEEPER",
-    "target_id": "T4_HEAD_CLOTH_KEEPER@2",
-    "base_price": 7827,
-    "target_price": 21020,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 8832,
-    "total_cost": 16659,
-    "profit": 4361
+    "material_cost": 10272,
+    "total_cost": 64046,
+    "profit": 4916
   },
   {
     "ok": true,
@@ -1244,9 +2098,104 @@
     "required_materials": {
       "T5_RUNE": 288
     },
-    "material_cost": 11808,
-    "total_cost": 27709,
-    "profit": 4291
+    "material_cost": 11232,
+    "total_cost": 27133,
+    "profit": 4867
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_PLATE_SET1",
+    "target_id": "T4_SHOES_PLATE_SET1@2",
+    "base_price": 1975,
+    "target_price": 16994,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 10272,
+    "total_cost": 12247,
+    "profit": 4747
+  },
+  {
+    "ok": true,
+    "base_id": "T4_BAG",
+    "target_id": "T4_BAG@2",
+    "base_price": 4777,
+    "target_price": 29986,
+    "required_materials": {
+      "T4_RUNE": 192,
+      "T4_SOUL": 192
+    },
+    "material_cost": 20544,
+    "total_cost": 25321,
+    "profit": 4665
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET3",
+    "target_id": "T4_ARMOR_LEATHER_SET3@2",
+    "base_price": 2485,
+    "target_price": 27495,
+    "required_materials": {
+      "T4_RUNE": 192,
+      "T4_SOUL": 192
+    },
+    "material_cost": 20544,
+    "total_cost": 23029,
+    "profit": 4466
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET2@1",
+    "target_id": "T4_ARMOR_LEATHER_SET2@2",
+    "base_price": 4568,
+    "target_price": 27959,
+    "required_materials": {
+      "T4_SOUL": 192
+    },
+    "material_cost": 19008,
+    "total_cost": 23576,
+    "profit": 4383
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_FW_MARTLOCK",
+    "target_id": "T4_CAPEITEM_FW_MARTLOCK@1",
+    "base_price": 47049,
+    "target_price": 52186,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 47817,
+    "profit": 4369
+  },
+  {
+    "ok": true,
+    "base_id": "T4_BAG@1",
+    "target_id": "T4_BAG@2",
+    "base_price": 6618,
+    "target_price": 29986,
+    "required_materials": {
+      "T4_SOUL": 192
+    },
+    "material_cost": 19008,
+    "total_cost": 25626,
+    "profit": 4360
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPEITEM_FW_BRECILIEN@1",
+    "target_id": "T5_CAPEITEM_FW_BRECILIEN@3",
+    "base_price": 139243,
+    "target_price": 232998,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 89568,
+    "total_cost": 228811,
+    "profit": 4187
   },
   {
     "ok": true,
@@ -1258,9 +2207,285 @@
       "T5_RUNE": 96,
       "T5_SOUL": 96
     },
-    "material_cost": 24480,
-    "total_cost": 32177,
-    "profit": 4181
+    "material_cost": 24576,
+    "total_cost": 32273,
+    "profit": 4085
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_DUALSWORD",
+    "target_id": "T4_2H_DUALSWORD@2",
+    "base_price": 4999,
+    "target_price": 49997,
+    "required_materials": {
+      "T4_RUNE": 384,
+      "T4_SOUL": 384
+    },
+    "material_cost": 41088,
+    "total_cost": 46087,
+    "profit": 3910
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_FW_MARTLOCK@1",
+    "target_id": "T4_CAPEITEM_FW_MARTLOCK@2",
+    "base_price": 52186,
+    "target_price": 65476,
+    "required_materials": {
+      "T4_SOUL": 96
+    },
+    "material_cost": 9504,
+    "total_cost": 61690,
+    "profit": 3786
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET3",
+    "target_id": "T4_ARMOR_LEATHER_SET3@1",
+    "base_price": 2485,
+    "target_price": 7790,
+    "required_materials": {
+      "T4_RUNE": 192
+    },
+    "material_cost": 1536,
+    "total_cost": 4021,
+    "profit": 3769
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_SMUGGLER@1",
+    "target_id": "T4_CAPEITEM_SMUGGLER@2",
+    "base_price": 77994,
+    "target_price": 90906,
+    "required_materials": {
+      "T4_SOUL": 96
+    },
+    "material_cost": 9504,
+    "total_cost": 87498,
+    "profit": 3408
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_SET1",
+    "target_id": "T5_SHOES_CLOTH_SET1@1",
+    "base_price": 3500,
+    "target_price": 10454,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3744,
+    "total_cost": 7244,
+    "profit": 3210
+  },
+  {
+    "ok": true,
+    "base_id": "T4_OFF_CENSER_AVALON",
+    "target_id": "T4_OFF_CENSER_AVALON@1",
+    "base_price": 18373,
+    "target_price": 21984,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 19141,
+    "profit": 2843
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPE@1",
+    "target_id": "T5_CAPE@2",
+    "base_price": 12973,
+    "target_price": 36358,
+    "required_materials": {
+      "T5_SOUL": 96
+    },
+    "material_cost": 20832,
+    "total_cost": 33805,
+    "profit": 2553
+  },
+  {
+    "ok": true,
+    "base_id": "T4_MAIN_SCIMITAR_MORGANA",
+    "target_id": "T4_MAIN_SCIMITAR_MORGANA@1",
+    "base_price": 8984,
+    "target_price": 13790,
+    "required_materials": {
+      "T4_RUNE": 288
+    },
+    "material_cost": 2304,
+    "total_cost": 11288,
+    "profit": 2502
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_MORGANA@2",
+    "target_id": "T4_SHOES_CLOTH_MORGANA@3",
+    "base_price": 49996,
+    "target_price": 100865,
+    "required_materials": {
+      "T4_RELIC": 96
+    },
+    "material_cost": 48480,
+    "total_cost": 98476,
+    "profit": 2389
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_FW_CAERLEON",
+    "target_id": "T4_CAPEITEM_FW_CAERLEON@1",
+    "base_price": 85900,
+    "target_price": 88987,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 86668,
+    "profit": 2319
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET1",
+    "target_id": "T4_ARMOR_LEATHER_SET1@1",
+    "base_price": 2185,
+    "target_price": 5999,
+    "required_materials": {
+      "T4_RUNE": 192
+    },
+    "material_cost": 1536,
+    "total_cost": 3721,
+    "profit": 2278
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_LEATHER_SET2",
+    "target_id": "T4_HEAD_LEATHER_SET2@1",
+    "base_price": 1999,
+    "target_price": 4981,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 2767,
+    "profit": 2214
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_UNDEAD",
+    "target_id": "T4_CAPEITEM_UNDEAD@1",
+    "base_price": 266999,
+    "target_price": 269978,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 768,
+    "total_cost": 267767,
+    "profit": 2211
+  },
+  {
+    "ok": true,
+    "base_id": "T4_MAIN_1HCROSSBOW",
+    "target_id": "T4_MAIN_1HCROSSBOW@2",
+    "base_price": 6999,
+    "target_price": 40000,
+    "required_materials": {
+      "T4_RUNE": 288,
+      "T4_SOUL": 288
+    },
+    "material_cost": 30816,
+    "total_cost": 37815,
+    "profit": 2185
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_AVALON",
+    "target_id": "T4_ARMOR_LEATHER_AVALON@1",
+    "base_price": 40464,
+    "target_price": 43986,
+    "required_materials": {
+      "T4_RUNE": 192
+    },
+    "material_cost": 1536,
+    "total_cost": 42000,
+    "profit": 1986
+  },
+  {
+    "ok": true,
+    "base_id": "T5_BAG",
+    "target_id": "T5_BAG@1",
+    "base_price": 15679,
+    "target_price": 24993,
+    "required_materials": {
+      "T5_RUNE": 192
+    },
+    "material_cost": 7488,
+    "total_cost": 23167,
+    "profit": 1826
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_PLATE_SET1",
+    "target_id": "T5_ARMOR_PLATE_SET1@2",
+    "base_price": 7973,
+    "target_price": 58936,
+    "required_materials": {
+      "T5_RUNE": 192,
+      "T5_SOUL": 192
+    },
+    "material_cost": 49152,
+    "total_cost": 57125,
+    "profit": 1811
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET2",
+    "target_id": "T4_ARMOR_LEATHER_SET2@1",
+    "base_price": 1352,
+    "target_price": 4568,
+    "required_materials": {
+      "T4_RUNE": 192
+    },
+    "material_cost": 1536,
+    "total_cost": 2888,
+    "profit": 1680
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_DAGGER",
+    "target_id": "T5_MAIN_DAGGER@1",
+    "base_price": 14900,
+    "target_price": 27755,
+    "required_materials": {
+      "T5_RUNE": 288
+    },
+    "material_cost": 11232,
+    "total_cost": 26132,
+    "profit": 1623
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPE",
+    "target_id": "T5_CAPE@1",
+    "base_price": 7697,
+    "target_price": 12973,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3744,
+    "total_cost": 11441,
+    "profit": 1532
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_LEATHER_SET3@2",
+    "target_id": "T4_SHOES_LEATHER_SET3@3",
+    "base_price": 23989,
+    "target_price": 73750,
+    "required_materials": {
+      "T4_RELIC": 96
+    },
+    "material_cost": 48480,
+    "total_cost": 72469,
+    "profit": 1281
   },
   {
     "ok": true,
@@ -1272,274 +2497,61 @@
       "T4_RUNE": 192,
       "T4_SOUL": 192
     },
-    "material_cost": 17664,
-    "total_cost": 60618,
-    "profit": 4128
+    "material_cost": 20544,
+    "total_cost": 63498,
+    "profit": 1248
   },
   {
     "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET3",
-    "target_id": "T4_ARMOR_LEATHER_SET3@1",
-    "base_price": 2149,
-    "target_price": 7790,
+    "base_id": "T5_ARMOR_PLATE_SET1@1",
+    "target_id": "T5_ARMOR_PLATE_SET1@2",
+    "base_price": 16268,
+    "target_price": 58936,
     "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 3877,
-    "profit": 3913
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_DUALSCIMITAR_UNDEAD",
-    "target_id": "T4_2H_DUALSCIMITAR_UNDEAD@1",
-    "base_price": 31521,
-    "target_price": 38799,
-    "required_materials": {
-      "T4_RUNE": 384
-    },
-    "material_cost": 3456,
-    "total_cost": 34977,
-    "profit": 3822
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_AXE",
-    "target_id": "T4_2H_AXE@2",
-    "base_price": 8892,
-    "target_price": 47993,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 44220,
-    "profit": 3773
-  },
-  {
-    "ok": true,
-    "base_id": "T5_ARMOR_PLATE_SET3",
-    "target_id": "T5_ARMOR_PLATE_SET3@2",
-    "base_price": 6685,
-    "target_price": 58992,
-    "required_materials": {
-      "T5_RUNE": 192,
       "T5_SOUL": 192
     },
-    "material_cost": 48960,
-    "total_cost": 55645,
-    "profit": 3347
+    "material_cost": 41664,
+    "total_cost": 57932,
+    "profit": 1004
   },
   {
     "ok": true,
-    "base_id": "T5_SHOES_CLOTH_SET1",
-    "target_id": "T5_SHOES_CLOTH_SET1@1",
-    "base_price": 3500,
-    "target_price": 10454,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 3936,
-    "total_cost": 7436,
-    "profit": 3018
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_HAMMER",
-    "target_id": "T4_2H_HAMMER@1",
-    "base_price": 5892,
-    "target_price": 11838,
-    "required_materials": {
-      "T4_RUNE": 384
-    },
-    "material_cost": 3456,
-    "total_cost": 9348,
-    "profit": 2490
-  },
-  {
-    "ok": true,
-    "base_id": "T5_BAG",
-    "target_id": "T5_BAG@1",
-    "base_price": 14659,
-    "target_price": 24995,
+    "base_id": "T5_ARMOR_PLATE_SET1",
+    "target_id": "T5_ARMOR_PLATE_SET1@1",
+    "base_price": 7973,
+    "target_price": 16268,
     "required_materials": {
       "T5_RUNE": 192
     },
-    "material_cost": 7872,
-    "total_cost": 22531,
-    "profit": 2464
+    "material_cost": 7488,
+    "total_cost": 15461,
+    "profit": 807
   },
   {
     "ok": true,
-    "base_id": "T4_MAIN_SCIMITAR_MORGANA",
-    "target_id": "T4_MAIN_SCIMITAR_MORGANA@1",
-    "base_price": 8984,
-    "target_price": 13790,
+    "base_id": "T4_ARMOR_LEATHER_HELL@1",
+    "target_id": "T4_ARMOR_LEATHER_HELL@2",
+    "base_price": 44993,
+    "target_price": 64746,
     "required_materials": {
-      "T4_RUNE": 288
-    },
-    "material_cost": 2592,
-    "total_cost": 11576,
-    "profit": 2214
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_PLATE_KEEPER",
-    "target_id": "T4_HEAD_PLATE_KEEPER@1",
-    "base_price": 9991,
-    "target_price": 12977,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 864,
-    "total_cost": 10855,
-    "profit": 2122
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET2",
-    "target_id": "T4_HEAD_LEATHER_SET2@1",
-    "base_price": 1999,
-    "target_price": 4981,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 864,
-    "total_cost": 2863,
-    "profit": 2118
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET1",
-    "target_id": "T4_ARMOR_LEATHER_SET1@1",
-    "base_price": 2185,
-    "target_price": 5999,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 3913,
-    "profit": 2086
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_AVALON",
-    "target_id": "T4_ARMOR_LEATHER_AVALON@1",
-    "base_price": 40464,
-    "target_price": 43986,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 42192,
-    "profit": 1794
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET2",
-    "target_id": "T4_ARMOR_LEATHER_SET2@1",
-    "base_price": 1352,
-    "target_price": 4568,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 3080,
-    "profit": 1488
-  },
-  {
-    "ok": true,
-    "base_id": "T5_CAPE",
-    "target_id": "T5_CAPE@1",
-    "base_price": 7697,
-    "target_price": 12973,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 3936,
-    "total_cost": 11633,
-    "profit": 1340
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_UNDEAD",
-    "target_id": "T4_ARMOR_LEATHER_UNDEAD@2",
-    "base_price": 20000,
-    "target_price": 38998,
-    "required_materials": {
-      "T4_RUNE": 192,
       "T4_SOUL": 192
     },
-    "material_cost": 17664,
-    "total_cost": 37664,
-    "profit": 1334
+    "material_cost": 19008,
+    "total_cost": 64001,
+    "profit": 745
   },
   {
     "ok": true,
-    "base_id": "T4_ARMOR_PLATE_KEEPER",
-    "target_id": "T4_ARMOR_PLATE_KEEPER@1",
-    "base_price": 81931,
-    "target_price": 84960,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 83659,
-    "profit": 1301
-  },
-  {
-    "ok": true,
-    "base_id": "T5_MAIN_DAGGER",
-    "target_id": "T5_MAIN_DAGGER@1",
-    "base_price": 14900,
-    "target_price": 27755,
-    "required_materials": {
-      "T5_RUNE": 288
-    },
-    "material_cost": 11808,
-    "total_cost": 26708,
-    "profit": 1047
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_CLOTH_SET3",
-    "target_id": "T4_ARMOR_CLOTH_SET3@2",
-    "base_price": 2694,
-    "target_price": 21221,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
-    },
-    "material_cost": 17664,
-    "total_cost": 20358,
-    "profit": 863
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_DUALAXE_KEEPER",
-    "target_id": "T4_2H_DUALAXE_KEEPER@2",
-    "base_price": 183000,
-    "target_price": 218996,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 218328,
-    "profit": 668
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_PLATE_FEY",
-    "target_id": "T4_SHOES_PLATE_FEY@1",
-    "base_price": 17990,
-    "target_price": 19494,
+    "base_id": "T4_CAPEITEM_KEEPER",
+    "target_id": "T4_CAPEITEM_KEEPER@1",
+    "base_price": 89999,
+    "target_price": 91498,
     "required_materials": {
       "T4_RUNE": 96
     },
-    "material_cost": 864,
-    "total_cost": 18854,
-    "profit": 640
+    "material_cost": 768,
+    "total_cost": 90767,
+    "profit": 731
   },
   {
     "ok": true,
@@ -1550,9 +2562,22 @@
     "required_materials": {
       "T4_RUNE": 288
     },
-    "material_cost": 2592,
-    "total_cost": 7574,
-    "profit": 420
+    "material_cost": 2304,
+    "total_cost": 7286,
+    "profit": 708
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_SET3@1",
+    "target_id": "T4_ARMOR_LEATHER_SET3@2",
+    "base_price": 7790,
+    "target_price": 27495,
+    "required_materials": {
+      "T4_SOUL": 192
+    },
+    "material_cost": 19008,
+    "total_cost": 26798,
+    "profit": 697
   },
   {
     "ok": true,
@@ -1563,9 +2588,9 @@
     "required_materials": {
       "T4_RUNE": 192
     },
-    "material_cost": 1728,
-    "total_cost": 44682,
-    "profit": 311
+    "material_cost": 1536,
+    "total_cost": 44490,
+    "profit": 503
   },
   {
     "ok": true,
@@ -1576,876 +2601,60 @@
     "required_materials": {
       "T4_RUNE": 192
     },
-    "material_cost": 1728,
-    "total_cost": 6505,
-    "profit": 113
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_CLOTH_SET3",
-    "target_id": "T4_ARMOR_CLOTH_SET3@1",
-    "base_price": 2694,
-    "target_price": 3877,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 4422,
-    "profit": -545
-  },
-  {
-    "ok": true,
-    "base_id": "T6_HEAD_PLATE_SET1",
-    "target_id": "T6_HEAD_PLATE_SET1@1",
-    "base_price": 12672,
-    "target_price": 27677,
-    "required_materials": {
-      "T6_RUNE": 96
-    },
-    "material_cost": 15648,
-    "total_cost": 28320,
-    "profit": -643
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_PLATE_AVALON",
-    "target_id": "T4_ARMOR_PLATE_AVALON@1",
-    "base_price": 25927,
-    "target_price": 26398,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 27655,
-    "profit": -1257
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_MORGANA",
-    "target_id": "T4_ARMOR_LEATHER_MORGANA@1",
-    "base_price": 4799,
-    "target_price": 4998,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 6527,
-    "profit": -1529
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET1",
-    "target_id": "T4_HEAD_LEATHER_SET1@3",
-    "base_price": 1930,
-    "target_price": 59000,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 61546,
-    "profit": -2546
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_RAPIER_MORGANA",
-    "target_id": "T4_MAIN_RAPIER_MORGANA@1",
-    "base_price": 9490,
-    "target_price": 9499,
-    "required_materials": {
-      "T4_RUNE": 288
-    },
-    "material_cost": 2592,
-    "total_cost": 12082,
-    "profit": -2583
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_FEY",
-    "target_id": "T4_ARMOR_LEATHER_FEY@1",
-    "base_price": 351000,
-    "target_price": 350000,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 352728,
-    "profit": -2728
-  },
-  {
-    "ok": true,
-    "base_id": "T5_SHOES_CLOTH_SET1",
-    "target_id": "T5_SHOES_CLOTH_SET1@2",
-    "base_price": 3500,
-    "target_price": 24990,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
-    },
-    "material_cost": 24480,
-    "total_cost": 27980,
-    "profit": -2990
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_SHAPESHIFTER_AVALON",
-    "target_id": "T4_2H_SHAPESHIFTER_AVALON@2",
-    "base_price": 80900,
-    "target_price": 112999,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 116228,
-    "profit": -3229
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_TWINSCYTHE_HELL",
-    "target_id": "T4_2H_TWINSCYTHE_HELL@1",
-    "base_price": 7988,
-    "target_price": 7997,
-    "required_materials": {
-      "T4_RUNE": 384
-    },
-    "material_cost": 3456,
-    "total_cost": 11444,
-    "profit": -3447
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_DEMONICSTAFF",
-    "target_id": "T4_2H_DEMONICSTAFF@3",
-    "base_price": 5544,
-    "target_price": 239990,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384,
-      "T4_RELIC": 384
-    },
-    "material_cost": 238464,
-    "total_cost": 244008,
-    "profit": -4018
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_PLATE_HELL",
-    "target_id": "T4_HEAD_PLATE_HELL@3",
-    "base_price": 4594,
-    "target_price": 60001,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 64210,
-    "profit": -4209
-  },
-  {
-    "ok": true,
-    "base_id": "T4_OFF_TOTEM_KEEPER",
-    "target_id": "T4_OFF_TOTEM_KEEPER@2",
-    "base_price": 37462,
-    "target_price": 41995,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 8832,
-    "total_cost": 46294,
-    "profit": -4299
-  },
-  {
-    "ok": true,
-    "base_id": "T4_OFF_LAMP_UNDEAD",
-    "target_id": "T4_OFF_LAMP_UNDEAD@2",
-    "base_price": 39978,
-    "target_price": 44433,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 8832,
-    "total_cost": 48810,
-    "profit": -4377
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_PLATE_SET3",
-    "target_id": "T4_ARMOR_PLATE_SET3@2",
-    "base_price": 1889,
-    "target_price": 13984,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
-    },
-    "material_cost": 17664,
-    "total_cost": 19553,
-    "profit": -5569
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET2",
-    "target_id": "T4_ARMOR_LEATHER_SET2@3",
-    "base_price": 1352,
-    "target_price": 115000,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192,
-      "T4_RELIC": 192
-    },
-    "material_cost": 119232,
-    "total_cost": 120584,
-    "profit": -5584
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_CLOTH_SET2",
-    "target_id": "T4_HEAD_CLOTH_SET2@3",
-    "base_price": 1992,
-    "target_price": 55983,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 61608,
-    "profit": -5625
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_RAPIER_MORGANA",
-    "target_id": "T4_MAIN_RAPIER_MORGANA@2",
-    "base_price": 9490,
-    "target_price": 29998,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288
-    },
-    "material_cost": 26496,
-    "total_cost": 35986,
-    "profit": -5988
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_KNUCKLES_SET3",
-    "target_id": "T4_2H_KNUCKLES_SET3@2",
-    "base_price": 7877,
-    "target_price": 36995,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 43205,
-    "profit": -6210
-  },
-  {
-    "ok": true,
-    "base_id": "T4_OFF_JESTERCANE_HELL",
-    "target_id": "T4_OFF_JESTERCANE_HELL@2",
-    "base_price": 25498,
-    "target_price": 27998,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 8832,
-    "total_cost": 34330,
-    "profit": -6332
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET1",
-    "target_id": "T4_ARMOR_LEATHER_SET1@3",
-    "base_price": 2185,
-    "target_price": 114994,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192,
-      "T4_RELIC": 192
-    },
-    "material_cost": 119232,
-    "total_cost": 121417,
-    "profit": -6423
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_SWORD",
-    "target_id": "T4_MAIN_SWORD@2",
-    "base_price": 4498,
-    "target_price": 24498,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288
-    },
-    "material_cost": 26496,
-    "total_cost": 30994,
-    "profit": -6496
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_HAMMER",
-    "target_id": "T4_MAIN_HAMMER@2",
-    "base_price": 1599,
-    "target_price": 19955,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288
-    },
-    "material_cost": 26496,
-    "total_cost": 28095,
-    "profit": -8140
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_BOW",
-    "target_id": "T4_2H_BOW@2",
-    "base_price": 3716,
-    "target_price": 30768,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 39044,
-    "profit": -8276
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_FEY",
-    "target_id": "T4_ARMOR_LEATHER_FEY@2",
-    "base_price": 351000,
-    "target_price": 359999,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
-    },
-    "material_cost": 17664,
-    "total_cost": 368664,
-    "profit": -8665
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_FIRESTAFF",
-    "target_id": "T4_2H_FIRESTAFF@2",
-    "base_price": 5454,
-    "target_price": 31999,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 40782,
-    "profit": -8783
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_PLATE_SET2",
-    "target_id": "T4_SHOES_PLATE_SET2@3",
-    "base_price": 1882,
-    "target_price": 51985,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 61498,
-    "profit": -9513
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_LONGBOW",
-    "target_id": "T5_2H_LONGBOW@1",
-    "base_price": 9926,
-    "target_price": 15855,
-    "required_materials": {
-      "T5_RUNE": 384
-    },
-    "material_cost": 15744,
-    "total_cost": 25670,
-    "profit": -9815
-  },
-  {
-    "ok": true,
-    "base_id": "T7_SHOES_LEATHER_SET3",
-    "target_id": "T7_SHOES_LEATHER_SET3@1",
-    "base_price": 100979,
-    "target_price": 135945,
-    "required_materials": {
-      "T7_RUNE": 96
-    },
-    "material_cost": 44928,
-    "total_cost": 145907,
-    "profit": -9962
-  },
-  {
-    "ok": true,
-    "base_id": "T4_OFF_LAMP_UNDEAD",
-    "target_id": "T4_OFF_LAMP_UNDEAD@3",
-    "base_price": 39978,
-    "target_price": 89472,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 99594,
-    "profit": -10122
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_SET3",
-    "target_id": "T4_ARMOR_LEATHER_SET3@3",
-    "base_price": 2149,
-    "target_price": 110999,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192,
-      "T4_RELIC": 192
-    },
-    "material_cost": 119232,
-    "total_cost": 121381,
-    "profit": -10382
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_ROYAL",
-    "target_id": "T4_ARMOR_LEATHER_ROYAL@1",
-    "base_price": 199925,
-    "target_price": 190998,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1728,
-    "total_cost": 201653,
-    "profit": -10655
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_1HCROSSBOW",
-    "target_id": "T4_MAIN_1HCROSSBOW@3",
-    "base_price": 6999,
-    "target_price": 173996,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288,
-      "T4_RELIC": 288
-    },
-    "material_cost": 178848,
-    "total_cost": 185847,
-    "profit": -11851
+    "material_cost": 1536,
+    "total_cost": 6313,
+    "profit": 305
   },
   {
     "ok": true,
     "base_id": "T4_OFF_HORN_KEEPER",
-    "target_id": "T4_OFF_HORN_KEEPER@3",
-    "base_price": 9995,
-    "target_price": 57493,
+    "target_id": "T4_OFF_HORN_KEEPER@1",
+    "base_price": 9967,
+    "target_price": 10997,
     "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
+      "T4_RUNE": 96
     },
-    "material_cost": 59616,
-    "total_cost": 69611,
-    "profit": -12118
+    "material_cost": 768,
+    "total_cost": 10735,
+    "profit": 262
   },
   {
     "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_ROYAL",
-    "target_id": "T4_ARMOR_LEATHER_ROYAL@2",
-    "base_price": 199925,
-    "target_price": 202904,
+    "base_id": "T4_SHOES_LEATHER_MORGANA",
+    "target_id": "T4_SHOES_LEATHER_MORGANA@1",
+    "base_price": 7291,
+    "target_price": 8235,
     "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192
+      "T4_RUNE": 96
     },
-    "material_cost": 17664,
-    "total_cost": 217589,
-    "profit": -14685
+    "material_cost": 768,
+    "total_cost": 8059,
+    "profit": 176
   },
   {
     "ok": true,
-    "base_id": "T4_2H_ENIGMATICORB_MORGANA",
-    "target_id": "T4_2H_ENIGMATICORB_MORGANA@2",
-    "base_price": 5990,
-    "target_price": 24987,
+    "base_id": "T4_CAPEITEM_FW_BRECILIEN",
+    "target_id": "T4_CAPEITEM_FW_BRECILIEN@1",
+    "base_price": 127957,
+    "target_price": 128897,
     "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
+      "T4_RUNE": 96
     },
-    "material_cost": 35328,
-    "total_cost": 41318,
-    "profit": -16331
+    "material_cost": 768,
+    "total_cost": 128725,
+    "profit": 172
   },
   {
     "ok": true,
-    "base_id": "T6_2H_BOW",
-    "target_id": "T6_2H_BOW@1",
-    "base_price": 20790,
-    "target_price": 66364,
+    "base_id": "T4_MAIN_CURSEDSTAFF_AVALON",
+    "target_id": "T4_MAIN_CURSEDSTAFF_AVALON@1",
+    "base_price": 24527,
+    "target_price": 26995,
     "required_materials": {
-      "T6_RUNE": 384
+      "T4_RUNE": 288
     },
-    "material_cost": 62592,
-    "total_cost": 83382,
-    "profit": -17018
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_RAM_KEEPER",
-    "target_id": "T5_2H_RAM_KEEPER@3",
-    "base_price": 33770,
-    "target_price": 392995,
-    "required_materials": {
-      "T5_RUNE": 384,
-      "T5_SOUL": 384,
-      "T5_RELIC": 384
-    },
-    "material_cost": 379008,
-    "total_cost": 412778,
-    "profit": -19783
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_HELL",
-    "target_id": "T4_ARMOR_LEATHER_HELL@3",
-    "base_price": 42954,
-    "target_price": 140989,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192,
-      "T4_RELIC": 192
-    },
-    "material_cost": 119232,
-    "total_cost": 162186,
-    "profit": -21197
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_CLOTH_SET2",
-    "target_id": "T4_SHOES_CLOTH_SET2@3",
-    "base_price": 1080,
-    "target_price": 39492,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 60696,
-    "profit": -21204
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_PLATE_KEEPER",
-    "target_id": "T4_SHOES_PLATE_KEEPER@3",
-    "base_price": 4999,
-    "target_price": 43291,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 64615,
-    "profit": -21324
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_FLAIL",
-    "target_id": "T4_2H_FLAIL@2",
-    "base_price": 8381,
-    "target_price": 21799,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 43709,
-    "profit": -21910
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_CLOTH_SET3",
-    "target_id": "T4_SHOES_CLOTH_SET3@3",
-    "base_price": 1449,
-    "target_price": 38664,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 61065,
-    "profit": -22401
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_PLATE_UNDEAD",
-    "target_id": "T4_SHOES_PLATE_UNDEAD@3",
-    "base_price": 3483,
-    "target_price": 40486,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 63099,
-    "profit": -22613
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_RAM_KEEPER",
-    "target_id": "T5_2H_RAM_KEEPER@2",
-    "base_price": 33770,
-    "target_price": 108997,
-    "required_materials": {
-      "T5_RUNE": 384,
-      "T5_SOUL": 384
-    },
-    "material_cost": 97920,
-    "total_cost": 131690,
-    "profit": -22693
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_ENIGMATICSTAFF",
-    "target_id": "T4_2H_ENIGMATICSTAFF@2",
-    "base_price": 10949,
-    "target_price": 21999,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384
-    },
-    "material_cost": 35328,
-    "total_cost": 46277,
-    "profit": -24278
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_AVALON",
-    "target_id": "T4_HEAD_LEATHER_AVALON@3",
-    "base_price": 12995,
-    "target_price": 45537,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 59616,
-    "total_cost": 72611,
-    "profit": -27074
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_RAM_KEEPER",
-    "target_id": "T4_2H_RAM_KEEPER@3",
-    "base_price": 6991,
-    "target_price": 218000,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384,
-      "T4_RELIC": 384
-    },
-    "material_cost": 238464,
-    "total_cost": 245455,
-    "profit": -27455
-  },
-  {
-    "ok": true,
-    "base_id": "T4_BAG",
-    "target_id": "T4_BAG@3",
-    "base_price": 4777,
-    "target_price": 90998,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192,
-      "T4_RELIC": 192
-    },
-    "material_cost": 119232,
-    "total_cost": 124009,
-    "profit": -33011
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_CURSEDSTAFF_CRYSTAL",
-    "target_id": "T4_MAIN_CURSEDSTAFF_CRYSTAL@2",
-    "base_price": 434996,
-    "target_price": 420000,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288
-    },
-    "material_cost": 26496,
-    "total_cost": 461492,
-    "profit": -41492
-  },
-  {
-    "ok": true,
-    "base_id": "T6_2H_BOW",
-    "target_id": "T6_2H_BOW@2",
-    "base_price": 20790,
-    "target_price": 308987,
-    "required_materials": {
-      "T6_RUNE": 384,
-      "T6_SOUL": 384
-    },
-    "material_cost": 329856,
-    "total_cost": 350646,
-    "profit": -41659
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_CLOTH_SET3",
-    "target_id": "T4_ARMOR_CLOTH_SET3@3",
-    "base_price": 2694,
-    "target_price": 79993,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192,
-      "T4_RELIC": 192
-    },
-    "material_cost": 119232,
-    "total_cost": 121926,
-    "profit": -41933
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_FEY",
-    "target_id": "T4_ARMOR_LEATHER_FEY@3",
-    "base_price": 351000,
-    "target_price": 424988,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192,
-      "T4_RELIC": 192
-    },
-    "material_cost": 119232,
-    "total_cost": 470232,
-    "profit": -45244
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_ROYAL",
-    "target_id": "T4_ARMOR_LEATHER_ROYAL@3",
-    "base_price": 199925,
-    "target_price": 269000,
-    "required_materials": {
-      "T4_RUNE": 192,
-      "T4_SOUL": 192,
-      "T4_RELIC": 192
-    },
-    "material_cost": 119232,
-    "total_cost": 319157,
-    "profit": -50157
-  },
-  {
-    "ok": true,
-    "base_id": "T7_SHOES_LEATHER_SET3",
-    "target_id": "T7_SHOES_LEATHER_SET3@2",
-    "base_price": 100979,
-    "target_price": 399993,
-    "required_materials": {
-      "T7_RUNE": 96,
-      "T7_SOUL": 96
-    },
-    "material_cost": 368352,
-    "total_cost": 469331,
-    "profit": -69338
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_SHAPESHIFTER_AVALON",
-    "target_id": "T4_2H_SHAPESHIFTER_AVALON@3",
-    "base_price": 80900,
-    "target_price": 212992,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384,
-      "T4_RELIC": 384
-    },
-    "material_cost": 238464,
-    "total_cost": 319364,
-    "profit": -106372
-  },
-  {
-    "ok": true,
-    "base_id": "T7_2H_BOW",
-    "target_id": "T7_2H_BOW@2",
-    "base_price": 92000,
-    "target_price": 1449999,
-    "required_materials": {
-      "T7_RUNE": 384,
-      "T7_SOUL": 384
-    },
-    "material_cost": 1473408,
-    "total_cost": 1565408,
-    "profit": -115409
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_BOW",
-    "target_id": "T4_2H_BOW@3",
-    "base_price": 3716,
-    "target_price": 102991,
-    "required_materials": {
-      "T4_RUNE": 384,
-      "T4_SOUL": 384,
-      "T4_RELIC": 384
-    },
-    "material_cost": 238464,
-    "total_cost": 242180,
-    "profit": -139189
-  },
-  {
-    "ok": true,
-    "base_id": "T8_2H_BOW",
-    "target_id": "T8_2H_BOW@1",
-    "base_price": 364997,
-    "target_price": 1099995,
-    "required_materials": {
-      "T8_RUNE": 384
-    },
-    "material_cost": 1061376,
-    "total_cost": 1426373,
-    "profit": -326378
-  },
-  {
-    "ok": true,
-    "base_id": "T7_MAIN_1HCROSSBOW",
-    "target_id": "T7_MAIN_1HCROSSBOW@3",
-    "base_price": 159992,
-    "target_price": 3199999,
-    "required_materials": {
-      "T7_RUNE": 288,
-      "T7_SOUL": 288,
-      "T7_RELIC": 288
-    },
-    "material_cost": 3473568,
-    "total_cost": 3633560,
-    "profit": -433561
-  },
-  {
-    "ok": true,
-    "base_id": "T8_2H_BOW",
-    "target_id": "T8_2H_BOW@2",
-    "base_price": 364997,
-    "target_price": 3500000,
-    "required_materials": {
-      "T8_RUNE": 384,
-      "T8_SOUL": 384
-    },
-    "material_cost": 4649856,
-    "total_cost": 5014853,
-    "profit": -1514853
+    "material_cost": 2304,
+    "total_cost": 26831,
+    "profit": 164
   }
 ]

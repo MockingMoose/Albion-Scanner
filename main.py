@@ -3,14 +3,14 @@ import os
 
 from scanner.scan import batched_scan, build_item_list, chunk_items_by_url_limit, generate_enchants
 from storage.storage import save_results, load_results
-from analysis.flip_scan import run_flip_scan
+from scanner.flip_scan import run_flip_scan
 import analysis.enchant_profit as ep
 
 if __name__ == "__main__":
-    cities = ["Bridgewatch"]
-    results = batched_scan(cities)
-    save_results(results)
-    print(f"Scan complete. Saved {len(results)} entries.")
+    #cities = ["Bridgewatch"]
+    #results = batched_scan(cities)
+    #save_results(results)
+    #print(f"Scan complete. Saved {len(results)} entries.")
 
     BASE_DIR = os.path.dirname(os.path.dirname(__file__))
     STORAGE_FILE = os.path.join(BASE_DIR, "albion-scanner/data", "all_items.json")
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     results = (run_flip_scan(items, lowest))
 
     def save_results(results):
-        with open("/profits.json", "w") as f:
+        with open("data/profits.json", "w") as f:
             json.dump(results, f, indent=2)
 
     save_results(results)
