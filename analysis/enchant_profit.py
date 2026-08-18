@@ -1,5 +1,30 @@
 from analysis.enchant_rules import ENCHANT_MATERIALS, ENCHANT_MAP
 from collections import defaultdict
+from datetime import timedelta, datetime
+
+def sold_recently(entries, days=3):
+    if not entries:
+        return False
+
+    cutoff = datetime.now() - timedelta(days=days)
+
+    for entry in entries:
+        if entry.get("sell_price", 0) <= 0:
+            continue
+
+        date_str = entry.get("last_sold")
+        if not date_str or date_str == "0001-01-01T00:00:00":
+            continue
+
+        try:
+            last_update = datetime.fromisoformat(date_str)
+        except ValueError:
+            continue
+
+        if last_update >= cutoff:
+            return True
+
+    return False
 
 def strip(item_id):
     return item_id.split("@")[0]
@@ -154,9 +179,15 @@ def get_current_sell_price(item_id, lowest_prices):
         return None
     return lowest_prices.get(item_id)
 
-def evaluate_flip(base_id, target_id, lowest_prices):
+def evaluate_flip(base_id, target_id, lowest_prices, target_entries):
     reqired_materials = get_materials(base_id, target_id)
-
+    
+    if not sold_recently(target_entries):
+        return {
+            "ok": False,
+            "reason": "not sold recently"
+        }
+    
     if reqired_materials is None:
         return {
             "ok": False,

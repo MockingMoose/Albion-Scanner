@@ -7,10 +7,10 @@ from scanner.flip_scan import run_flip_scan
 import analysis.enchant_profit as ep
 
 if __name__ == "__main__":
-    #cities = ["Bridgewatch"]
-    #results = batched_scan(cities)
-    #save_results(results)
-    #print(f"Scan complete. Saved {len(results)} entries.")
+    cities = ["Bridgewatch"]
+    results = batched_scan(cities)
+    save_results(results)
+    print(f"Scan complete. Saved {len(results)} entries.")
 
     BASE_DIR = os.path.dirname(os.path.dirname(__file__))
     STORAGE_FILE = os.path.join(BASE_DIR, "albion-scanner/data", "all_items.json")
@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     lowest = ep.get_lowest_sell(grouped)
 
-    results = (run_flip_scan(items, lowest))
+    results = (run_flip_scan(items, lowest, grouped))
 
     def save_results(results):
         with open("data/profits.json", "w") as f:
