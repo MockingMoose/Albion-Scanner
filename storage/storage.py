@@ -11,4 +11,25 @@ def save_results(results):
 def load_results():
     with open(STORAGE_FILE, "r") as f:
         return json.load(f)
-    
+
+def load_items():
+    with open("./data/items_name.json", "r", encoding="utf-8") as f:
+        items_data = json.load(f)
+
+    item_names = {}
+
+    for item in items_data:
+        unique = item.get("UniqueName")
+        if not unique:
+            continue 
+
+        localized = item.get("LocalizedNames")
+
+        if isinstance(localized, dict):
+            name = localized.get("EN-US", unique)
+        else:
+            name = unique
+
+        item_names[unique] = name
+
+    return item_names

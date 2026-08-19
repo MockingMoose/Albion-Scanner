@@ -1,2209 +1,2899 @@
 [
   {
     "ok": true,
-    "base_id": "T7_ARMOR_PLATE_SET3",
-    "target_id": "T7_ARMOR_PLATE_SET3@3",
-    "base_price": 70000,
-    "target_price": 3259998,
+    "base_id": "T7_SHOES_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_ROYAL.png",
+    "base_name": "Grandmaster's Royal Sandals",
+    "base_enchant": 0,
+    "target_id": "T7_SHOES_CLOTH_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_ROYAL@2.png",
+    "target_name": "Grandmaster's Royal Sandals",
+    "target_enchant": 2,
+    "base_price": 698990,
+    "target_price": 1388879,
+    "required_materials": {
+      "T7_RUNE": 96,
+      "T7_SOUL": 96
+    },
+    "material_cost": 287616,
+    "total_cost": 986606,
+    "profit": 402273
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_LEATHER_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_FEY.png",
+    "base_name": "Expert's Mistwalker Jacket",
+    "base_enchant": 0,
+    "target_id": "T5_ARMOR_LEATHER_FEY@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_FEY@2.png",
+    "target_name": "Expert's Mistwalker Jacket",
+    "target_enchant": 2,
+    "base_price": 799997,
+    "target_price": 1249999,
+    "required_materials": {
+      "T5_RUNE": 192,
+      "T5_SOUL": 192
+    },
+    "material_cost": 57600,
+    "total_cost": 857597,
+    "profit": 392402
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_LEATHER_FEY@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_FEY@1.png",
+    "base_name": "Expert's Mistwalker Jacket",
+    "base_enchant": 1,
+    "target_id": "T5_ARMOR_LEATHER_FEY@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_FEY@2.png",
+    "target_name": "Expert's Mistwalker Jacket",
+    "target_enchant": 2,
+    "base_price": 817969,
+    "target_price": 1249999,
+    "required_materials": {
+      "T5_SOUL": 192
+    },
+    "material_cost": 51456,
+    "total_cost": 869425,
+    "profit": 380574
+  },
+  {
+    "ok": true,
+    "base_id": "T6_2H_HOLYSTAFF@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_2H_HOLYSTAFF@1.png",
+    "base_name": "Master's Great Holy Staff",
+    "base_enchant": 1,
+    "target_id": "T6_2H_HOLYSTAFF@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_2H_HOLYSTAFF@3.png",
+    "target_name": "Master's Great Holy Staff",
+    "target_enchant": 3,
+    "base_price": 90976,
+    "target_price": 1555554,
+    "required_materials": {
+      "T6_SOUL": 384,
+      "T6_RELIC": 384
+    },
+    "material_cost": 1087872,
+    "total_cost": 1178848,
+    "profit": 376706
+  },
+  {
+    "ok": true,
+    "base_id": "T7_BAG",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_BAG.png",
+    "base_name": "Grandmaster's Bag",
+    "base_enchant": 0,
+    "target_id": "T7_BAG@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_BAG@3.png",
+    "target_name": "Grandmaster's Bag",
+    "target_enchant": 3,
+    "base_price": 123993,
+    "target_price": 2649946,
     "required_materials": {
       "T7_RUNE": 192,
       "T7_SOUL": 192,
       "T7_RELIC": 192
     },
-    "material_cost": 2160576,
-    "total_cost": 2230576,
-    "profit": 1029422
+    "material_cost": 2159040,
+    "total_cost": 2283033,
+    "profit": 366913
   },
   {
     "ok": true,
-    "base_id": "T7_ARMOR_PLATE_SET3@1",
-    "target_id": "T7_ARMOR_PLATE_SET3@3",
-    "base_price": 228727,
-    "target_price": 3259998,
+    "base_id": "T6_2H_HOLYSTAFF",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_2H_HOLYSTAFF.png",
+    "base_name": "Master's Great Holy Staff",
+    "base_enchant": 0,
+    "target_id": "T6_2H_HOLYSTAFF@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_2H_HOLYSTAFF@3.png",
+    "target_name": "Master's Great Holy Staff",
+    "target_enchant": 3,
+    "base_price": 44987,
+    "target_price": 1555554,
     "required_materials": {
-      "T7_SOUL": 192,
-      "T7_RELIC": 192
+      "T6_RUNE": 384,
+      "T6_SOUL": 384,
+      "T6_RELIC": 384
     },
-    "material_cost": 2070912,
-    "total_cost": 2299639,
-    "profit": 960359
+    "material_cost": 1158144,
+    "total_cost": 1203131,
+    "profit": 352423
   },
   {
     "ok": true,
-    "base_id": "T6_MAIN_MACE@1",
-    "target_id": "T6_MAIN_MACE@3",
-    "base_price": 159933,
-    "target_price": 1850000,
+    "base_id": "T7_MAIN_HOLYSTAFF",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_MAIN_HOLYSTAFF.png",
+    "base_name": "Grandmaster's Holy Staff",
+    "base_enchant": 0,
+    "target_id": "T7_MAIN_HOLYSTAFF@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_MAIN_HOLYSTAFF@2.png",
+    "target_name": "Grandmaster's Holy Staff",
+    "target_enchant": 2,
+    "base_price": 129749,
+    "target_price": 1333332,
     "required_materials": {
-      "T6_SOUL": 288,
-      "T6_RELIC": 288
+      "T7_RUNE": 288,
+      "T7_SOUL": 288
     },
-    "material_cost": 834912,
-    "total_cost": 994845,
-    "profit": 855155
+    "material_cost": 862848,
+    "total_cost": 992597,
+    "profit": 340735
   },
   {
     "ok": true,
-    "base_id": "T7_ARMOR_PLATE_SET3@2",
-    "target_id": "T7_ARMOR_PLATE_SET3@3",
-    "base_price": 849999,
-    "target_price": 3259998,
+    "base_id": "T7_MAIN_AXE",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_MAIN_AXE.png",
+    "base_name": "Grandmaster's Battleaxe",
+    "base_enchant": 0,
+    "target_id": "T7_MAIN_AXE@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_MAIN_AXE@2.png",
+    "target_name": "Grandmaster's Battleaxe",
+    "target_enchant": 2,
+    "base_price": 170000,
+    "target_price": 1349983,
     "required_materials": {
-      "T7_RELIC": 192
+      "T7_RUNE": 288,
+      "T7_SOUL": 288
     },
-    "material_cost": 1588608,
-    "total_cost": 2438607,
-    "profit": 821391
+    "material_cost": 862848,
+    "total_cost": 1032848,
+    "profit": 317135
   },
   {
     "ok": true,
-    "base_id": "T6_MAIN_MACE@2",
-    "target_id": "T6_MAIN_MACE@3",
-    "base_price": 519993,
-    "target_price": 1850000,
+    "base_id": "T7_SHOES_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_ROYAL.png",
+    "base_name": "Grandmaster's Royal Sandals",
+    "base_enchant": 0,
+    "target_id": "T7_SHOES_CLOTH_ROYAL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_ROYAL@1.png",
+    "target_name": "Grandmaster's Royal Sandals",
+    "target_enchant": 1,
+    "base_price": 698990,
+    "target_price": 1048989,
     "required_materials": {
-      "T6_RELIC": 288
+      "T7_RUNE": 96
     },
-    "material_cost": 643392,
-    "total_cost": 1163385,
-    "profit": 686615
+    "material_cost": 51072,
+    "total_cost": 750062,
+    "profit": 298927
   },
   {
     "ok": true,
-    "base_id": "T7_MAIN_MACE@1",
-    "target_id": "T7_MAIN_MACE@2",
-    "base_price": 524998,
-    "target_price": 1679899,
+    "base_id": "T7_MAIN_ARCANESTAFF",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_MAIN_ARCANESTAFF.png",
+    "base_name": "Grandmaster's Arcane Staff",
+    "base_enchant": 0,
+    "target_id": "T7_MAIN_ARCANESTAFF@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_MAIN_ARCANESTAFF@2.png",
+    "target_name": "Grandmaster's Arcane Staff",
+    "target_enchant": 2,
+    "base_price": 94998,
+    "target_price": 1229993,
+    "required_materials": {
+      "T7_RUNE": 288,
+      "T7_SOUL": 288
+    },
+    "material_cost": 862848,
+    "total_cost": 957846,
+    "profit": 272147
+  },
+  {
+    "ok": true,
+    "base_id": "T6_SHOES_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_ROYAL.png",
+    "base_name": "Master's Royal Sandals",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_ROYAL@2.png",
+    "target_name": "Master's Royal Sandals",
+    "target_enchant": 2,
+    "base_price": 299000,
+    "target_price": 598984,
+    "required_materials": {
+      "T6_RUNE": 96,
+      "T6_SOUL": 96
+    },
+    "material_cost": 86496,
+    "total_cost": 385496,
+    "profit": 213488
+  },
+  {
+    "ok": true,
+    "base_id": "T6_MAIN_SPEAR_LANCE_AVALON@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_MAIN_SPEAR_LANCE_AVALON@1.png",
+    "base_name": "Master's Daybreaker",
+    "base_enchant": 1,
+    "target_id": "T6_MAIN_SPEAR_LANCE_AVALON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_MAIN_SPEAR_LANCE_AVALON@2.png",
+    "target_name": "Master's Daybreaker",
+    "target_enchant": 2,
+    "base_price": 209996,
+    "target_price": 599999,
+    "required_materials": {
+      "T6_SOUL": 288
+    },
+    "material_cost": 206784,
+    "total_cost": 416780,
+    "profit": 183219
+  },
+  {
+    "ok": true,
+    "base_id": "T7_MAIN_HOLYSTAFF@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_MAIN_HOLYSTAFF@1.png",
+    "base_name": "Grandmaster's Holy Staff",
+    "base_enchant": 1,
+    "target_id": "T7_MAIN_HOLYSTAFF@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_MAIN_HOLYSTAFF@2.png",
+    "target_name": "Grandmaster's Holy Staff",
+    "target_enchant": 2,
+    "base_price": 448523,
+    "target_price": 1333332,
     "required_materials": {
       "T7_SOUL": 288
     },
-    "material_cost": 723456,
-    "total_cost": 1248454,
-    "profit": 431445
+    "material_cost": 709632,
+    "total_cost": 1158155,
+    "profit": 175177
   },
   {
     "ok": true,
-    "base_id": "T7_2H_DIVINESTAFF",
-    "target_id": "T7_2H_DIVINESTAFF@2",
-    "base_price": 130000,
-    "target_price": 1598893,
+    "base_id": "T7_MAIN_HOLYSTAFF",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_MAIN_HOLYSTAFF.png",
+    "base_name": "Grandmaster's Holy Staff",
+    "base_enchant": 0,
+    "target_id": "T7_MAIN_HOLYSTAFF@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_MAIN_HOLYSTAFF@1.png",
+    "target_name": "Grandmaster's Holy Staff",
+    "target_enchant": 1,
+    "base_price": 129749,
+    "target_price": 448523,
     "required_materials": {
-      "T7_RUNE": 384,
-      "T7_SOUL": 384
+      "T7_RUNE": 288
     },
-    "material_cost": 1143936,
-    "total_cost": 1273936,
-    "profit": 324957
+    "material_cost": 153216,
+    "total_cost": 282965,
+    "profit": 165558
   },
   {
     "ok": true,
-    "base_id": "T6_2H_ARCANESTAFF_HELL",
-    "target_id": "T6_2H_ARCANESTAFF_HELL@2",
-    "base_price": 38000,
-    "target_price": 659998,
-    "required_materials": {
-      "T6_RUNE": 384,
-      "T6_SOUL": 384
-    },
-    "material_cost": 312192,
-    "total_cost": 350192,
-    "profit": 309806
-  },
-  {
-    "ok": true,
-    "base_id": "T7_HEAD_CLOTH_SET2@2",
-    "target_id": "T7_HEAD_CLOTH_SET2@3",
-    "base_price": 299899,
-    "target_price": 1399985,
-    "required_materials": {
-      "T7_RELIC": 96
-    },
-    "material_cost": 794304,
-    "total_cost": 1094203,
-    "profit": 305782
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_FEY",
-    "target_id": "T5_HEAD_LEATHER_FEY@1",
-    "base_price": 299999,
-    "target_price": 590000,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 2976,
-    "total_cost": 302975,
-    "profit": 287025
-  },
-  {
-    "ok": true,
-    "base_id": "T7_HEAD_CLOTH_SET2",
-    "target_id": "T7_HEAD_CLOTH_SET2@3",
-    "base_price": 48966,
-    "target_price": 1399985,
+    "base_id": "T7_SHOES_CLOTH_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_HELL.png",
+    "base_name": "Grandmaster's Fiend Sandals",
+    "base_enchant": 0,
+    "target_id": "T7_SHOES_CLOTH_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_HELL@2.png",
+    "target_name": "Grandmaster's Fiend Sandals",
+    "target_enchant": 2,
+    "base_price": 51967,
+    "target_price": 484926,
     "required_materials": {
       "T7_RUNE": 96,
-      "T7_SOUL": 96,
-      "T7_RELIC": 96
+      "T7_SOUL": 96
     },
-    "material_cost": 1080288,
-    "total_cost": 1129254,
-    "profit": 270731
+    "material_cost": 287616,
+    "total_cost": 339583,
+    "profit": 145343
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_LEATHER_FEY",
-    "target_id": "T5_HEAD_LEATHER_FEY@2",
-    "base_price": 299999,
-    "target_price": 539997,
+    "base_id": "T5_HEAD_PLATE_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_HEAD_PLATE_ROYAL.png",
+    "base_name": "Expert's Royal Helmet",
+    "base_enchant": 0,
+    "target_id": "T5_HEAD_PLATE_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_HEAD_PLATE_ROYAL@2.png",
+    "target_name": "Expert's Royal Helmet",
+    "target_enchant": 2,
+    "base_price": 269785,
+    "target_price": 440200,
     "required_materials": {
       "T5_RUNE": 96,
       "T5_SOUL": 96
     },
-    "material_cost": 25440,
-    "total_cost": 325439,
-    "profit": 214558
+    "material_cost": 28800,
+    "total_cost": 298585,
+    "profit": 141615
   },
   {
     "ok": true,
-    "base_id": "T7_ARMOR_PLATE_SET3",
-    "target_id": "T7_ARMOR_PLATE_SET3@2",
-    "base_price": 70000,
-    "target_price": 849999,
+    "base_id": "T7_SHOES_CLOTH_HELL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_HELL@1.png",
+    "base_name": "Grandmaster's Fiend Sandals",
+    "base_enchant": 1,
+    "target_id": "T7_SHOES_CLOTH_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_HELL@2.png",
+    "target_name": "Grandmaster's Fiend Sandals",
+    "target_enchant": 2,
+    "base_price": 110579,
+    "target_price": 484926,
     "required_materials": {
-      "T7_RUNE": 192,
-      "T7_SOUL": 192
+      "T7_SOUL": 96
     },
-    "material_cost": 571968,
-    "total_cost": 641968,
-    "profit": 208031
+    "material_cost": 236544,
+    "total_cost": 347123,
+    "profit": 137803
   },
   {
     "ok": true,
-    "base_id": "T6_2H_DUALSWORD",
-    "target_id": "T6_2H_DUALSWORD@2",
-    "base_price": 53061,
-    "target_price": 534994,
+    "base_id": "T6_SHOES_CLOTH_ROYAL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_ROYAL@1.png",
+    "base_name": "Master's Royal Sandals",
+    "base_enchant": 1,
+    "target_id": "T6_SHOES_CLOTH_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_ROYAL@2.png",
+    "target_name": "Master's Royal Sandals",
+    "target_enchant": 2,
+    "base_price": 400932,
+    "target_price": 598984,
     "required_materials": {
-      "T6_RUNE": 384,
-      "T6_SOUL": 384
+      "T6_SOUL": 96
     },
-    "material_cost": 312192,
-    "total_cost": 365253,
-    "profit": 169741
+    "material_cost": 68928,
+    "total_cost": 469860,
+    "profit": 129124
   },
   {
     "ok": true,
-    "base_id": "T6_MAIN_MACE@1",
-    "target_id": "T6_MAIN_MACE@2",
-    "base_price": 159933,
-    "target_price": 519993,
+    "base_id": "T7_SHOES_CLOTH_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_FEY.png",
+    "base_name": "Grandmaster's Feyscale Sandals",
+    "base_enchant": 0,
+    "target_id": "T7_SHOES_CLOTH_FEY@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_FEY@1.png",
+    "target_name": "Grandmaster's Feyscale Sandals",
+    "target_enchant": 1,
+    "base_price": 220000,
+    "target_price": 388884,
     "required_materials": {
-      "T6_SOUL": 288
+      "T7_RUNE": 96
     },
-    "material_cost": 191520,
-    "total_cost": 351453,
-    "profit": 168540
+    "material_cost": 51072,
+    "total_cost": 271072,
+    "profit": 117812
   },
   {
     "ok": true,
-    "base_id": "T6_2H_CLEAVER_HELL",
-    "target_id": "T6_2H_CLEAVER_HELL@2",
-    "base_price": 100929,
-    "target_price": 578882,
+    "base_id": "T7_ARMOR_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_ARMOR_CLOTH_ROYAL.png",
+    "base_name": "Grandmaster's Royal Robe",
+    "base_enchant": 0,
+    "target_id": "T7_ARMOR_CLOTH_ROYAL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_ARMOR_CLOTH_ROYAL@1.png",
+    "target_name": "Grandmaster's Royal Robe",
+    "target_enchant": 1,
+    "base_price": 1387890,
+    "target_price": 1598776,
     "required_materials": {
-      "T6_RUNE": 384,
-      "T6_SOUL": 384
+      "T7_RUNE": 192
     },
-    "material_cost": 312192,
-    "total_cost": 413121,
-    "profit": 165761
+    "material_cost": 102144,
+    "total_cost": 1490034,
+    "profit": 108742
   },
   {
     "ok": true,
-    "base_id": "T6_2H_CLEAVER_HELL@1",
-    "target_id": "T6_2H_CLEAVER_HELL@2",
-    "base_price": 158995,
-    "target_price": 578882,
+    "base_id": "T7_SHOES_CLOTH_ROYAL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_ROYAL@1.png",
+    "base_name": "Grandmaster's Royal Sandals",
+    "base_enchant": 1,
+    "target_id": "T7_SHOES_CLOTH_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_ROYAL@2.png",
+    "target_name": "Grandmaster's Royal Sandals",
+    "target_enchant": 2,
+    "base_price": 1048989,
+    "target_price": 1388879,
     "required_materials": {
-      "T6_SOUL": 384
+      "T7_SOUL": 96
     },
-    "material_cost": 255360,
-    "total_cost": 414355,
-    "profit": 164527
+    "material_cost": 236544,
+    "total_cost": 1285533,
+    "profit": 103346
   },
   {
     "ok": true,
-    "base_id": "T6_HEAD_LEATHER_SET3@1",
-    "target_id": "T6_HEAD_LEATHER_SET3@3",
-    "base_price": 58999,
-    "target_price": 480997,
+    "base_id": "T6_CAPEITEM_FW_CAERLEON@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_CAPEITEM_FW_CAERLEON@1.png",
+    "base_name": "Master's Caerleon Cape",
+    "base_enchant": 1,
+    "target_id": "T6_CAPEITEM_FW_CAERLEON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_CAPEITEM_FW_CAERLEON@2.png",
+    "target_name": "Master's Caerleon Cape",
+    "target_enchant": 2,
+    "base_price": 229977,
+    "target_price": 399959,
     "required_materials": {
-      "T6_SOUL": 96,
-      "T6_RELIC": 96
+      "T6_SOUL": 96
     },
-    "material_cost": 278304,
-    "total_cost": 337303,
-    "profit": 143694
+    "material_cost": 68928,
+    "total_cost": 298905,
+    "profit": 101054
   },
   {
     "ok": true,
-    "base_id": "T6_2H_DUALSCIMITAR_UNDEAD",
-    "target_id": "T6_2H_DUALSCIMITAR_UNDEAD@1",
-    "base_price": 399000,
-    "target_price": 598987,
-    "required_materials": {
-      "T6_RUNE": 384
-    },
-    "material_cost": 56832,
-    "total_cost": 455832,
-    "profit": 143155
-  },
-  {
-    "ok": true,
-    "base_id": "T7_ARMOR_PLATE_SET3@1",
-    "target_id": "T7_ARMOR_PLATE_SET3@2",
-    "base_price": 228727,
-    "target_price": 849999,
-    "required_materials": {
-      "T7_SOUL": 192
-    },
-    "material_cost": 482304,
-    "total_cost": 711031,
-    "profit": 138968
-  },
-  {
-    "ok": true,
-    "base_id": "T7_ARMOR_PLATE_UNDEAD@1",
-    "target_id": "T7_ARMOR_PLATE_UNDEAD@2",
-    "base_price": 289996,
-    "target_price": 899963,
-    "required_materials": {
-      "T7_SOUL": 192
-    },
-    "material_cost": 482304,
-    "total_cost": 772300,
-    "profit": 127663
-  },
-  {
-    "ok": true,
-    "base_id": "T6_HEAD_LEATHER_SET3@2",
-    "target_id": "T6_HEAD_LEATHER_SET3@3",
-    "base_price": 155997,
-    "target_price": 480997,
-    "required_materials": {
-      "T6_RELIC": 96
-    },
-    "material_cost": 214464,
-    "total_cost": 370461,
-    "profit": 110536
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_CLOTH_SET2",
-    "target_id": "T5_HEAD_CLOTH_SET2@3",
-    "base_price": 5389,
-    "target_price": 219999,
+    "base_id": "T5_CAPEITEM_SMUGGLER",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_SMUGGLER.png",
+    "base_name": "Expert's Smuggler Cape",
+    "base_enchant": 0,
+    "target_id": "T5_CAPEITEM_SMUGGLER@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_SMUGGLER@2.png",
+    "target_name": "Expert's Smuggler Cape",
+    "target_enchant": 2,
+    "base_price": 99000,
+    "target_price": 214999,
     "required_materials": {
       "T5_RUNE": 96,
-      "T5_SOUL": 96,
-      "T5_RELIC": 96
+      "T5_SOUL": 96
     },
-    "material_cost": 104352,
-    "total_cost": 109741,
-    "profit": 110258
+    "material_cost": 28800,
+    "total_cost": 127800,
+    "profit": 87199
   },
   {
     "ok": true,
-    "base_id": "T5_2H_DUALSCIMITAR_UNDEAD",
-    "target_id": "T5_2H_DUALSCIMITAR_UNDEAD@2",
-    "base_price": 98998,
-    "target_price": 309999,
+    "base_id": "T6_SHOES_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_ROYAL.png",
+    "base_name": "Master's Royal Sandals",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_ROYAL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_ROYAL@1.png",
+    "target_name": "Master's Royal Sandals",
+    "target_enchant": 1,
+    "base_price": 299000,
+    "target_price": 400932,
     "required_materials": {
-      "T5_RUNE": 384,
-      "T5_SOUL": 384
+      "T6_RUNE": 96
     },
-    "material_cost": 101760,
-    "total_cost": 200758,
-    "profit": 109241
+    "material_cost": 17568,
+    "total_cost": 316568,
+    "profit": 84364
   },
   {
     "ok": true,
-    "base_id": "T5_2H_CLAYMORE_AVALON",
-    "target_id": "T5_2H_CLAYMORE_AVALON@1",
-    "base_price": 34997,
-    "target_price": 149999,
+    "base_id": "T5_HEAD_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_ROYAL.png",
+    "base_name": "Expert's Royal Cowl",
+    "base_enchant": 0,
+    "target_id": "T5_HEAD_CLOTH_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_ROYAL@2.png",
+    "target_name": "Expert's Royal Cowl",
+    "target_enchant": 2,
+    "base_price": 179871,
+    "target_price": 288944,
     "required_materials": {
-      "T5_RUNE": 384
+      "T5_RUNE": 96,
+      "T5_SOUL": 96
     },
-    "material_cost": 11904,
-    "total_cost": 46901,
-    "profit": 103098
+    "material_cost": 28800,
+    "total_cost": 208671,
+    "profit": 80273
   },
   {
     "ok": true,
-    "base_id": "T6_MAIN_SCIMITAR_MORGANA@1",
-    "target_id": "T6_MAIN_SCIMITAR_MORGANA@3",
-    "base_price": 119987,
-    "target_price": 1052312,
+    "base_id": "T4_ARMOR_LEATHER_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_ARMOR_LEATHER_FEY.png",
+    "base_name": "Adept's Mistwalker Jacket",
+    "base_enchant": 0,
+    "target_id": "T4_ARMOR_LEATHER_FEY@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_ARMOR_LEATHER_FEY@1.png",
+    "target_name": "Adept's Mistwalker Jacket",
+    "target_enchant": 1,
+    "base_price": 324999,
+    "target_price": 399979,
     "required_materials": {
-      "T6_SOUL": 288,
-      "T6_RELIC": 288
+      "T4_RUNE": 192
     },
-    "material_cost": 834912,
-    "total_cost": 954899,
-    "profit": 97413
+    "material_cost": 1728,
+    "total_cost": 326727,
+    "profit": 73252
   },
   {
     "ok": true,
     "base_id": "T5_2H_LONGBOW_UNDEAD",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_2H_LONGBOW_UNDEAD.png",
+    "base_name": "Expert's Whispering Bow",
+    "base_enchant": 0,
     "target_id": "T5_2H_LONGBOW_UNDEAD@2",
-    "base_price": 10986,
+    "target_icon": "https://render.albiononline.com/v1/item/T5_2H_LONGBOW_UNDEAD@2.png",
+    "target_name": "Expert's Whispering Bow",
+    "target_enchant": 2,
+    "base_price": 14060,
     "target_price": 198982,
     "required_materials": {
       "T5_RUNE": 384,
       "T5_SOUL": 384
     },
-    "material_cost": 101760,
-    "total_cost": 112746,
-    "profit": 86236
+    "material_cost": 115200,
+    "total_cost": 129260,
+    "profit": 69722
   },
   {
     "ok": true,
-    "base_id": "T6_MAIN_MACE_HELL",
-    "target_id": "T6_MAIN_MACE_HELL@1",
-    "base_price": 89993,
-    "target_price": 214989,
+    "base_id": "T5_ARMOR_CLOTH_KEEPER@2",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_CLOTH_KEEPER@2.png",
+    "base_name": "Expert's Druid Robe",
+    "base_enchant": 2,
+    "target_id": "T5_ARMOR_CLOTH_KEEPER@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_CLOTH_KEEPER@3.png",
+    "target_name": "Expert's Druid Robe",
+    "target_enchant": 3,
+    "base_price": 65989,
+    "target_price": 277998,
     "required_materials": {
-      "T6_RUNE": 288
+      "T5_RELIC": 192
     },
-    "material_cost": 42624,
-    "total_cost": 132617,
-    "profit": 82372
+    "material_cost": 149952,
+    "total_cost": 215941,
+    "profit": 62057
   },
   {
     "ok": true,
-    "base_id": "T7_ARMOR_PLATE_SET3",
-    "target_id": "T7_ARMOR_PLATE_SET3@1",
-    "base_price": 70000,
-    "target_price": 228727,
+    "base_id": "T5_CAPEITEM_SMUGGLER@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_SMUGGLER@1.png",
+    "base_name": "Expert's Smuggler Cape",
+    "base_enchant": 1,
+    "target_id": "T5_CAPEITEM_SMUGGLER@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_SMUGGLER@2.png",
+    "target_name": "Expert's Smuggler Cape",
+    "target_enchant": 2,
+    "base_price": 133901,
+    "target_price": 214999,
     "required_materials": {
-      "T7_RUNE": 192
+      "T5_SOUL": 96
     },
-    "material_cost": 89664,
-    "total_cost": 159664,
-    "profit": 69063
+    "material_cost": 25728,
+    "total_cost": 159629,
+    "profit": 55370
   },
   {
     "ok": true,
-    "base_id": "T5_MAIN_MACE_HELL",
-    "target_id": "T5_MAIN_MACE_HELL@2",
-    "base_price": 49994,
-    "target_price": 189996,
-    "required_materials": {
-      "T5_RUNE": 288,
-      "T5_SOUL": 288
-    },
-    "material_cost": 76320,
-    "total_cost": 126314,
-    "profit": 63682
-  },
-  {
-    "ok": true,
-    "base_id": "T6_MAIN_SCIMITAR_MORGANA@2",
-    "target_id": "T6_MAIN_SCIMITAR_MORGANA@3",
-    "base_price": 346999,
-    "target_price": 1052312,
-    "required_materials": {
-      "T6_RELIC": 288
-    },
-    "material_cost": 643392,
-    "total_cost": 990391,
-    "profit": 61921
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_DUALSCIMITAR_UNDEAD",
-    "target_id": "T5_2H_DUALSCIMITAR_UNDEAD@1",
-    "base_price": 98998,
-    "target_price": 169988,
-    "required_materials": {
-      "T5_RUNE": 384
-    },
-    "material_cost": 11904,
-    "total_cost": 110902,
-    "profit": 59086
-  },
-  {
-    "ok": true,
-    "base_id": "T6_ARMOR_PLATE_SET3",
-    "target_id": "T6_ARMOR_PLATE_SET3@2",
-    "base_price": 19040,
-    "target_price": 229998,
-    "required_materials": {
-      "T6_RUNE": 192,
-      "T6_SOUL": 192
-    },
-    "material_cost": 156096,
-    "total_cost": 175136,
-    "profit": 54862
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_CLAYMORE_AVALON",
-    "target_id": "T5_2H_CLAYMORE_AVALON@2",
-    "base_price": 34997,
-    "target_price": 190945,
-    "required_materials": {
-      "T5_RUNE": 384,
-      "T5_SOUL": 384
-    },
-    "material_cost": 101760,
-    "total_cost": 136757,
-    "profit": 54188
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_DUALSCIMITAR_UNDEAD@1",
-    "target_id": "T5_2H_DUALSCIMITAR_UNDEAD@2",
-    "base_price": 169988,
-    "target_price": 309999,
-    "required_materials": {
-      "T5_SOUL": 384
-    },
-    "material_cost": 89856,
-    "total_cost": 259844,
-    "profit": 50155
-  },
-  {
-    "ok": true,
-    "base_id": "T6_ARMOR_PLATE_SET3@1",
-    "target_id": "T6_ARMOR_PLATE_SET3@2",
-    "base_price": 55550,
-    "target_price": 229998,
-    "required_materials": {
-      "T6_SOUL": 192
-    },
-    "material_cost": 127680,
-    "total_cost": 183230,
-    "profit": 46768
-  },
-  {
-    "ok": true,
-    "base_id": "T5_MAIN_MACE_HELL",
-    "target_id": "T5_MAIN_MACE_HELL@1",
-    "base_price": 49994,
-    "target_price": 104969,
-    "required_materials": {
-      "T5_RUNE": 288
-    },
-    "material_cost": 8928,
-    "total_cost": 58922,
-    "profit": 46047
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_FIRESTAFF_KEEPER",
-    "target_id": "T4_MAIN_FIRESTAFF_KEEPER@3",
-    "base_price": 4983,
-    "target_price": 232988,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288,
-      "T4_RELIC": 288
-    },
-    "material_cost": 183744,
-    "total_cost": 188727,
-    "profit": 44261
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET3",
-    "target_id": "T5_HEAD_LEATHER_SET3@2",
-    "base_price": 5782,
-    "target_price": 72600,
+    "base_id": "T5_CAPEITEM_FW_CAERLEON",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_FW_CAERLEON.png",
+    "base_name": "Expert's Caerleon Cape",
+    "base_enchant": 0,
+    "target_id": "T5_CAPEITEM_FW_CAERLEON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_FW_CAERLEON@2.png",
+    "target_name": "Expert's Caerleon Cape",
+    "target_enchant": 2,
+    "base_price": 115549,
+    "target_price": 199000,
     "required_materials": {
       "T5_RUNE": 96,
       "T5_SOUL": 96
     },
-    "material_cost": 25440,
-    "total_cost": 31222,
-    "profit": 41378
+    "material_cost": 28800,
+    "total_cost": 144349,
+    "profit": 54651
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET3",
-    "target_id": "T4_HEAD_LEATHER_SET3@3",
-    "base_price": 1667,
-    "target_price": 102990,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 61248,
-    "total_cost": 62915,
-    "profit": 40075
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_FEY",
-    "target_id": "T4_SHOES_LEATHER_FEY@1",
-    "base_price": 119999,
-    "target_price": 159987,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 768,
-    "total_cost": 120767,
-    "profit": 39220
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET3@1",
-    "target_id": "T4_HEAD_LEATHER_SET3@3",
-    "base_price": 4302,
-    "target_price": 102990,
-    "required_materials": {
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 60480,
-    "total_cost": 64782,
-    "profit": 38208
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_HOLYSTAFF_AVALON",
-    "target_id": "T4_MAIN_HOLYSTAFF_AVALON@2",
-    "base_price": 93000,
-    "target_price": 168999,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288
-    },
-    "material_cost": 38016,
-    "total_cost": 131016,
-    "profit": 37983
-  },
-  {
-    "ok": true,
-    "base_id": "T5_MAIN_SCIMITAR_MORGANA",
-    "target_id": "T5_MAIN_SCIMITAR_MORGANA@2",
-    "base_price": 15996,
-    "target_price": 129995,
-    "required_materials": {
-      "T5_RUNE": 288,
-      "T5_SOUL": 288
-    },
-    "material_cost": 76320,
-    "total_cost": 92316,
-    "profit": 37679
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET1@1",
-    "target_id": "T4_SHOES_LEATHER_SET1@3",
-    "base_price": 4912,
-    "target_price": 100987,
-    "required_materials": {
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 60480,
-    "total_cost": 65392,
-    "profit": 35595
-  },
-  {
-    "ok": true,
-    "base_id": "T6_MAIN_SCIMITAR_MORGANA@1",
-    "target_id": "T6_MAIN_SCIMITAR_MORGANA@2",
-    "base_price": 119987,
-    "target_price": 346999,
-    "required_materials": {
-      "T6_SOUL": 288
-    },
-    "material_cost": 191520,
-    "total_cost": 311507,
-    "profit": 35492
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_MORGANA",
-    "target_id": "T5_HEAD_LEATHER_MORGANA@2",
-    "base_price": 9999,
-    "target_price": 69998,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
-    },
-    "material_cost": 25440,
-    "total_cost": 35439,
-    "profit": 34559
-  },
-  {
-    "ok": true,
-    "base_id": "T6_HEAD_LEATHER_SET3@1",
-    "target_id": "T6_HEAD_LEATHER_SET3@2",
-    "base_price": 58999,
-    "target_price": 155997,
-    "required_materials": {
-      "T6_SOUL": 96
-    },
-    "material_cost": 63840,
-    "total_cost": 122839,
-    "profit": 33158
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_PLATE_SET3",
-    "target_id": "T5_HEAD_PLATE_SET3@2",
-    "base_price": 6996,
-    "target_price": 64823,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
-    },
-    "material_cost": 25440,
-    "total_cost": 32436,
-    "profit": 32387
-  },
-  {
-    "ok": true,
-    "base_id": "T6_2H_MACE@2",
-    "target_id": "T6_2H_MACE@3",
-    "base_price": 559993,
-    "target_price": 1449999,
-    "required_materials": {
-      "T6_RELIC": 384
-    },
-    "material_cost": 857856,
-    "total_cost": 1417849,
-    "profit": 32150
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET1",
-    "target_id": "T5_HEAD_LEATHER_SET1@2",
-    "base_price": 6544,
-    "target_price": 63981,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
-    },
-    "material_cost": 25440,
-    "total_cost": 31984,
-    "profit": 31997
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET3@1",
-    "target_id": "T5_HEAD_LEATHER_SET3@2",
-    "base_price": 18468,
-    "target_price": 72600,
+    "base_id": "T5_HEAD_CLOTH_ROYAL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_ROYAL@1.png",
+    "base_name": "Expert's Royal Cowl",
+    "base_enchant": 1,
+    "target_id": "T5_HEAD_CLOTH_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_ROYAL@2.png",
+    "target_name": "Expert's Royal Cowl",
+    "target_enchant": 2,
+    "base_price": 209093,
+    "target_price": 288944,
     "required_materials": {
       "T5_SOUL": 96
     },
-    "material_cost": 22464,
-    "total_cost": 40932,
-    "profit": 31668
+    "material_cost": 25728,
+    "total_cost": 234821,
+    "profit": 54123
   },
   {
     "ok": true,
-    "base_id": "T4_SHOES_PLATE_ROYAL",
-    "target_id": "T4_SHOES_PLATE_ROYAL@2",
-    "base_price": 64998,
-    "target_price": 107976,
+    "base_id": "T5_HEAD_LEATHER_SET3@2",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_HEAD_LEATHER_SET3@2.png",
+    "base_name": "Expert's Assassin Hood",
+    "base_enchant": 2,
+    "target_id": "T5_HEAD_LEATHER_SET3@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_HEAD_LEATHER_SET3@3.png",
+    "target_name": "Expert's Assassin Hood",
+    "target_enchant": 3,
+    "base_price": 49990,
+    "target_price": 177798,
     "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
+      "T5_RELIC": 96
     },
-    "material_cost": 12672,
-    "total_cost": 77670,
-    "profit": 30306
+    "material_cost": 74976,
+    "total_cost": 124966,
+    "profit": 52832
   },
   {
     "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET1@2",
-    "target_id": "T4_SHOES_LEATHER_SET1@3",
-    "base_price": 22980,
-    "target_price": 100987,
-    "required_materials": {
-      "T4_RELIC": 96
-    },
-    "material_cost": 48576,
-    "total_cost": 71556,
-    "profit": 29431
-  },
-  {
-    "ok": true,
-    "base_id": "T5_SHOES_GATHERER_ORE",
-    "target_id": "T5_SHOES_GATHERER_ORE@1",
-    "base_price": 27995,
-    "target_price": 59999,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 2976,
-    "total_cost": 30971,
-    "profit": 29028
-  },
-  {
-    "ok": true,
-    "base_id": "T7_OFF_TOWERSHIELD_UNDEAD",
-    "target_id": "T7_OFF_TOWERSHIELD_UNDEAD@2",
-    "base_price": 55387,
-    "target_price": 369999,
-    "required_materials": {
-      "T7_RUNE": 96,
-      "T7_SOUL": 96
-    },
-    "material_cost": 285984,
-    "total_cost": 341371,
-    "profit": 28628
-  },
-  {
-    "ok": true,
-    "base_id": "T5_SHOES_LEATHER_SET2@1",
-    "target_id": "T5_SHOES_LEATHER_SET2@2",
-    "base_price": 14000,
-    "target_price": 64997,
-    "required_materials": {
-      "T5_SOUL": 96
-    },
-    "material_cost": 22464,
-    "total_cost": 36464,
-    "profit": 28533
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET1@1",
-    "target_id": "T5_HEAD_LEATHER_SET1@2",
-    "base_price": 12994,
-    "target_price": 63981,
-    "required_materials": {
-      "T5_SOUL": 96
-    },
-    "material_cost": 22464,
-    "total_cost": 35458,
-    "profit": 28523
-  },
-  {
-    "ok": true,
-    "base_id": "T5_MAIN_SCIMITAR_MORGANA@1",
-    "target_id": "T5_MAIN_SCIMITAR_MORGANA@2",
-    "base_price": 34982,
-    "target_price": 129995,
-    "required_materials": {
-      "T5_SOUL": 288
-    },
-    "material_cost": 67392,
-    "total_cost": 102374,
-    "profit": 27621
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET2",
-    "target_id": "T4_HEAD_LEATHER_SET2@3",
-    "base_price": 1758,
-    "target_price": 90483,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 61248,
-    "total_cost": 63006,
-    "profit": 27477
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_CLEAVER_HELL",
-    "target_id": "T5_2H_CLEAVER_HELL@1",
-    "base_price": 41993,
-    "target_price": 81025,
-    "required_materials": {
-      "T5_RUNE": 384
-    },
-    "material_cost": 11904,
-    "total_cost": 53897,
-    "profit": 27128
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_CLEAVER_HELL",
-    "target_id": "T5_2H_CLEAVER_HELL@2",
-    "base_price": 41993,
-    "target_price": 170648,
-    "required_materials": {
-      "T5_RUNE": 384,
-      "T5_SOUL": 384
-    },
-    "material_cost": 101760,
-    "total_cost": 143753,
-    "profit": 26895
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET2",
-    "target_id": "T5_HEAD_LEATHER_SET2@2",
-    "base_price": 7908,
-    "target_price": 60000,
-    "required_materials": {
-      "T5_RUNE": 96,
-      "T5_SOUL": 96
-    },
-    "material_cost": 25440,
-    "total_cost": 33348,
-    "profit": 26652
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET2@1",
-    "target_id": "T4_HEAD_LEATHER_SET2@3",
-    "base_price": 4984,
-    "target_price": 90483,
-    "required_materials": {
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 60480,
-    "total_cost": 65464,
-    "profit": 25019
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_HELL",
-    "target_id": "T5_HEAD_LEATHER_HELL@1",
-    "base_price": 47000,
-    "target_price": 74993,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 2976,
-    "total_cost": 49976,
-    "profit": 25017
-  },
-  {
-    "ok": true,
-    "base_id": "T7_OFF_TOWERSHIELD_UNDEAD",
-    "target_id": "T7_OFF_TOWERSHIELD_UNDEAD@1",
-    "base_price": 55387,
-    "target_price": 125000,
+    "base_id": "T7_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Grandmaster's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T7_SHOES_CLOTH_MORGANA@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_MORGANA@1.png",
+    "target_name": "Grandmaster's Cultist Sandals",
+    "target_enchant": 1,
+    "base_price": 177110,
+    "target_price": 279994,
     "required_materials": {
       "T7_RUNE": 96
     },
-    "material_cost": 44832,
-    "total_cost": 100219,
-    "profit": 24781
+    "material_cost": 51072,
+    "total_cost": 228182,
+    "profit": 51812
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET3",
-    "target_id": "T4_HEAD_LEATHER_SET3@2",
-    "base_price": 1667,
-    "target_price": 38067,
+    "base_id": "T6_2H_TWINSCYTHE_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_2H_TWINSCYTHE_HELL.png",
+    "base_name": "Master's Soulscythe",
+    "base_enchant": 0,
+    "target_id": "T6_2H_TWINSCYTHE_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_2H_TWINSCYTHE_HELL@1.png",
+    "target_name": "Master's Soulscythe",
+    "target_enchant": 1,
+    "base_price": 69997,
+    "target_price": 189990,
     "required_materials": {
-      "T4_RUNE": 96,
+      "T6_RUNE": 384
+    },
+    "material_cost": 70272,
+    "total_cost": 140269,
+    "profit": 49721
+  },
+  {
+    "ok": true,
+    "base_id": "T6_2H_DUALSICKLE_UNDEAD",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_2H_DUALSICKLE_UNDEAD.png",
+    "base_name": "Master's Deathgivers",
+    "base_enchant": 0,
+    "target_id": "T6_2H_DUALSICKLE_UNDEAD@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_2H_DUALSICKLE_UNDEAD@1.png",
+    "target_name": "Master's Deathgivers",
+    "target_enchant": 1,
+    "base_price": 170244,
+    "target_price": 289984,
+    "required_materials": {
+      "T6_RUNE": 384
+    },
+    "material_cost": 70272,
+    "total_cost": 240516,
+    "profit": 49468
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_CLOTH_KEEPER@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_CLOTH_KEEPER@1.png",
+    "base_name": "Expert's Druid Robe",
+    "base_enchant": 1,
+    "target_id": "T5_ARMOR_CLOTH_KEEPER@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_CLOTH_KEEPER@3.png",
+    "target_name": "Expert's Druid Robe",
+    "target_enchant": 3,
+    "base_price": 29000,
+    "target_price": 277998,
+    "required_materials": {
+      "T5_SOUL": 192,
+      "T5_RELIC": 192
+    },
+    "material_cost": 201408,
+    "total_cost": 230408,
+    "profit": 47590
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_AVALON@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_AVALON@1.png",
+    "base_name": "Adept's Sandals of Purity",
+    "base_enchant": 1,
+    "target_id": "T4_SHOES_CLOTH_AVALON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_AVALON@2.png",
+    "target_name": "Adept's Sandals of Purity",
+    "target_enchant": 2,
+    "base_price": 40000,
+    "target_price": 99994,
+    "required_materials": {
       "T4_SOUL": 96
     },
-    "material_cost": 12672,
-    "total_cost": 14339,
-    "profit": 23728
+    "material_cost": 12960,
+    "total_cost": 52960,
+    "profit": 47034
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_LEATHER_UNDEAD",
-    "target_id": "T5_HEAD_LEATHER_UNDEAD@2",
-    "base_price": 70989,
-    "target_price": 119995,
+    "base_id": "T5_HEAD_GATHERER_WOOD",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_HEAD_GATHERER_WOOD.png",
+    "base_name": "Expert's Lumberjack Cap",
+    "base_enchant": 0,
+    "target_id": "T5_HEAD_GATHERER_WOOD@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_HEAD_GATHERER_WOOD@2.png",
+    "target_name": "Expert's Lumberjack Cap",
+    "target_enchant": 2,
+    "base_price": 8394,
+    "target_price": 82997,
     "required_materials": {
       "T5_RUNE": 96,
       "T5_SOUL": 96
     },
-    "material_cost": 25440,
-    "total_cost": 96429,
-    "profit": 23566
+    "material_cost": 28800,
+    "total_cost": 37194,
+    "profit": 45803
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET3@1",
-    "target_id": "T4_HEAD_LEATHER_SET3@2",
-    "base_price": 4302,
-    "target_price": 38067,
-    "required_materials": {
-      "T4_SOUL": 96
-    },
-    "material_cost": 11904,
-    "total_cost": 16206,
-    "profit": 21861
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_ROCKMACE_KEEPER@1",
-    "target_id": "T4_MAIN_ROCKMACE_KEEPER@2",
-    "base_price": 19988,
-    "target_price": 76936,
-    "required_materials": {
-      "T4_SOUL": 288
-    },
-    "material_cost": 35712,
-    "total_cost": 55700,
-    "profit": 21236
-  },
-  {
-    "ok": true,
-    "base_id": "T5_ARMOR_GATHERER_FIBER",
-    "target_id": "T5_ARMOR_GATHERER_FIBER@1",
-    "base_price": 22000,
-    "target_price": 46594,
+    "base_id": "T5_ARMOR_PLATE_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_PLATE_ROYAL.png",
+    "base_name": "Expert's Royal Armor",
+    "base_enchant": 0,
+    "target_id": "T5_ARMOR_PLATE_ROYAL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_PLATE_ROYAL@1.png",
+    "target_name": "Expert's Royal Armor",
+    "target_enchant": 1,
+    "base_price": 388990,
+    "target_price": 439983,
     "required_materials": {
       "T5_RUNE": 192
     },
-    "material_cost": 5952,
-    "total_cost": 27952,
-    "profit": 18642
+    "material_cost": 6144,
+    "total_cost": 395134,
+    "profit": 44849
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET2@2",
-    "target_id": "T4_HEAD_LEATHER_SET2@3",
-    "base_price": 23378,
-    "target_price": 90483,
-    "required_materials": {
-      "T4_RELIC": 96
-    },
-    "material_cost": 48576,
-    "total_cost": 71954,
-    "profit": 18529
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET2@1",
-    "target_id": "T5_HEAD_LEATHER_SET2@2",
-    "base_price": 19500,
-    "target_price": 60000,
-    "required_materials": {
-      "T5_SOUL": 96
-    },
-    "material_cost": 22464,
-    "total_cost": 41964,
-    "profit": 18036
-  },
-  {
-    "ok": true,
-    "base_id": "T6_HEAD_LEATHER_SET1",
-    "target_id": "T6_HEAD_LEATHER_SET1@2",
-    "base_price": 21111,
-    "target_price": 116968,
+    "base_id": "T6_SHOES_CLOTH_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_FEY.png",
+    "base_name": "Master's Feyscale Sandals",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_FEY@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_FEY@2.png",
+    "target_name": "Master's Feyscale Sandals",
+    "target_enchant": 2,
+    "base_price": 198998,
+    "target_price": 329996,
     "required_materials": {
       "T6_RUNE": 96,
       "T6_SOUL": 96
     },
-    "material_cost": 78048,
-    "total_cost": 99159,
-    "profit": 17809
+    "material_cost": 86496,
+    "total_cost": 285494,
+    "profit": 44502
   },
   {
     "ok": true,
-    "base_id": "T5_MAIN_MACE_HELL@1",
-    "target_id": "T5_MAIN_MACE_HELL@2",
-    "base_price": 104969,
-    "target_price": 189996,
-    "required_materials": {
-      "T5_SOUL": 288
-    },
-    "material_cost": 67392,
-    "total_cost": 172361,
-    "profit": 17635
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_MORGANA@1",
-    "target_id": "T5_HEAD_LEATHER_MORGANA@2",
-    "base_price": 29981,
-    "target_price": 69998,
+    "base_id": "T5_CAPEITEM_FW_CAERLEON@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_FW_CAERLEON@1.png",
+    "base_name": "Expert's Caerleon Cape",
+    "base_enchant": 1,
+    "target_id": "T5_CAPEITEM_FW_CAERLEON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_FW_CAERLEON@2.png",
+    "target_name": "Expert's Caerleon Cape",
+    "target_enchant": 2,
+    "base_price": 129000,
+    "target_price": 199000,
     "required_materials": {
       "T5_SOUL": 96
     },
-    "material_cost": 22464,
-    "total_cost": 52445,
-    "profit": 17553
+    "material_cost": 25728,
+    "total_cost": 154728,
+    "profit": 44272
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_LEATHER_MORGANA",
-    "target_id": "T5_HEAD_LEATHER_MORGANA@1",
-    "base_price": 9999,
-    "target_price": 29981,
+    "base_id": "T6_SHOES_CLOTH_KEEPER@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_KEEPER@1.png",
+    "base_name": "Master's Druid Sandals",
+    "base_enchant": 1,
+    "target_id": "T6_SHOES_CLOTH_KEEPER@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_KEEPER@2.png",
+    "target_name": "Master's Druid Sandals",
+    "target_enchant": 2,
+    "base_price": 32884,
+    "target_price": 144982,
     "required_materials": {
-      "T5_RUNE": 96
+      "T6_SOUL": 96
     },
-    "material_cost": 2976,
-    "total_cost": 12975,
-    "profit": 17006
+    "material_cost": 68928,
+    "total_cost": 101812,
+    "profit": 43170
   },
   {
     "ok": true,
-    "base_id": "T6_OFF_TOWERSHIELD_UNDEAD",
-    "target_id": "T6_OFF_TOWERSHIELD_UNDEAD@2",
-    "base_price": 18990,
-    "target_price": 113664,
+    "base_id": "T6_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Master's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_MORGANA@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_MORGANA@2.png",
+    "target_name": "Master's Cultist Sandals",
+    "target_enchant": 2,
+    "base_price": 77777,
+    "target_price": 205526,
     "required_materials": {
       "T6_RUNE": 96,
       "T6_SOUL": 96
     },
-    "material_cost": 78048,
-    "total_cost": 97038,
-    "profit": 16626
+    "material_cost": 86496,
+    "total_cost": 164273,
+    "profit": 41253
   },
   {
     "ok": true,
-    "base_id": "T5_BAG",
-    "target_id": "T5_BAG@2",
-    "base_price": 14999,
-    "target_price": 82374,
+    "base_id": "T6_SHOES_CLOTH_MORGANA@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_MORGANA@1.png",
+    "base_name": "Master's Cultist Sandals",
+    "base_enchant": 1,
+    "target_id": "T6_SHOES_CLOTH_MORGANA@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_MORGANA@2.png",
+    "target_name": "Master's Cultist Sandals",
+    "target_enchant": 2,
+    "base_price": 99979,
+    "target_price": 205526,
     "required_materials": {
-      "T5_RUNE": 192,
-      "T5_SOUL": 192
+      "T6_SOUL": 96
     },
-    "material_cost": 50880,
-    "total_cost": 65879,
-    "profit": 16495
+    "material_cost": 68928,
+    "total_cost": 168907,
+    "profit": 36619
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET3@2",
-    "target_id": "T4_HEAD_LEATHER_SET3@3",
-    "base_price": 38067,
-    "target_price": 102990,
+    "base_id": "T6_SHOES_CLOTH_KEEPER",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_KEEPER.png",
+    "base_name": "Master's Druid Sandals",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_KEEPER@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_KEEPER@2.png",
+    "target_name": "Master's Druid Sandals",
+    "target_enchant": 2,
+    "base_price": 22951,
+    "target_price": 144982,
     "required_materials": {
-      "T4_RELIC": 96
+      "T6_RUNE": 96,
+      "T6_SOUL": 96
     },
-    "material_cost": 48576,
-    "total_cost": 86643,
-    "profit": 16347
+    "material_cost": 86496,
+    "total_cost": 109447,
+    "profit": 35535
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_UNDEAD",
-    "target_id": "T4_HEAD_LEATHER_UNDEAD@2",
-    "base_price": 39999,
-    "target_price": 68903,
+    "base_id": "T5_SHOES_CLOTH_HELL@2",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_HELL@2.png",
+    "base_name": "Expert's Fiend Sandals",
+    "base_enchant": 2,
+    "target_id": "T5_SHOES_CLOTH_HELL@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_HELL@3.png",
+    "target_name": "Expert's Fiend Sandals",
+    "target_enchant": 3,
+    "base_price": 39973,
+    "target_price": 149998,
     "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
+      "T5_RELIC": 96
     },
-    "material_cost": 12672,
-    "total_cost": 52671,
-    "profit": 16232
+    "material_cost": 74976,
+    "total_cost": 114949,
+    "profit": 35049
   },
   {
     "ok": true,
-    "base_id": "T4_SHOES_PLATE_ROYAL@1",
-    "target_id": "T4_SHOES_PLATE_ROYAL@2",
-    "base_price": 79997,
-    "target_price": 107976,
-    "required_materials": {
-      "T4_SOUL": 96
-    },
-    "material_cost": 11904,
-    "total_cost": 91901,
-    "profit": 16075
-  },
-  {
-    "ok": true,
-    "base_id": "T5_MAIN_1HCROSSBOW",
-    "target_id": "T5_MAIN_1HCROSSBOW@1",
-    "base_price": 15000,
-    "target_price": 39981,
-    "required_materials": {
-      "T5_RUNE": 288
-    },
-    "material_cost": 8928,
-    "total_cost": 23928,
-    "profit": 16053
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_UNDEAD@1",
-    "target_id": "T5_HEAD_LEATHER_UNDEAD@2",
-    "base_price": 81804,
-    "target_price": 119995,
-    "required_materials": {
-      "T5_SOUL": 96
-    },
-    "material_cost": 22464,
-    "total_cost": 104268,
-    "profit": 15727
-  },
-  {
-    "ok": true,
-    "base_id": "T7_2H_MACE@1",
-    "target_id": "T7_2H_MACE@2",
-    "base_price": 620000,
-    "target_price": 1600000,
-    "required_materials": {
-      "T7_SOUL": 384
-    },
-    "material_cost": 964608,
-    "total_cost": 1584608,
-    "profit": 15392
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET1",
-    "target_id": "T5_HEAD_LEATHER_SET1@3",
-    "base_price": 6544,
-    "target_price": 125945,
+    "base_id": "T5_SHOES_CLOTH_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_HELL.png",
+    "base_name": "Expert's Fiend Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_HELL@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_HELL@3.png",
+    "target_name": "Expert's Fiend Sandals",
+    "target_enchant": 3,
+    "base_price": 11680,
+    "target_price": 149998,
     "required_materials": {
       "T5_RUNE": 96,
       "T5_SOUL": 96,
       "T5_RELIC": 96
     },
-    "material_cost": 104352,
-    "total_cost": 110896,
-    "profit": 15049
+    "material_cost": 103776,
+    "total_cost": 115456,
+    "profit": 34542
   },
   {
     "ok": true,
-    "base_id": "T6_BAG",
-    "target_id": "T6_BAG@1",
-    "base_price": 45000,
-    "target_price": 88434,
+    "base_id": "T6_SHOES_CLOTH_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_FEY.png",
+    "base_name": "Master's Feyscale Sandals",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_FEY@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_FEY@1.png",
+    "target_name": "Master's Feyscale Sandals",
+    "target_enchant": 1,
+    "base_price": 198998,
+    "target_price": 249993,
     "required_materials": {
-      "T6_RUNE": 192
+      "T6_RUNE": 96
     },
-    "material_cost": 28416,
-    "total_cost": 73416,
-    "profit": 15018
+    "material_cost": 17568,
+    "total_cost": 216566,
+    "profit": 33427
   },
   {
     "ok": true,
-    "base_id": "T5_SHOES_GATHERER_FIBER",
-    "target_id": "T5_SHOES_GATHERER_FIBER@1",
-    "base_price": 7999,
-    "target_price": 25960,
+    "base_id": "T5_CAPEITEM_SMUGGLER",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_SMUGGLER.png",
+    "base_name": "Expert's Smuggler Cape",
+    "base_enchant": 0,
+    "target_id": "T5_CAPEITEM_SMUGGLER@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_SMUGGLER@1.png",
+    "target_name": "Expert's Smuggler Cape",
+    "target_enchant": 1,
+    "base_price": 99000,
+    "target_price": 133901,
     "required_materials": {
       "T5_RUNE": 96
     },
-    "material_cost": 2976,
-    "total_cost": 10975,
-    "profit": 14985
+    "material_cost": 3072,
+    "total_cost": 102072,
+    "profit": 31829
   },
   {
     "ok": true,
-    "base_id": "T5_CAPEITEM_FW_BRECILIEN",
-    "target_id": "T5_CAPEITEM_FW_BRECILIEN@2",
-    "base_price": 129966,
-    "target_price": 169997,
+    "base_id": "T6_MAIN_FIRESTAFF",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_MAIN_FIRESTAFF.png",
+    "base_name": "Master's Fire Staff",
+    "base_enchant": 0,
+    "target_id": "T6_MAIN_FIRESTAFF@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_MAIN_FIRESTAFF@1.png",
+    "target_name": "Master's Fire Staff",
+    "target_enchant": 1,
+    "base_price": 30999,
+    "target_price": 114899,
+    "required_materials": {
+      "T6_RUNE": 288
+    },
+    "material_cost": 52704,
+    "total_cost": 83703,
+    "profit": 31196
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_AVALON",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_AVALON.png",
+    "base_name": "Adept's Sandals of Purity",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_AVALON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_AVALON@2.png",
+    "target_name": "Adept's Sandals of Purity",
+    "target_enchant": 2,
+    "base_price": 55000,
+    "target_price": 99994,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 13824,
+    "total_cost": 68824,
+    "profit": 31170
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_KEEPER@2",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_KEEPER@2.png",
+    "base_name": "Expert's Druid Sandals",
+    "base_enchant": 2,
+    "target_id": "T5_SHOES_CLOTH_KEEPER@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_KEEPER@3.png",
+    "target_name": "Expert's Druid Sandals",
+    "target_enchant": 3,
+    "base_price": 27894,
+    "target_price": 133996,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 74976,
+    "total_cost": 102870,
+    "profit": 31126
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPEITEM_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_MORGANA.png",
+    "base_name": "Expert's Morgana Cape",
+    "base_enchant": 0,
+    "target_id": "T5_CAPEITEM_MORGANA@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_MORGANA@2.png",
+    "target_name": "Expert's Morgana Cape",
+    "target_enchant": 2,
+    "base_price": 291987,
+    "target_price": 349976,
     "required_materials": {
       "T5_RUNE": 96,
       "T5_SOUL": 96
     },
-    "material_cost": 25440,
-    "total_cost": 155406,
-    "profit": 14591
+    "material_cost": 28800,
+    "total_cost": 320787,
+    "profit": 29189
   },
   {
     "ok": true,
-    "base_id": "T4_SHOES_PLATE_ROYAL",
-    "target_id": "T4_SHOES_PLATE_ROYAL@1",
-    "base_price": 64998,
-    "target_price": 79997,
+    "base_id": "T4_2H_NATURESTAFF_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_NATURESTAFF_HELL.png",
+    "base_name": "Adept's Blight Staff",
+    "base_enchant": 0,
+    "target_id": "T4_2H_NATURESTAFF_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_NATURESTAFF_HELL@1.png",
+    "target_name": "Adept's Blight Staff",
+    "target_enchant": 1,
+    "base_price": 14995,
+    "target_price": 46982,
+    "required_materials": {
+      "T4_RUNE": 384
+    },
+    "material_cost": 3456,
+    "total_cost": 18451,
+    "profit": 28531
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_FEY.png",
+    "base_name": "Expert's Feyscale Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_FEY@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_FEY@1.png",
+    "target_name": "Expert's Feyscale Sandals",
+    "target_enchant": 1,
+    "base_price": 198998,
+    "target_price": 229976,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3072,
+    "total_cost": 202070,
+    "profit": 27906
+  },
+  {
+    "ok": true,
+    "base_id": "T4_OFF_TOWERSHIELD_UNDEAD",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_OFF_TOWERSHIELD_UNDEAD.png",
+    "base_name": "Adept's Sarcophagus",
+    "base_enchant": 0,
+    "target_id": "T4_OFF_TOWERSHIELD_UNDEAD@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_OFF_TOWERSHIELD_UNDEAD@2.png",
+    "target_name": "Adept's Sarcophagus",
+    "target_enchant": 2,
+    "base_price": 4913,
+    "target_price": 44996,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 13824,
+    "total_cost": 18737,
+    "profit": 26259
+  },
+  {
+    "ok": true,
+    "base_id": "T5_HEAD_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_ROYAL.png",
+    "base_name": "Expert's Royal Cowl",
+    "base_enchant": 0,
+    "target_id": "T5_HEAD_CLOTH_ROYAL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_ROYAL@1.png",
+    "target_name": "Expert's Royal Cowl",
+    "target_enchant": 1,
+    "base_price": 179871,
+    "target_price": 209093,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3072,
+    "total_cost": 182943,
+    "profit": 26150
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Expert's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA@3.png",
+    "target_name": "Expert's Cultist Sandals",
+    "target_enchant": 3,
+    "base_price": 71000,
+    "target_price": 200000,
+    "required_materials": {
+      "T5_RUNE": 96,
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 103776,
+    "total_cost": 174776,
+    "profit": 25224
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_MORGANA@2",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA@2.png",
+    "base_name": "Expert's Cultist Sandals",
+    "base_enchant": 2,
+    "target_id": "T5_SHOES_CLOTH_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA@3.png",
+    "target_name": "Expert's Cultist Sandals",
+    "target_enchant": 3,
+    "base_price": 99975,
+    "target_price": 200000,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 74976,
+    "total_cost": 174951,
+    "profit": 25049
+  },
+  {
+    "ok": true,
+    "base_id": "T5_2H_BOW_AVALON",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_2H_BOW_AVALON.png",
+    "base_name": "Expert's Mistpiercer",
+    "base_enchant": 0,
+    "target_id": "T5_2H_BOW_AVALON@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_2H_BOW_AVALON@1.png",
+    "target_name": "Expert's Mistpiercer",
+    "target_enchant": 1,
+    "base_price": 47988,
+    "target_price": 84992,
+    "required_materials": {
+      "T5_RUNE": 384
+    },
+    "material_cost": 12288,
+    "total_cost": 60276,
+    "profit": 24716
+  },
+  {
+    "ok": true,
+    "base_id": "T6_SHOES_LEATHER_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_LEATHER_MORGANA.png",
+    "base_name": "Master's Stalker Shoes",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_LEATHER_MORGANA@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_LEATHER_MORGANA@1.png",
+    "target_name": "Master's Stalker Shoes",
+    "target_enchant": 1,
+    "base_price": 69973,
+    "target_price": 112087,
+    "required_materials": {
+      "T6_RUNE": 96
+    },
+    "material_cost": 17568,
+    "total_cost": 87541,
+    "profit": 24546
+  },
+  {
+    "ok": true,
+    "base_id": "T5_OFF_TOWERSHIELD_UNDEAD",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_OFF_TOWERSHIELD_UNDEAD.png",
+    "base_name": "Expert's Sarcophagus",
+    "base_enchant": 0,
+    "target_id": "T5_OFF_TOWERSHIELD_UNDEAD@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_OFF_TOWERSHIELD_UNDEAD@2.png",
+    "target_name": "Expert's Sarcophagus",
+    "target_enchant": 2,
+    "base_price": 6687,
+    "target_price": 59996,
+    "required_materials": {
+      "T5_RUNE": 96,
+      "T5_SOUL": 96
+    },
+    "material_cost": 28800,
+    "total_cost": 35487,
+    "profit": 24509
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_MORGANA@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA@1.png",
+    "base_name": "Expert's Cultist Sandals",
+    "base_enchant": 1,
+    "target_id": "T5_SHOES_CLOTH_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA@3.png",
+    "target_name": "Expert's Cultist Sandals",
+    "target_enchant": 3,
+    "base_price": 75498,
+    "target_price": 200000,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 100704,
+    "total_cost": 176202,
+    "profit": 23798
+  },
+  {
+    "ok": true,
+    "base_id": "T5_OFF_TOWERSHIELD_UNDEAD@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_OFF_TOWERSHIELD_UNDEAD@1.png",
+    "base_name": "Expert's Sarcophagus",
+    "base_enchant": 1,
+    "target_id": "T5_OFF_TOWERSHIELD_UNDEAD@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_OFF_TOWERSHIELD_UNDEAD@2.png",
+    "target_name": "Expert's Sarcophagus",
+    "target_enchant": 2,
+    "base_price": 10982,
+    "target_price": 59996,
+    "required_materials": {
+      "T5_SOUL": 96
+    },
+    "material_cost": 25728,
+    "total_cost": 36710,
+    "profit": 23286
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Adept's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA@3.png",
+    "target_name": "Adept's Cultist Sandals",
+    "target_enchant": 3,
+    "base_price": 25000,
+    "target_price": 109999,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96,
+      "T4_RELIC": 96
+    },
+    "material_cost": 62592,
+    "total_cost": 87592,
+    "profit": 22407
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_KEEPER@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_KEEPER@1.png",
+    "base_name": "Expert's Druid Sandals",
+    "base_enchant": 1,
+    "target_id": "T5_SHOES_CLOTH_KEEPER@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_KEEPER@3.png",
+    "target_name": "Expert's Druid Sandals",
+    "target_enchant": 3,
+    "base_price": 10973,
+    "target_price": 133996,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 100704,
+    "total_cost": 111677,
+    "profit": 22319
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_LEATHER_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_HELL.png",
+    "base_name": "Expert's Hellion Jacket",
+    "base_enchant": 0,
+    "target_id": "T5_ARMOR_LEATHER_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_HELL@2.png",
+    "target_name": "Expert's Hellion Jacket",
+    "target_enchant": 2,
+    "base_price": 89989,
+    "target_price": 169875,
+    "required_materials": {
+      "T5_RUNE": 192,
+      "T5_SOUL": 192
+    },
+    "material_cost": 57600,
+    "total_cost": 147589,
+    "profit": 22286
+  },
+  {
+    "ok": true,
+    "base_id": "T6_SHOES_CLOTH_HELL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_HELL@1.png",
+    "base_name": "Master's Fiend Sandals",
+    "base_enchant": 1,
+    "target_id": "T6_SHOES_CLOTH_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_HELL@2.png",
+    "target_name": "Master's Fiend Sandals",
+    "target_enchant": 2,
+    "base_price": 33998,
+    "target_price": 124958,
+    "required_materials": {
+      "T6_SOUL": 96
+    },
+    "material_cost": 68928,
+    "total_cost": 102926,
+    "profit": 22032
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_KEEPER",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_KEEPER.png",
+    "base_name": "Expert's Druid Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_KEEPER@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_KEEPER@3.png",
+    "target_name": "Expert's Druid Sandals",
+    "target_enchant": 3,
+    "base_price": 9998,
+    "target_price": 133996,
+    "required_materials": {
+      "T5_RUNE": 96,
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 103776,
+    "total_cost": 113774,
+    "profit": 20222
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_MAIN_CURSEDSTAFF_AVALON.png",
+    "base_name": "Expert's Shadowcaller",
+    "base_enchant": 0,
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_MAIN_CURSEDSTAFF_AVALON@2.png",
+    "target_name": "Expert's Shadowcaller",
+    "target_enchant": 2,
+    "base_price": 24985,
+    "target_price": 130988,
+    "required_materials": {
+      "T5_RUNE": 288,
+      "T5_SOUL": 288
+    },
+    "material_cost": 86400,
+    "total_cost": 111385,
+    "profit": 19603
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_QUARTERSTAFF",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_QUARTERSTAFF.png",
+    "base_name": "Adept's Quarterstaff",
+    "base_enchant": 0,
+    "target_id": "T4_2H_QUARTERSTAFF@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_QUARTERSTAFF@1.png",
+    "target_name": "Adept's Quarterstaff",
+    "target_enchant": 1,
+    "base_price": 6987,
+    "target_price": 29439,
+    "required_materials": {
+      "T4_RUNE": 384
+    },
+    "material_cost": 3456,
+    "total_cost": 10443,
+    "profit": 18996
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_HELL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_HELL@1.png",
+    "base_name": "Expert's Fiend Sandals",
+    "base_enchant": 1,
+    "target_id": "T5_SHOES_CLOTH_HELL@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_HELL@3.png",
+    "target_name": "Expert's Fiend Sandals",
+    "target_enchant": 3,
+    "base_price": 30441,
+    "target_price": 149998,
+    "required_materials": {
+      "T5_SOUL": 96,
+      "T5_RELIC": 96
+    },
+    "material_cost": 100704,
+    "total_cost": 131145,
+    "profit": 18853
+  },
+  {
+    "ok": true,
+    "base_id": "T6_SHOES_CLOTH_AVALON",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_AVALON.png",
+    "base_name": "Master's Sandals of Purity",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_AVALON@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_AVALON@1.png",
+    "target_name": "Master's Sandals of Purity",
+    "target_enchant": 1,
+    "base_price": 66654,
+    "target_price": 102990,
+    "required_materials": {
+      "T6_RUNE": 96
+    },
+    "material_cost": 17568,
+    "total_cost": 84222,
+    "profit": 18768
+  },
+  {
+    "ok": true,
+    "base_id": "T6_SHOES_CLOTH_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_HELL.png",
+    "base_name": "Master's Fiend Sandals",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_HELL@2.png",
+    "target_name": "Master's Fiend Sandals",
+    "target_enchant": 2,
+    "base_price": 19915,
+    "target_price": 124958,
+    "required_materials": {
+      "T6_RUNE": 96,
+      "T6_SOUL": 96
+    },
+    "material_cost": 86496,
+    "total_cost": 106411,
+    "profit": 18547
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_LEATHER_HELL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_HELL@1.png",
+    "base_name": "Expert's Hellion Jacket",
+    "base_enchant": 1,
+    "target_id": "T5_ARMOR_LEATHER_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_HELL@2.png",
+    "target_name": "Expert's Hellion Jacket",
+    "target_enchant": 2,
+    "base_price": 100980,
+    "target_price": 169875,
+    "required_materials": {
+      "T5_SOUL": 192
+    },
+    "material_cost": 51456,
+    "total_cost": 152436,
+    "profit": 17439
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Adept's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_MORGANA@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA@1.png",
+    "target_name": "Adept's Cultist Sandals",
+    "target_enchant": 1,
+    "base_price": 25000,
+    "target_price": 43000,
     "required_materials": {
       "T4_RUNE": 96
     },
-    "material_cost": 768,
-    "total_cost": 65766,
-    "profit": 14231
+    "material_cost": 864,
+    "total_cost": 25864,
+    "profit": 17136
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_MAIN_CURSEDSTAFF_AVALON.png",
+    "base_name": "Expert's Shadowcaller",
+    "base_enchant": 0,
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_MAIN_CURSEDSTAFF_AVALON@1.png",
+    "target_name": "Expert's Shadowcaller",
+    "target_enchant": 1,
+    "base_price": 24985,
+    "target_price": 50991,
+    "required_materials": {
+      "T5_RUNE": 288
+    },
+    "material_cost": 9216,
+    "total_cost": 34201,
+    "profit": 16790
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_ICECRYSTAL_UNDEAD",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_ICECRYSTAL_UNDEAD.png",
+    "base_name": "Adept's Permafrost Prism",
+    "base_enchant": 0,
+    "target_id": "T4_2H_ICECRYSTAL_UNDEAD@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_ICECRYSTAL_UNDEAD@1.png",
+    "target_name": "Adept's Permafrost Prism",
+    "target_enchant": 1,
+    "base_price": 15000,
+    "target_price": 35000,
+    "required_materials": {
+      "T4_RUNE": 384
+    },
+    "material_cost": 3456,
+    "total_cost": 18456,
+    "profit": 16544
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_NATURESTAFF_KEEPER",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_NATURESTAFF_KEEPER.png",
+    "base_name": "Adept's Rampant Staff",
+    "base_enchant": 0,
+    "target_id": "T4_2H_NATURESTAFF_KEEPER@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_NATURESTAFF_KEEPER@1.png",
+    "target_name": "Adept's Rampant Staff",
+    "target_enchant": 1,
+    "base_price": 29998,
+    "target_price": 49998,
+    "required_materials": {
+      "T4_RUNE": 384
+    },
+    "material_cost": 3456,
+    "total_cost": 33454,
+    "profit": 16544
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_CAPEITEM_MORGANA.png",
+    "base_name": "Adept's Morgana Cape",
+    "base_enchant": 0,
+    "target_id": "T4_CAPEITEM_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_CAPEITEM_MORGANA@3.png",
+    "target_name": "Adept's Morgana Cape",
+    "target_enchant": 3,
+    "base_price": 279000,
+    "target_price": 357966,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96,
+      "T4_RELIC": 96
+    },
+    "material_cost": 62592,
+    "total_cost": 341592,
+    "profit": 16374
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_AVALON",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_AVALON.png",
+    "base_name": "Expert's Sandals of Purity",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_AVALON@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_AVALON@1.png",
+    "target_name": "Expert's Sandals of Purity",
+    "target_enchant": 1,
+    "base_price": 46000,
+    "target_price": 64949,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3072,
+    "total_cost": 49072,
+    "profit": 15877
+  },
+  {
+    "ok": true,
+    "base_id": "T7_2H_HOLYSTAFF",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_2H_HOLYSTAFF.png",
+    "base_name": "Grandmaster's Great Holy Staff",
+    "base_enchant": 0,
+    "target_id": "T7_2H_HOLYSTAFF@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_2H_HOLYSTAFF@1.png",
+    "target_name": "Grandmaster's Great Holy Staff",
+    "target_enchant": 1,
+    "base_price": 130000,
+    "target_price": 349999,
+    "required_materials": {
+      "T7_RUNE": 384
+    },
+    "material_cost": 204288,
+    "total_cost": 334288,
+    "profit": 15711
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_HELL.png",
+    "base_name": "Expert's Fiend Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_HELL@1.png",
+    "target_name": "Expert's Fiend Sandals",
+    "target_enchant": 1,
+    "base_price": 11680,
+    "target_price": 30441,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3072,
+    "total_cost": 14752,
+    "profit": 15689
   },
   {
     "ok": true,
     "base_id": "T6_BAG",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_BAG.png",
+    "base_name": "Master's Bag",
+    "base_enchant": 0,
     "target_id": "T6_BAG@3",
-    "base_price": 45000,
-    "target_price": 642991,
+    "target_icon": "https://render.albiononline.com/v1/item/T6_BAG@3.png",
+    "target_name": "Master's Bag",
+    "target_enchant": 3,
+    "base_price": 49938,
+    "target_price": 642990,
     "required_materials": {
       "T6_RUNE": 192,
       "T6_SOUL": 192,
       "T6_RELIC": 192
     },
-    "material_cost": 585024,
-    "total_cost": 630024,
-    "profit": 12967
+    "material_cost": 579072,
+    "total_cost": 629010,
+    "profit": 13980
   },
   {
     "ok": true,
-    "base_id": "T6_CAPE",
-    "target_id": "T6_CAPE@2",
-    "base_price": 19988,
-    "target_price": 110897,
+    "base_id": "T6_HEAD_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_HEAD_CLOTH_ROYAL.png",
+    "base_name": "Master's Royal Cowl",
+    "base_enchant": 0,
+    "target_id": "T6_HEAD_CLOTH_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_HEAD_CLOTH_ROYAL@2.png",
+    "target_name": "Master's Royal Cowl",
+    "target_enchant": 2,
+    "base_price": 319923,
+    "target_price": 419965,
     "required_materials": {
       "T6_RUNE": 96,
       "T6_SOUL": 96
     },
-    "material_cost": 78048,
-    "total_cost": 98036,
-    "profit": 12861
+    "material_cost": 86496,
+    "total_cost": 406419,
+    "profit": 13546
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_FEY",
-    "target_id": "T4_HEAD_LEATHER_FEY@3",
-    "base_price": 225998,
-    "target_price": 299975,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 61248,
-    "total_cost": 287246,
-    "profit": 12729
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_GATHERER_FIBER",
-    "target_id": "T5_HEAD_GATHERER_FIBER@1",
-    "base_price": 12000,
-    "target_price": 27698,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 2976,
-    "total_cost": 14976,
-    "profit": 12722
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_MACE_HELL",
-    "target_id": "T4_MAIN_MACE_HELL@1",
-    "base_price": 24999,
-    "target_price": 39994,
-    "required_materials": {
-      "T4_RUNE": 288
-    },
-    "material_cost": 2304,
-    "total_cost": 27303,
-    "profit": 12691
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_FIRESTAFF",
-    "target_id": "T4_MAIN_FIRESTAFF@1",
-    "base_price": 4493,
-    "target_price": 19235,
-    "required_materials": {
-      "T4_RUNE": 288
-    },
-    "material_cost": 2304,
-    "total_cost": 6797,
-    "profit": 12438
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_FEY",
-    "target_id": "T4_HEAD_LEATHER_FEY@1",
-    "base_price": 225998,
-    "target_price": 238983,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 768,
-    "total_cost": 226766,
-    "profit": 12217
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_UNDEAD",
-    "target_id": "T4_HEAD_LEATHER_UNDEAD@1",
-    "base_price": 39999,
-    "target_price": 52961,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 768,
-    "total_cost": 40767,
-    "profit": 12194
-  },
-  {
-    "ok": true,
-    "base_id": "T4_MAIN_MACE_HELL",
-    "target_id": "T4_MAIN_MACE_HELL@2",
-    "base_price": 24999,
-    "target_price": 74989,
-    "required_materials": {
-      "T4_RUNE": 288,
-      "T4_SOUL": 288
-    },
-    "material_cost": 38016,
-    "total_cost": 63015,
-    "profit": 11974
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET1@1",
-    "target_id": "T5_HEAD_LEATHER_SET1@3",
-    "base_price": 12994,
-    "target_price": 125945,
-    "required_materials": {
-      "T5_SOUL": 96,
-      "T5_RELIC": 96
-    },
-    "material_cost": 101376,
-    "total_cost": 114370,
-    "profit": 11575
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET2",
-    "target_id": "T4_SHOES_LEATHER_SET2@2",
-    "base_price": 1890,
-    "target_price": 25999,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 12672,
-    "total_cost": 14562,
-    "profit": 11437
-  },
-  {
-    "ok": true,
-    "base_id": "T6_OFF_TOWERSHIELD_UNDEAD@1",
-    "target_id": "T6_OFF_TOWERSHIELD_UNDEAD@2",
-    "base_price": 38672,
-    "target_price": 113664,
-    "required_materials": {
-      "T6_SOUL": 96
-    },
-    "material_cost": 63840,
-    "total_cost": 102512,
-    "profit": 11152
-  },
-  {
-    "ok": true,
-    "base_id": "T5_2H_DUALSWORD",
-    "target_id": "T5_2H_DUALSWORD@1",
-    "base_price": 19100,
-    "target_price": 41998,
-    "required_materials": {
-      "T5_RUNE": 384
-    },
-    "material_cost": 11904,
-    "total_cost": 31004,
-    "profit": 10994
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET3",
-    "target_id": "T4_SHOES_LEATHER_SET3@3",
-    "base_price": 2184,
-    "target_price": 74192,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 61248,
-    "total_cost": 63432,
-    "profit": 10760
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_MORGANA",
-    "target_id": "T4_HEAD_LEATHER_MORGANA@3",
-    "base_price": 9999,
-    "target_price": 81952,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
-    },
-    "material_cost": 61248,
-    "total_cost": 71247,
-    "profit": 10705
-  },
-  {
-    "ok": true,
-    "base_id": "T4_ARMOR_LEATHER_UNDEAD",
-    "target_id": "T4_ARMOR_LEATHER_UNDEAD@1",
-    "base_price": 24997,
-    "target_price": 36896,
-    "required_materials": {
-      "T4_RUNE": 192
-    },
-    "material_cost": 1536,
-    "total_cost": 26533,
-    "profit": 10363
-  },
-  {
-    "ok": true,
-    "base_id": "T6_HEAD_LEATHER_SET1@1",
-    "target_id": "T6_HEAD_LEATHER_SET1@2",
-    "base_price": 42903,
-    "target_price": 116968,
-    "required_materials": {
-      "T6_SOUL": 96
-    },
-    "material_cost": 63840,
-    "total_cost": 106743,
-    "profit": 10225
-  },
-  {
-    "ok": true,
-    "base_id": "T5_ARMOR_LEATHER_SET1@1",
-    "target_id": "T5_ARMOR_LEATHER_SET1@2",
-    "base_price": 26300,
-    "target_price": 81415,
-    "required_materials": {
-      "T5_SOUL": 192
-    },
-    "material_cost": 44928,
-    "total_cost": 71228,
-    "profit": 10187
-  },
-  {
-    "ok": true,
-    "base_id": "T5_MAIN_SCIMITAR_MORGANA",
-    "target_id": "T5_MAIN_SCIMITAR_MORGANA@1",
-    "base_price": 15996,
-    "target_price": 34982,
-    "required_materials": {
-      "T5_RUNE": 288
-    },
-    "material_cost": 8928,
-    "total_cost": 24924,
-    "profit": 10058
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET3",
-    "target_id": "T5_HEAD_LEATHER_SET3@1",
-    "base_price": 5782,
-    "target_price": 18468,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 2976,
-    "total_cost": 8758,
-    "profit": 9710
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_HELL",
-    "target_id": "T4_HEAD_LEATHER_HELL@2",
-    "base_price": 24990,
-    "target_price": 46999,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 12672,
-    "total_cost": 37662,
-    "profit": 9337
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_HELL",
-    "target_id": "T4_HEAD_LEATHER_HELL@1",
-    "base_price": 24990,
-    "target_price": 35000,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 768,
-    "total_cost": 25758,
-    "profit": 9242
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_FEY@2",
-    "target_id": "T4_HEAD_LEATHER_FEY@3",
-    "base_price": 242222,
-    "target_price": 299975,
-    "required_materials": {
-      "T4_RELIC": 96
-    },
-    "material_cost": 48576,
-    "total_cost": 290798,
-    "profit": 9177
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET2",
-    "target_id": "T4_HEAD_LEATHER_SET2@2",
-    "base_price": 1758,
-    "target_price": 23378,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 12672,
-    "total_cost": 14430,
-    "profit": 8948
-  },
-  {
-    "ok": true,
-    "base_id": "T6_HEAD_LEATHER_SET2",
-    "target_id": "T6_HEAD_LEATHER_SET2@1",
-    "base_price": 26991,
-    "target_price": 49993,
+    "base_id": "T6_HEAD_GATHERER_WOOD",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_HEAD_GATHERER_WOOD.png",
+    "base_name": "Master's Lumberjack Cap",
+    "base_enchant": 0,
+    "target_id": "T6_HEAD_GATHERER_WOOD@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_HEAD_GATHERER_WOOD@1.png",
+    "target_name": "Master's Lumberjack Cap",
+    "target_enchant": 1,
+    "base_price": 37999,
+    "target_price": 67998,
     "required_materials": {
       "T6_RUNE": 96
     },
-    "material_cost": 14208,
-    "total_cost": 41199,
-    "profit": 8794
+    "material_cost": 17568,
+    "total_cost": 55567,
+    "profit": 12431
   },
   {
     "ok": true,
-    "base_id": "T7_BAG",
-    "target_id": "T7_BAG@1",
-    "base_price": 131569,
-    "target_price": 229895,
-    "required_materials": {
-      "T7_RUNE": 192
-    },
-    "material_cost": 89664,
-    "total_cost": 221233,
-    "profit": 8662
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET2",
-    "target_id": "T5_HEAD_LEATHER_SET2@1",
-    "base_price": 7908,
-    "target_price": 19500,
+    "base_id": "T5_SHOES_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_ROYAL.png",
+    "base_name": "Expert's Royal Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_ROYAL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_ROYAL@1.png",
+    "target_name": "Expert's Royal Sandals",
+    "target_enchant": 1,
+    "base_price": 255000,
+    "target_price": 269989,
     "required_materials": {
       "T5_RUNE": 96
     },
-    "material_cost": 2976,
-    "total_cost": 10884,
-    "profit": 8616
+    "material_cost": 3072,
+    "total_cost": 258072,
+    "profit": 11917
   },
   {
     "ok": true,
-    "base_id": "T6_BAG_INSIGHT",
-    "target_id": "T6_BAG_INSIGHT@1",
-    "base_price": 54279,
-    "target_price": 90999,
-    "required_materials": {
-      "T6_RUNE": 192
-    },
-    "material_cost": 28416,
-    "total_cost": 82695,
-    "profit": 8304
-  },
-  {
-    "ok": true,
-    "base_id": "T5_CAPEITEM_FW_BRECILIEN@1",
-    "target_id": "T5_CAPEITEM_FW_BRECILIEN@2",
-    "base_price": 139241,
-    "target_price": 169997,
-    "required_materials": {
-      "T5_SOUL": 96
-    },
-    "material_cost": 22464,
-    "total_cost": 161705,
-    "profit": 8292
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_HELL",
-    "target_id": "T4_HEAD_LEATHER_HELL@3",
-    "base_price": 24990,
-    "target_price": 94432,
+    "base_id": "T4_SHOES_LEATHER_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_LEATHER_MORGANA.png",
+    "base_name": "Adept's Stalker Shoes",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_LEATHER_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_LEATHER_MORGANA@3.png",
+    "target_name": "Adept's Stalker Shoes",
+    "target_enchant": 3,
+    "base_price": 6482,
+    "target_price": 80980,
     "required_materials": {
       "T4_RUNE": 96,
       "T4_SOUL": 96,
       "T4_RELIC": 96
     },
-    "material_cost": 61248,
-    "total_cost": 86238,
-    "profit": 8194
+    "material_cost": 62592,
+    "total_cost": 69074,
+    "profit": 11906
   },
   {
     "ok": true,
-    "base_id": "T6_ARMOR_PLATE_SET3",
-    "target_id": "T6_ARMOR_PLATE_SET3@1",
-    "base_price": 19040,
-    "target_price": 55550,
+    "base_id": "T6_2H_DUALAXE_KEEPER",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_2H_DUALAXE_KEEPER.png",
+    "base_name": "Master's Bear Paws",
+    "base_enchant": 0,
+    "target_id": "T6_2H_DUALAXE_KEEPER@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_2H_DUALAXE_KEEPER@3.png",
+    "target_name": "Master's Bear Paws",
+    "target_enchant": 3,
+    "base_price": 609994,
+    "target_price": 1779982,
     "required_materials": {
-      "T6_RUNE": 192
+      "T6_RUNE": 384,
+      "T6_SOUL": 384,
+      "T6_RELIC": 384
     },
-    "material_cost": 28416,
-    "total_cost": 47456,
-    "profit": 8094
+    "material_cost": 1158144,
+    "total_cost": 1768138,
+    "profit": 11844
   },
   {
     "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET3",
-    "target_id": "T4_SHOES_LEATHER_SET3@2",
-    "base_price": 2184,
-    "target_price": 22899,
+    "base_id": "T5_ARMOR_LEATHER_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_FEY.png",
+    "base_name": "Expert's Mistwalker Jacket",
+    "base_enchant": 0,
+    "target_id": "T5_ARMOR_LEATHER_FEY@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_FEY@1.png",
+    "target_name": "Expert's Mistwalker Jacket",
+    "target_enchant": 1,
+    "base_price": 799997,
+    "target_price": 817969,
+    "required_materials": {
+      "T5_RUNE": 192
+    },
+    "material_cost": 6144,
+    "total_cost": 806141,
+    "profit": 11828
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_DUALSICKLE_UNDEAD",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_DUALSICKLE_UNDEAD.png",
+    "base_name": "Adept's Deathgivers",
+    "base_enchant": 0,
+    "target_id": "T4_2H_DUALSICKLE_UNDEAD@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_DUALSICKLE_UNDEAD@1.png",
+    "target_name": "Adept's Deathgivers",
+    "target_enchant": 1,
+    "base_price": 35000,
+    "target_price": 49998,
+    "required_materials": {
+      "T4_RUNE": 384
+    },
+    "material_cost": 3456,
+    "total_cost": 38456,
+    "profit": 11542
+  },
+  {
+    "ok": true,
+    "base_id": "T4_MAIN_NATURESTAFF_KEEPER",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_MAIN_NATURESTAFF_KEEPER.png",
+    "base_name": "Adept's Druidic Staff",
+    "base_enchant": 0,
+    "target_id": "T4_MAIN_NATURESTAFF_KEEPER@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_MAIN_NATURESTAFF_KEEPER@1.png",
+    "target_name": "Adept's Druidic Staff",
+    "target_enchant": 1,
+    "base_price": 5000,
+    "target_price": 19097,
+    "required_materials": {
+      "T4_RUNE": 288
+    },
+    "material_cost": 2592,
+    "total_cost": 7592,
+    "profit": 11505
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_MORGANA@2",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA@2.png",
+    "base_name": "Adept's Cultist Sandals",
+    "base_enchant": 2,
+    "target_id": "T4_SHOES_CLOTH_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA@3.png",
+    "target_name": "Adept's Cultist Sandals",
+    "target_enchant": 3,
+    "base_price": 49987,
+    "target_price": 109999,
+    "required_materials": {
+      "T4_RELIC": 96
+    },
+    "material_cost": 48768,
+    "total_cost": 98755,
+    "profit": 11244
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_PLATE_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_PLATE_ROYAL.png",
+    "base_name": "Adept's Royal Boots",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_PLATE_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_PLATE_ROYAL@2.png",
+    "target_name": "Adept's Royal Boots",
+    "target_enchant": 2,
+    "base_price": 74953,
+    "target_price": 99997,
     "required_materials": {
       "T4_RUNE": 96,
       "T4_SOUL": 96
     },
-    "material_cost": 12672,
-    "total_cost": 14856,
-    "profit": 8043
+    "material_cost": 13824,
+    "total_cost": 88777,
+    "profit": 11220
   },
   {
     "ok": true,
-    "base_id": "T5_HEAD_LEATHER_UNDEAD",
-    "target_id": "T5_HEAD_LEATHER_UNDEAD@1",
-    "base_price": 70989,
-    "target_price": 81804,
+    "base_id": "T4_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Adept's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_MORGANA@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA@2.png",
+    "target_name": "Adept's Cultist Sandals",
+    "target_enchant": 2,
+    "base_price": 25000,
+    "target_price": 49987,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 13824,
+    "total_cost": 38824,
+    "profit": 11163
+  },
+  {
+    "ok": true,
+    "base_id": "T6_SHOES_CLOTH_FEY@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_FEY@1.png",
+    "base_name": "Master's Feyscale Sandals",
+    "base_enchant": 1,
+    "target_id": "T6_SHOES_CLOTH_FEY@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_FEY@2.png",
+    "target_name": "Master's Feyscale Sandals",
+    "target_enchant": 2,
+    "base_price": 249993,
+    "target_price": 329996,
+    "required_materials": {
+      "T6_SOUL": 96
+    },
+    "material_cost": 68928,
+    "total_cost": 318921,
+    "profit": 11075
+  },
+  {
+    "ok": true,
+    "base_id": "T5_CAPEITEM_FW_CAERLEON",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_FW_CAERLEON.png",
+    "base_name": "Expert's Caerleon Cape",
+    "base_enchant": 0,
+    "target_id": "T5_CAPEITEM_FW_CAERLEON@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_FW_CAERLEON@1.png",
+    "target_name": "Expert's Caerleon Cape",
+    "target_enchant": 1,
+    "base_price": 115549,
+    "target_price": 129000,
     "required_materials": {
       "T5_RUNE": 96
     },
-    "material_cost": 2976,
-    "total_cost": 73965,
-    "profit": 7839
+    "material_cost": 3072,
+    "total_cost": 118621,
+    "profit": 10379
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_CAPEITEM_MORGANA.png",
+    "base_name": "Adept's Morgana Cape",
+    "base_enchant": 0,
+    "target_id": "T4_CAPEITEM_MORGANA@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_CAPEITEM_MORGANA@1.png",
+    "target_name": "Adept's Morgana Cape",
+    "target_enchant": 1,
+    "base_price": 279000,
+    "target_price": 289982,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 864,
+    "total_cost": 279864,
+    "profit": 10118
+  },
+  {
+    "ok": true,
+    "base_id": "T4_2H_AXE_AVALON",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_AXE_AVALON.png",
+    "base_name": "Adept's Realmbreaker",
+    "base_enchant": 0,
+    "target_id": "T4_2H_AXE_AVALON@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_AXE_AVALON@1.png",
+    "target_name": "Adept's Realmbreaker",
+    "target_enchant": 1,
+    "base_price": 30000,
+    "target_price": 42993,
+    "required_materials": {
+      "T4_RUNE": 384
+    },
+    "material_cost": 3456,
+    "total_cost": 33456,
+    "profit": 9537
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_ARMOR_LEATHER_HELL.png",
+    "base_name": "Adept's Hellion Jacket",
+    "base_enchant": 0,
+    "target_id": "T4_ARMOR_LEATHER_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_ARMOR_LEATHER_HELL@1.png",
+    "target_name": "Adept's Hellion Jacket",
+    "target_enchant": 1,
+    "base_price": 29998,
+    "target_price": 40997,
+    "required_materials": {
+      "T4_RUNE": 192
+    },
+    "material_cost": 1728,
+    "total_cost": 31726,
+    "profit": 9271
+  },
+  {
+    "ok": true,
+    "base_id": "T5_BAG",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_BAG.png",
+    "base_name": "Expert's Bag",
+    "base_enchant": 0,
+    "target_id": "T5_BAG@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_BAG@2.png",
+    "target_name": "Expert's Bag",
+    "target_enchant": 2,
+    "base_price": 15660,
+    "target_price": 81985,
+    "required_materials": {
+      "T5_RUNE": 192,
+      "T5_SOUL": 192
+    },
+    "material_cost": 57600,
+    "total_cost": 73260,
+    "profit": 8725
+  },
+  {
+    "ok": true,
+    "base_id": "T7_SHOES_CLOTH_SET1",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_SET1.png",
+    "base_name": "Grandmaster's Scholar Sandals",
+    "base_enchant": 0,
+    "target_id": "T7_SHOES_CLOTH_SET1@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_SET1@1.png",
+    "target_name": "Grandmaster's Scholar Sandals",
+    "target_enchant": 1,
+    "base_price": 30999,
+    "target_price": 89984,
+    "required_materials": {
+      "T7_RUNE": 96
+    },
+    "material_cost": 51072,
+    "total_cost": 82071,
+    "profit": 7913
+  },
+  {
+    "ok": true,
+    "base_id": "T7_SHOES_CLOTH_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_HELL.png",
+    "base_name": "Grandmaster's Fiend Sandals",
+    "base_enchant": 0,
+    "target_id": "T7_SHOES_CLOTH_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T7_SHOES_CLOTH_HELL@1.png",
+    "target_name": "Grandmaster's Fiend Sandals",
+    "target_enchant": 1,
+    "base_price": 51967,
+    "target_price": 110579,
+    "required_materials": {
+      "T7_RUNE": 96
+    },
+    "material_cost": 51072,
+    "total_cost": 103039,
+    "profit": 7540
   },
   {
     "ok": true,
     "base_id": "T4_2H_DUALAXE_KEEPER",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_DUALAXE_KEEPER.png",
+    "base_name": "Adept's Bear Paws",
+    "base_enchant": 0,
     "target_id": "T4_2H_DUALAXE_KEEPER@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_DUALAXE_KEEPER@1.png",
+    "target_name": "Adept's Bear Paws",
+    "target_enchant": 1,
     "base_price": 183999,
-    "target_price": 194900,
+    "target_price": 194899,
     "required_materials": {
       "T4_RUNE": 384
     },
-    "material_cost": 3072,
-    "total_cost": 187071,
-    "profit": 7829
+    "material_cost": 3456,
+    "total_cost": 187455,
+    "profit": 7444
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET1",
-    "target_id": "T4_HEAD_LEATHER_SET1@2",
-    "base_price": 1492,
-    "target_price": 21853,
+    "base_id": "T6_BAG",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_BAG.png",
+    "base_name": "Master's Bag",
+    "base_enchant": 0,
+    "target_id": "T6_BAG@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_BAG@2.png",
+    "target_name": "Master's Bag",
+    "target_enchant": 2,
+    "base_price": 49938,
+    "target_price": 230293,
     "required_materials": {
-      "T4_RUNE": 96,
+      "T6_RUNE": 192,
+      "T6_SOUL": 192
+    },
+    "material_cost": 172992,
+    "total_cost": 222930,
+    "profit": 7363
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_PLATE_ROYAL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_PLATE_ROYAL@1.png",
+    "base_name": "Adept's Royal Boots",
+    "base_enchant": 1,
+    "target_id": "T4_SHOES_PLATE_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_PLATE_ROYAL@2.png",
+    "target_name": "Adept's Royal Boots",
+    "target_enchant": 2,
+    "base_price": 79996,
+    "target_price": 99997,
+    "required_materials": {
       "T4_SOUL": 96
     },
-    "material_cost": 12672,
-    "total_cost": 14164,
-    "profit": 7689
+    "material_cost": 12960,
+    "total_cost": 92956,
+    "profit": 7041
   },
   {
     "ok": true,
-    "base_id": "T6_HEAD_LEATHER_SET1",
-    "target_id": "T6_HEAD_LEATHER_SET1@1",
-    "base_price": 21111,
-    "target_price": 42903,
+    "base_id": "T4_2H_NATURESTAFF_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_NATURESTAFF_HELL.png",
+    "base_name": "Adept's Blight Staff",
+    "base_enchant": 0,
+    "target_id": "T4_2H_NATURESTAFF_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_NATURESTAFF_HELL@2.png",
+    "target_name": "Adept's Blight Staff",
+    "target_enchant": 2,
+    "base_price": 14995,
+    "target_price": 76993,
     "required_materials": {
-      "T6_RUNE": 96
+      "T4_RUNE": 384,
+      "T4_SOUL": 384
     },
-    "material_cost": 14208,
-    "total_cost": 35319,
-    "profit": 7584
+    "material_cost": 55296,
+    "total_cost": 70291,
+    "profit": 6702
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_MORGANA@1",
-    "target_id": "T4_HEAD_LEATHER_MORGANA@3",
-    "base_price": 13990,
-    "target_price": 81952,
+    "base_id": "T6_BAG@2",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_BAG@2.png",
+    "base_name": "Master's Bag",
+    "base_enchant": 2,
+    "target_id": "T6_BAG@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_BAG@3.png",
+    "target_name": "Master's Bag",
+    "target_enchant": 3,
+    "base_price": 230293,
+    "target_price": 642990,
+    "required_materials": {
+      "T6_RELIC": 192
+    },
+    "material_cost": 406080,
+    "total_cost": 636373,
+    "profit": 6617
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_SET3@2",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_SET3@2.png",
+    "base_name": "Expert's Mage Sandals",
+    "base_enchant": 2,
+    "target_id": "T5_SHOES_CLOTH_SET3@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_SET3@3.png",
+    "target_name": "Expert's Mage Sandals",
+    "target_enchant": 3,
+    "base_price": 18000,
+    "target_price": 99569,
+    "required_materials": {
+      "T5_RELIC": 96
+    },
+    "material_cost": 74976,
+    "total_cost": 92976,
+    "profit": 6593
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_LEATHER_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_ARMOR_LEATHER_FEY.png",
+    "base_name": "Adept's Mistwalker Jacket",
+    "base_enchant": 0,
+    "target_id": "T4_ARMOR_LEATHER_FEY@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_ARMOR_LEATHER_FEY@2.png",
+    "target_name": "Adept's Mistwalker Jacket",
+    "target_enchant": 2,
+    "base_price": 324999,
+    "target_price": 358998,
+    "required_materials": {
+      "T4_RUNE": 192,
+      "T4_SOUL": 192
+    },
+    "material_cost": 27648,
+    "total_cost": 352647,
+    "profit": 6351
+  },
+  {
+    "ok": true,
+    "base_id": "T4_CAPEITEM_MORGANA@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_CAPEITEM_MORGANA@1.png",
+    "base_name": "Adept's Morgana Cape",
+    "base_enchant": 1,
+    "target_id": "T4_CAPEITEM_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_CAPEITEM_MORGANA@3.png",
+    "target_name": "Adept's Morgana Cape",
+    "target_enchant": 3,
+    "base_price": 289982,
+    "target_price": 357966,
     "required_materials": {
       "T4_SOUL": 96,
       "T4_RELIC": 96
     },
-    "material_cost": 60480,
-    "total_cost": 74470,
-    "profit": 7482
+    "material_cost": 61728,
+    "total_cost": 351710,
+    "profit": 6256
   },
   {
     "ok": true,
-    "base_id": "T6_SHOES_CLOTH_SET2",
-    "target_id": "T6_SHOES_CLOTH_SET2@2",
-    "base_price": 14671,
-    "target_price": 99999,
-    "required_materials": {
-      "T6_RUNE": 96,
-      "T6_SOUL": 96
-    },
-    "material_cost": 78048,
-    "total_cost": 92719,
-    "profit": 7280
-  },
-  {
-    "ok": true,
-    "base_id": "T6_SHOES_CLOTH_SET2@1",
-    "target_id": "T6_SHOES_CLOTH_SET2@2",
-    "base_price": 28998,
-    "target_price": 99999,
-    "required_materials": {
-      "T6_SOUL": 96
-    },
-    "material_cost": 63840,
-    "total_cost": 92838,
-    "profit": 7161
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET2@1",
-    "target_id": "T4_HEAD_LEATHER_SET2@2",
-    "base_price": 4984,
-    "target_price": 23378,
-    "required_materials": {
-      "T4_SOUL": 96
-    },
-    "material_cost": 11904,
-    "total_cost": 16888,
-    "profit": 6490
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_FEY",
-    "target_id": "T4_SHOES_LEATHER_FEY@2",
-    "base_price": 119999,
-    "target_price": 138982,
+    "base_id": "T4_SHOES_CLOTH_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_ROYAL.png",
+    "base_name": "Adept's Royal Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_ROYAL@2.png",
+    "target_name": "Adept's Royal Sandals",
+    "target_enchant": 2,
+    "base_price": 74999,
+    "target_price": 94990,
     "required_materials": {
       "T4_RUNE": 96,
       "T4_SOUL": 96
     },
-    "material_cost": 12672,
-    "total_cost": 132671,
-    "profit": 6311
+    "material_cost": 13824,
+    "total_cost": 88823,
+    "profit": 6167
   },
   {
     "ok": true,
-    "base_id": "T5_CAPEITEM_FW_BRECILIEN",
-    "target_id": "T5_CAPEITEM_FW_BRECILIEN@1",
-    "base_price": 129966,
-    "target_price": 139241,
+    "base_id": "T4_SHOES_CLOTH_MORGANA@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA@1.png",
+    "base_name": "Adept's Cultist Sandals",
+    "base_enchant": 1,
+    "target_id": "T4_SHOES_CLOTH_MORGANA@3",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_MORGANA@3.png",
+    "target_name": "Adept's Cultist Sandals",
+    "target_enchant": 3,
+    "base_price": 43000,
+    "target_price": 109999,
     "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 2976,
-    "total_cost": 132942,
-    "profit": 6299
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET1@1",
-    "target_id": "T4_SHOES_LEATHER_SET1@2",
-    "base_price": 4912,
-    "target_price": 22980,
-    "required_materials": {
-      "T4_SOUL": 96
-    },
-    "material_cost": 11904,
-    "total_cost": 16816,
-    "profit": 6164
-  },
-  {
-    "ok": true,
-    "base_id": "T6_OFF_TOWERSHIELD_UNDEAD",
-    "target_id": "T6_OFF_TOWERSHIELD_UNDEAD@1",
-    "base_price": 18990,
-    "target_price": 38672,
-    "required_materials": {
-      "T6_RUNE": 96
-    },
-    "material_cost": 14208,
-    "total_cost": 33198,
-    "profit": 5474
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_MORGANA@2",
-    "target_id": "T4_HEAD_LEATHER_MORGANA@3",
-    "base_price": 27995,
-    "target_price": 81952,
-    "required_materials": {
+      "T4_SOUL": 96,
       "T4_RELIC": 96
     },
-    "material_cost": 48576,
-    "total_cost": 76571,
-    "profit": 5381
+    "material_cost": 61728,
+    "total_cost": 104728,
+    "profit": 5271
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_MORGANA",
-    "target_id": "T4_HEAD_LEATHER_MORGANA@2",
-    "base_price": 9999,
-    "target_price": 27995,
+    "base_id": "T4_OFF_BOOK",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_OFF_BOOK.png",
+    "base_name": "Adept's Tome of Spells",
+    "base_enchant": 0,
+    "target_id": "T4_OFF_BOOK@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_OFF_BOOK@2.png",
+    "target_name": "Adept's Tome of Spells",
+    "target_enchant": 2,
+    "base_price": 1885,
+    "target_price": 20884,
     "required_materials": {
       "T4_RUNE": 96,
       "T4_SOUL": 96
     },
-    "material_cost": 12672,
-    "total_cost": 22671,
-    "profit": 5324
+    "material_cost": 13824,
+    "total_cost": 15709,
+    "profit": 5175
   },
   {
     "ok": true,
-    "base_id": "T5_ARMOR_PLATE_UNDEAD",
-    "target_id": "T5_ARMOR_PLATE_UNDEAD@1",
-    "base_price": 8999,
-    "target_price": 19980,
+    "base_id": "T6_ARMOR_PLATE_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_ARMOR_PLATE_HELL.png",
+    "base_name": "Master's Demon Armor",
+    "base_enchant": 0,
+    "target_id": "T6_ARMOR_PLATE_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_ARMOR_PLATE_HELL@1.png",
+    "target_name": "Master's Demon Armor",
+    "target_enchant": 1,
+    "base_price": 39855,
+    "target_price": 79998,
+    "required_materials": {
+      "T6_RUNE": 192
+    },
+    "material_cost": 35136,
+    "total_cost": 74991,
+    "profit": 5007
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_LEATHER_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_LEATHER_ROYAL.png",
+    "base_name": "Adept's Royal Shoes",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_LEATHER_ROYAL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_LEATHER_ROYAL@1.png",
+    "target_name": "Adept's Royal Shoes",
+    "target_enchant": 1,
+    "base_price": 63997,
+    "target_price": 69865,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 864,
+    "total_cost": 64861,
+    "profit": 5004
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_LEATHER_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_HELL.png",
+    "base_name": "Expert's Hellion Jacket",
+    "base_enchant": 0,
+    "target_id": "T5_ARMOR_LEATHER_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_HELL@1.png",
+    "target_name": "Expert's Hellion Jacket",
+    "target_enchant": 1,
+    "base_price": 89989,
+    "target_price": 100980,
     "required_materials": {
       "T5_RUNE": 192
     },
-    "material_cost": 5952,
-    "total_cost": 14951,
-    "profit": 5029
+    "material_cost": 6144,
+    "total_cost": 96133,
+    "profit": 4847
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET1@1",
-    "target_id": "T4_HEAD_LEATHER_SET1@2",
-    "base_price": 4941,
-    "target_price": 21853,
+    "base_id": "T5_BAG@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_BAG@1.png",
+    "base_name": "Expert's Bag",
+    "base_enchant": 1,
+    "target_id": "T5_BAG@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_BAG@2.png",
+    "target_name": "Expert's Bag",
+    "target_enchant": 2,
+    "base_price": 25713,
+    "target_price": 81985,
     "required_materials": {
-      "T4_SOUL": 96
+      "T5_SOUL": 192
     },
-    "material_cost": 11904,
-    "total_cost": 16845,
-    "profit": 5008
+    "material_cost": 51456,
+    "total_cost": 77169,
+    "profit": 4816
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_UNDEAD@1",
-    "target_id": "T4_HEAD_LEATHER_UNDEAD@2",
-    "base_price": 52961,
-    "target_price": 68903,
-    "required_materials": {
-      "T4_SOUL": 96
-    },
-    "material_cost": 11904,
-    "total_cost": 64865,
-    "profit": 4038
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_DIVINESTAFF",
-    "target_id": "T4_2H_DIVINESTAFF@1",
-    "base_price": 6999,
-    "target_price": 13972,
-    "required_materials": {
-      "T4_RUNE": 384
-    },
-    "material_cost": 3072,
-    "total_cost": 10071,
-    "profit": 3901
-  },
-  {
-    "ok": true,
-    "base_id": "T7_OFF_TOWERSHIELD_UNDEAD@1",
-    "target_id": "T7_OFF_TOWERSHIELD_UNDEAD@2",
-    "base_price": 125000,
-    "target_price": 369999,
-    "required_materials": {
-      "T7_SOUL": 96
-    },
-    "material_cost": 241152,
-    "total_cost": 366152,
-    "profit": 3847
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_FEY",
-    "target_id": "T4_HEAD_LEATHER_FEY@2",
-    "base_price": 225998,
-    "target_price": 242222,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 12672,
-    "total_cost": 238670,
-    "profit": 3552
-  },
-  {
-    "ok": true,
-    "base_id": "T5_HEAD_LEATHER_SET1",
-    "target_id": "T5_HEAD_LEATHER_SET1@1",
-    "base_price": 6544,
-    "target_price": 12994,
-    "required_materials": {
-      "T5_RUNE": 96
-    },
-    "material_cost": 2976,
-    "total_cost": 9520,
-    "profit": 3474
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_MORGANA",
-    "target_id": "T4_HEAD_LEATHER_MORGANA@1",
-    "base_price": 9999,
-    "target_price": 13990,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 768,
-    "total_cost": 10767,
-    "profit": 3223
-  },
-  {
-    "ok": true,
-    "base_id": "T4_2H_CROSSBOW",
-    "target_id": "T4_2H_CROSSBOW@1",
-    "base_price": 7888,
-    "target_price": 13984,
-    "required_materials": {
-      "T4_RUNE": 384
-    },
-    "material_cost": 3072,
-    "total_cost": 10960,
-    "profit": 3024
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_LEATHER_SET3@2",
-    "target_id": "T4_SHOES_LEATHER_SET3@3",
-    "base_price": 22899,
-    "target_price": 74192,
-    "required_materials": {
-      "T4_RELIC": 96
-    },
-    "material_cost": 48576,
-    "total_cost": 71475,
-    "profit": 2717
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET1",
-    "target_id": "T4_HEAD_LEATHER_SET1@1",
-    "base_price": 1492,
-    "target_price": 4941,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 768,
-    "total_cost": 2260,
-    "profit": 2681
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET2",
-    "target_id": "T4_HEAD_LEATHER_SET2@1",
-    "base_price": 1758,
-    "target_price": 4984,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 768,
-    "total_cost": 2526,
-    "profit": 2458
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_MORGANA@1",
-    "target_id": "T4_HEAD_LEATHER_MORGANA@2",
-    "base_price": 13990,
-    "target_price": 27995,
-    "required_materials": {
-      "T4_SOUL": 96
-    },
-    "material_cost": 11904,
-    "total_cost": 25894,
-    "profit": 2101
-  },
-  {
-    "ok": true,
-    "base_id": "T4_HEAD_LEATHER_SET3",
-    "target_id": "T4_HEAD_LEATHER_SET3@1",
-    "base_price": 1667,
-    "target_price": 4302,
-    "required_materials": {
-      "T4_RUNE": 96
-    },
-    "material_cost": 768,
-    "total_cost": 2435,
-    "profit": 1867
-  },
-  {
-    "ok": true,
-    "base_id": "T4_SHOES_PLATE_SET3",
-    "target_id": "T4_SHOES_PLATE_SET3@2",
-    "base_price": 1597,
-    "target_price": 16104,
-    "required_materials": {
-      "T4_RUNE": 96,
-      "T4_SOUL": 96
-    },
-    "material_cost": 12672,
-    "total_cost": 14269,
-    "profit": 1835
-  },
-  {
-    "ok": true,
-    "base_id": "T5_ARMOR_PLATE_SET3",
-    "target_id": "T5_ARMOR_PLATE_SET3@1",
-    "base_price": 8394,
-    "target_price": 16000,
-    "required_materials": {
-      "T5_RUNE": 192
-    },
-    "material_cost": 5952,
-    "total_cost": 14346,
-    "profit": 1654
-  },
-  {
-    "ok": true,
-    "base_id": "T6_HEAD_CLOTH_SET1",
-    "target_id": "T6_HEAD_CLOTH_SET1@1",
-    "base_price": 12224,
-    "target_price": 27968,
+    "base_id": "T6_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Master's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T6_SHOES_CLOTH_MORGANA@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_SHOES_CLOTH_MORGANA@1.png",
+    "target_name": "Master's Cultist Sandals",
+    "target_enchant": 1,
+    "base_price": 77777,
+    "target_price": 99979,
     "required_materials": {
       "T6_RUNE": 96
     },
-    "material_cost": 14208,
-    "total_cost": 26432,
-    "profit": 1536
+    "material_cost": 17568,
+    "total_cost": 95345,
+    "profit": 4634
   },
   {
     "ok": true,
-    "base_id": "T4_CAPEITEM_FW_BRECILIEN",
-    "target_id": "T4_CAPEITEM_FW_BRECILIEN@1",
-    "base_price": 127962,
-    "target_price": 129981,
+    "base_id": "T5_ARMOR_CLOTH_SET2",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_CLOTH_SET2.png",
+    "base_name": "Expert's Cleric Robe",
+    "base_enchant": 0,
+    "target_id": "T5_ARMOR_CLOTH_SET2@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_CLOTH_SET2@1.png",
+    "target_name": "Expert's Cleric Robe",
+    "target_enchant": 1,
+    "base_price": 9493,
+    "target_price": 19898,
     "required_materials": {
-      "T4_RUNE": 96
+      "T5_RUNE": 192
     },
-    "material_cost": 768,
-    "total_cost": 128730,
-    "profit": 1251
+    "material_cost": 6144,
+    "total_cost": 15637,
+    "profit": 4261
   },
   {
     "ok": true,
-    "base_id": "T6_2H_CLEAVER_HELL",
-    "target_id": "T6_2H_CLEAVER_HELL@1",
-    "base_price": 100929,
-    "target_price": 158995,
+    "base_id": "T4_2H_CLEAVER_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_2H_CLEAVER_HELL.png",
+    "base_name": "Adept's Carving Sword",
+    "base_enchant": 0,
+    "target_id": "T4_2H_CLEAVER_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_2H_CLEAVER_HELL@1.png",
+    "target_name": "Adept's Carving Sword",
+    "target_enchant": 1,
+    "base_price": 14248,
+    "target_price": 21937,
     "required_materials": {
-      "T6_RUNE": 384
+      "T4_RUNE": 384
     },
-    "material_cost": 56832,
-    "total_cost": 157761,
-    "profit": 1234
+    "material_cost": 3456,
+    "total_cost": 17704,
+    "profit": 4233
   },
   {
     "ok": true,
-    "base_id": "T5_SHOES_GATHERER_FIBER",
-    "target_id": "T5_SHOES_GATHERER_FIBER@2",
-    "base_price": 7999,
-    "target_price": 34565,
+    "base_id": "T5_CAPEITEM_UNDEAD",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_UNDEAD.png",
+    "base_name": "Expert's Undead Cape",
+    "base_enchant": 0,
+    "target_id": "T5_CAPEITEM_UNDEAD@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_CAPEITEM_UNDEAD@2.png",
+    "target_name": "Expert's Undead Cape",
+    "target_enchant": 2,
+    "base_price": 277986,
+    "target_price": 310999,
     "required_materials": {
       "T5_RUNE": 96,
       "T5_SOUL": 96
     },
-    "material_cost": 25440,
-    "total_cost": 33439,
-    "profit": 1126
+    "material_cost": 28800,
+    "total_cost": 306786,
+    "profit": 4213
   },
   {
     "ok": true,
-    "base_id": "T4_MAIN_1HCROSSBOW",
-    "target_id": "T4_MAIN_1HCROSSBOW@1",
-    "base_price": 6994,
-    "target_price": 9987,
+    "base_id": "T4_SHOES_PLATE_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_PLATE_ROYAL.png",
+    "base_name": "Adept's Royal Boots",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_PLATE_ROYAL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_PLATE_ROYAL@1.png",
+    "target_name": "Adept's Royal Boots",
+    "target_enchant": 1,
+    "base_price": 74953,
+    "target_price": 79996,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 864,
+    "total_cost": 75817,
+    "profit": 4179
+  },
+  {
+    "ok": true,
+    "base_id": "T5_BAG",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_BAG.png",
+    "base_name": "Expert's Bag",
+    "base_enchant": 0,
+    "target_id": "T5_BAG@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_BAG@1.png",
+    "target_name": "Expert's Bag",
+    "target_enchant": 1,
+    "base_price": 15660,
+    "target_price": 25713,
+    "required_materials": {
+      "T5_RUNE": 192
+    },
+    "material_cost": 6144,
+    "total_cost": 21804,
+    "profit": 3909
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_FEY",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_FEY.png",
+    "base_name": "Adept's Feyscale Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_FEY@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_FEY@1.png",
+    "target_name": "Adept's Feyscale Sandals",
+    "target_enchant": 1,
+    "base_price": 85000,
+    "target_price": 89499,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 864,
+    "total_cost": 85864,
+    "profit": 3635
+  },
+  {
+    "ok": true,
+    "base_id": "T5_ARMOR_PLATE_ROYAL",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_PLATE_ROYAL.png",
+    "base_name": "Expert's Royal Armor",
+    "base_enchant": 0,
+    "target_id": "T5_ARMOR_PLATE_ROYAL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_ARMOR_PLATE_ROYAL@2.png",
+    "target_name": "Expert's Royal Armor",
+    "target_enchant": 2,
+    "base_price": 388990,
+    "target_price": 450000,
+    "required_materials": {
+      "T5_RUNE": 192,
+      "T5_SOUL": 192
+    },
+    "material_cost": 57600,
+    "total_cost": 446590,
+    "profit": 3410
+  },
+  {
+    "ok": true,
+    "base_id": "T6_ARMOR_GATHERER_WOOD",
+    "base_icon": "https://render.albiononline.com/v1/item/T6_ARMOR_GATHERER_WOOD.png",
+    "base_name": "Master's Lumberjack Garb",
+    "base_enchant": 0,
+    "target_id": "T6_ARMOR_GATHERER_WOOD@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T6_ARMOR_GATHERER_WOOD@1.png",
+    "target_name": "Master's Lumberjack Garb",
+    "target_enchant": 1,
+    "base_price": 61875,
+    "target_price": 99995,
+    "required_materials": {
+      "T6_RUNE": 192
+    },
+    "material_cost": 35136,
+    "total_cost": 97011,
+    "profit": 2984
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_AXE",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_MAIN_AXE.png",
+    "base_name": "Expert's Battleaxe",
+    "base_enchant": 0,
+    "target_id": "T5_MAIN_AXE@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_MAIN_AXE@1.png",
+    "target_name": "Expert's Battleaxe",
+    "target_enchant": 1,
+    "base_price": 16894,
+    "target_price": 28970,
+    "required_materials": {
+      "T5_RUNE": 288
+    },
+    "material_cost": 9216,
+    "total_cost": 26110,
+    "profit": 2860
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_CURSEDSTAFF_AVALON@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_MAIN_CURSEDSTAFF_AVALON@1.png",
+    "base_name": "Expert's Shadowcaller",
+    "base_enchant": 1,
+    "target_id": "T5_MAIN_CURSEDSTAFF_AVALON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_MAIN_CURSEDSTAFF_AVALON@2.png",
+    "target_name": "Expert's Shadowcaller",
+    "target_enchant": 2,
+    "base_price": 50991,
+    "target_price": 130988,
+    "required_materials": {
+      "T5_SOUL": 288
+    },
+    "material_cost": 77184,
+    "total_cost": 128175,
+    "profit": 2813
+  },
+  {
+    "ok": true,
+    "base_id": "T4_HEAD_LEATHER_SET3",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_HEAD_LEATHER_SET3.png",
+    "base_name": "Adept's Assassin Hood",
+    "base_enchant": 0,
+    "target_id": "T4_HEAD_LEATHER_SET3@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_HEAD_LEATHER_SET3@2.png",
+    "target_name": "Adept's Assassin Hood",
+    "target_enchant": 2,
+    "base_price": 1651,
+    "target_price": 18231,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 13824,
+    "total_cost": 15475,
+    "profit": 2756
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_KEEPER",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_KEEPER.png",
+    "base_name": "Adept's Druid Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_KEEPER@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_KEEPER@2.png",
+    "target_name": "Adept's Druid Sandals",
+    "target_enchant": 2,
+    "base_price": 2990,
+    "target_price": 18951,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 13824,
+    "total_cost": 16814,
+    "profit": 2137
+  },
+  {
+    "ok": true,
+    "base_id": "T5_MAIN_SPEAR_LANCE_AVALON@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_MAIN_SPEAR_LANCE_AVALON@1.png",
+    "base_name": "Expert's Daybreaker",
+    "base_enchant": 1,
+    "target_id": "T5_MAIN_SPEAR_LANCE_AVALON@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_MAIN_SPEAR_LANCE_AVALON@2.png",
+    "target_name": "Expert's Daybreaker",
+    "target_enchant": 2,
+    "base_price": 109750,
+    "target_price": 188879,
+    "required_materials": {
+      "T5_SOUL": 288
+    },
+    "material_cost": 77184,
+    "total_cost": 186934,
+    "profit": 1945
+  },
+  {
+    "ok": true,
+    "base_id": "T4_MAIN_SWORD",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_MAIN_SWORD.png",
+    "base_name": "Adept's Broadsword",
+    "base_enchant": 0,
+    "target_id": "T4_MAIN_SWORD@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_MAIN_SWORD@1.png",
+    "target_name": "Adept's Broadsword",
+    "target_enchant": 1,
+    "base_price": 5580,
+    "target_price": 9993,
     "required_materials": {
       "T4_RUNE": 288
     },
-    "material_cost": 2304,
-    "total_cost": 9298,
-    "profit": 689
+    "material_cost": 2592,
+    "total_cost": 8172,
+    "profit": 1821
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_AVALON@1",
-    "target_id": "T4_HEAD_LEATHER_AVALON@2",
-    "base_price": 16982,
-    "target_price": 29489,
+    "base_id": "T5_SHOES_CLOTH_SET2",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_SET2.png",
+    "base_name": "Expert's Cleric Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_SET2@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_SET2@1.png",
+    "target_name": "Expert's Cleric Sandals",
+    "target_enchant": 1,
+    "base_price": 5491,
+    "target_price": 10054,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3072,
+    "total_cost": 8563,
+    "profit": 1491
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Expert's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_MORGANA@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA@1.png",
+    "target_name": "Expert's Cultist Sandals",
+    "target_enchant": 1,
+    "base_price": 71000,
+    "target_price": 75498,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3072,
+    "total_cost": 74072,
+    "profit": 1426
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_KEEPER@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_KEEPER@1.png",
+    "base_name": "Adept's Druid Sandals",
+    "base_enchant": 1,
+    "target_id": "T4_SHOES_CLOTH_KEEPER@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_KEEPER@2.png",
+    "target_name": "Adept's Druid Sandals",
+    "target_enchant": 2,
+    "base_price": 4692,
+    "target_price": 18951,
     "required_materials": {
       "T4_SOUL": 96
     },
-    "material_cost": 11904,
-    "total_cost": 28886,
-    "profit": 603
+    "material_cost": 12960,
+    "total_cost": 17652,
+    "profit": 1299
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_FEY@1",
-    "target_id": "T4_HEAD_LEATHER_FEY@3",
-    "base_price": 238983,
-    "target_price": 299975,
+    "base_id": "T5_OFF_TOWERSHIELD_UNDEAD",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_OFF_TOWERSHIELD_UNDEAD.png",
+    "base_name": "Expert's Sarcophagus",
+    "base_enchant": 0,
+    "target_id": "T5_OFF_TOWERSHIELD_UNDEAD@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_OFF_TOWERSHIELD_UNDEAD@1.png",
+    "target_name": "Expert's Sarcophagus",
+    "target_enchant": 1,
+    "base_price": 6687,
+    "target_price": 10982,
     "required_materials": {
-      "T4_SOUL": 96,
-      "T4_RELIC": 96
+      "T5_RUNE": 96
     },
-    "material_cost": 60480,
-    "total_cost": 299463,
-    "profit": 512
+    "material_cost": 3072,
+    "total_cost": 9759,
+    "profit": 1223
   },
   {
     "ok": true,
-    "base_id": "T4_ARMOR_CLOTH_SET3",
-    "target_id": "T4_ARMOR_CLOTH_SET3@1",
-    "base_price": 1989,
-    "target_price": 3874,
+    "base_id": "T4_SHOES_CLOTH_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_HELL.png",
+    "base_name": "Adept's Fiend Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_HELL@2.png",
+    "target_name": "Adept's Fiend Sandals",
+    "target_enchant": 2,
+    "base_price": 4000,
+    "target_price": 18980,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 13824,
+    "total_cost": 17824,
+    "profit": 1156
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_HELL",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_HELL.png",
+    "base_name": "Adept's Fiend Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_HELL@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_HELL@1.png",
+    "target_name": "Adept's Fiend Sandals",
+    "target_enchant": 1,
+    "base_price": 4000,
+    "target_price": 5979,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 864,
+    "total_cost": 4864,
+    "profit": 1115
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_KEEPER",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_KEEPER.png",
+    "base_name": "Adept's Druid Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_KEEPER@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_KEEPER@1.png",
+    "target_name": "Adept's Druid Sandals",
+    "target_enchant": 1,
+    "base_price": 2990,
+    "target_price": 4692,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 864,
+    "total_cost": 3854,
+    "profit": 838
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_SET2",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_SET2.png",
+    "base_name": "Adept's Cleric Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_SET2@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_SET2@1.png",
+    "target_name": "Adept's Cleric Sandals",
+    "target_enchant": 1,
+    "base_price": 1199,
+    "target_price": 2818,
+    "required_materials": {
+      "T4_RUNE": 96
+    },
+    "material_cost": 864,
+    "total_cost": 2063,
+    "profit": 755
+  },
+  {
+    "ok": true,
+    "base_id": "T4_ARMOR_CLOTH_SET2",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_ARMOR_CLOTH_SET2.png",
+    "base_name": "Adept's Cleric Robe",
+    "base_enchant": 0,
+    "target_id": "T4_ARMOR_CLOTH_SET2@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_ARMOR_CLOTH_SET2@1.png",
+    "target_name": "Adept's Cleric Robe",
+    "target_enchant": 1,
+    "base_price": 2097,
+    "target_price": 4490,
     "required_materials": {
       "T4_RUNE": 192
     },
-    "material_cost": 1536,
-    "total_cost": 3525,
-    "profit": 349
+    "material_cost": 1728,
+    "total_cost": 3825,
+    "profit": 665
   },
   {
     "ok": true,
-    "base_id": "T4_CAPEITEM_FW_FORTSTERLING",
-    "target_id": "T4_CAPEITEM_FW_FORTSTERLING@1",
-    "base_price": 51914,
-    "target_price": 52990,
+    "base_id": "T4_HEAD_PLATE_SET2",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_HEAD_PLATE_SET2.png",
+    "base_name": "Adept's Knight Helmet",
+    "base_enchant": 0,
+    "target_id": "T4_HEAD_PLATE_SET2@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_HEAD_PLATE_SET2@2.png",
+    "target_name": "Adept's Knight Helmet",
+    "target_enchant": 2,
+    "base_price": 1665,
+    "target_price": 15955,
+    "required_materials": {
+      "T4_RUNE": 96,
+      "T4_SOUL": 96
+    },
+    "material_cost": 13824,
+    "total_cost": 15489,
+    "profit": 466
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_SET3",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_SET3.png",
+    "base_name": "Adept's Mage Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_SET3@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_SET3@1.png",
+    "target_name": "Adept's Mage Sandals",
+    "target_enchant": 1,
+    "base_price": 1197,
+    "target_price": 2496,
     "required_materials": {
       "T4_RUNE": 96
     },
-    "material_cost": 768,
-    "total_cost": 52682,
-    "profit": 308
+    "material_cost": 864,
+    "total_cost": 2061,
+    "profit": 435
   },
   {
     "ok": true,
-    "base_id": "T4_OFF_HORN_KEEPER",
-    "target_id": "T4_OFF_HORN_KEEPER@1",
-    "base_price": 9975,
-    "target_price": 10994,
+    "base_id": "T4_SHOES_CLOTH_SET1",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_SET1.png",
+    "base_name": "Adept's Scholar Sandals",
+    "base_enchant": 0,
+    "target_id": "T4_SHOES_CLOTH_SET1@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_SET1@1.png",
+    "target_name": "Adept's Scholar Sandals",
+    "target_enchant": 1,
+    "base_price": 1495,
+    "target_price": 2657,
     "required_materials": {
       "T4_RUNE": 96
     },
-    "material_cost": 768,
-    "total_cost": 10743,
-    "profit": 251
+    "material_cost": 864,
+    "total_cost": 2359,
+    "profit": 298
   },
   {
     "ok": true,
-    "base_id": "T6_SHOES_CLOTH_SET2",
-    "target_id": "T6_SHOES_CLOTH_SET2@1",
-    "base_price": 14671,
-    "target_price": 28998,
+    "base_id": "T5_SHOES_CLOTH_SET3",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_SET3.png",
+    "base_name": "Expert's Mage Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_SET3@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_SET3@1.png",
+    "target_name": "Expert's Mage Sandals",
+    "target_enchant": 1,
+    "base_price": 5498,
+    "target_price": 8809,
     "required_materials": {
-      "T6_RUNE": 96
+      "T5_RUNE": 96
     },
-    "material_cost": 14208,
-    "total_cost": 28879,
-    "profit": 119
+    "material_cost": 3072,
+    "total_cost": 8570,
+    "profit": 239
   },
   {
     "ok": true,
-    "base_id": "T4_HEAD_LEATHER_HELL@1",
-    "target_id": "T4_HEAD_LEATHER_HELL@2",
-    "base_price": 35000,
-    "target_price": 46999,
+    "base_id": "T5_SHOES_CLOTH_MORGANA",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA.png",
+    "base_name": "Expert's Cultist Sandals",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_CLOTH_MORGANA@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_CLOTH_MORGANA@2.png",
+    "target_name": "Expert's Cultist Sandals",
+    "target_enchant": 2,
+    "base_price": 71000,
+    "target_price": 99975,
+    "required_materials": {
+      "T5_RUNE": 96,
+      "T5_SOUL": 96
+    },
+    "material_cost": 28800,
+    "total_cost": 99800,
+    "profit": 175
+  },
+  {
+    "ok": true,
+    "base_id": "T5_SHOES_LEATHER_SET1",
+    "base_icon": "https://render.albiononline.com/v1/item/T5_SHOES_LEATHER_SET1.png",
+    "base_name": "Expert's Mercenary Shoes",
+    "base_enchant": 0,
+    "target_id": "T5_SHOES_LEATHER_SET1@1",
+    "target_icon": "https://render.albiononline.com/v1/item/T5_SHOES_LEATHER_SET1@1.png",
+    "target_name": "Expert's Mercenary Shoes",
+    "target_enchant": 1,
+    "base_price": 4500,
+    "target_price": 7632,
+    "required_materials": {
+      "T5_RUNE": 96
+    },
+    "material_cost": 3072,
+    "total_cost": 7572,
+    "profit": 60
+  },
+  {
+    "ok": true,
+    "base_id": "T4_SHOES_CLOTH_HELL@1",
+    "base_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_HELL@1.png",
+    "base_name": "Adept's Fiend Sandals",
+    "base_enchant": 1,
+    "target_id": "T4_SHOES_CLOTH_HELL@2",
+    "target_icon": "https://render.albiononline.com/v1/item/T4_SHOES_CLOTH_HELL@2.png",
+    "target_name": "Adept's Fiend Sandals",
+    "target_enchant": 2,
+    "base_price": 5979,
+    "target_price": 18980,
     "required_materials": {
       "T4_SOUL": 96
     },
-    "material_cost": 11904,
-    "total_cost": 46904,
-    "profit": 95
+    "material_cost": 12960,
+    "total_cost": 18939,
+    "profit": 41
   }
 ]

@@ -1,6 +1,12 @@
 from analysis.enchant_rules import ENCHANT_MATERIALS, ENCHANT_MAP
+from storage.storage import load_items
 from collections import defaultdict
 from datetime import timedelta, datetime
+
+ITEM_NAMES = load_items()
+
+def get_icon_url(item_id):
+    return f"https://render.albiononline.com/v1/item/{item_id}.png"
 
 def sold_recently(entries, days=3):
     if not entries:
@@ -230,7 +236,13 @@ def evaluate_flip(base_id, target_id, lowest_prices, target_entries):
     return {
         "ok": True,
         "base_id": base_id,
+        "base_icon": get_icon_url(base_id),
+        "base_name": ITEM_NAMES.get(base_id, base_id),
+        "base_enchant": get_item_enchant_level(base_id),
         "target_id": target_id,
+        "target_icon": get_icon_url(target_id),
+        "target_name": ITEM_NAMES.get(target_id, target_id),
+        "target_enchant": get_item_enchant_level(target_id),
         "base_price": base_price,
         "target_price": target_price,
         "required_materials": reqired_materials,
