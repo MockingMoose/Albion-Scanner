@@ -29,7 +29,7 @@ if __name__ == "__main__":
     results = (run_flip_scan(items, lowest, grouped))
 
     def save_results(results):
-        with open("data/profits.json", "w") as f:
+        with open("C:/repos/albion-scanner/albion-frontend/public/profits.json", "w") as f:
             json.dump(results, f, indent=2)
 
     save_results(results)
