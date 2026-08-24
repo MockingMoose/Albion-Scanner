@@ -1,7 +1,7 @@
 <script>
   let results = /** @type {Array<{base_name:string, target_name:string, profit:number, city:String, base_icon:string}>} */ ([]);
   let premium = false;
-
+  let scanning = false;
   let cities = [
     { name: "Bridgewatch", checked: false },
     { name: "Martlock", checked: false },
@@ -13,18 +13,41 @@
 
   async function loadData() {
     console.log("Fetching profits.json...");
-    const res = await fetch("/profits.json");
+    const res = await fetch("http://localhost:8000/profits.json");
     results = await res.json();
     console.log("Loaded results:", results);
   }
 
-  function toggleCheck(city) {
-    city.checked = !city.checked;
+  function toggleCheck(target) {
+    if (typeof target === "boolean") {
+      premium = !premium;
+      return;
+    }
+    target.checked = !target.checked;
     cities = [...cities];
   }
 
-  function scanData() {
-    // call backend
+  async function scanData() {
+    scanning = true;
+
+    let citiesList = cities.filter(c => c.checked).map(c => c.name);
+
+    const payload = {
+      cities: citiesList,
+      premium: premium
+    };
+
+    const res = await fetch("http://localhost:8000/scan", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+    await loadData();
+    scanning = false;
+
+    const data = await res.json();
   }
 
   loadData();
@@ -126,7 +149,9 @@
 <div class="container">
 
   <h1>Select Cities</h1>
-
+  {#if scanning}
+    <p style="color: orange;">Scanning... please wait</p>
+  {/if}
   <div class="city-grid">
     {#each cities as city}
       <div class="city-card">
@@ -137,8 +162,8 @@
   </div>
 
   <div class="premium-row">
-    <label for="premium">Premium?</label>
-    <input type="checkbox" name="premium" bind:checked={premium} />
+    <button class="premium" on:click={() => toggleCheck(premium)}>Premium?</button>
+    <input type="checkbox" bind:checked={premium} />
   </div>
 
   <button class="scan-btn" on:click={scanData}>
@@ -166,7 +191,7 @@
         <td>{r.base_name}</td>
         <td>{r.city}</td>
         <td>{r.target_name}</td>
-        <td id="profit">{r.profit}</td>
+        <td id="profit">{r.profit.toLocaleString()}</td>
       </tr>
     {/each}
   </tbody>

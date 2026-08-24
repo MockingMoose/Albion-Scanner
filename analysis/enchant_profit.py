@@ -234,7 +234,6 @@ def evaluate_flip(base_id, target_id, lowest_prices, target_entries, premium):
     total_cost = base_price + cost_result["total"]
     profit = target_price * (1 - tax_rate - setup_fee) - total_cost
 
-
     if profit <= 0:
         return {
             "ok": False,
