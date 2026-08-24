@@ -185,9 +185,16 @@ def get_current_sell_price(item_id, lowest_prices):
         return None
     return lowest_prices.get(item_id)
 
-def evaluate_flip(base_id, target_id, lowest_prices, target_entries):
+def evaluate_flip(base_id, target_id, lowest_prices, target_entries, premium):
+    setup_fee = 0.025
+    if premium:
+        tax_rate = 0.04
+    else:
+        tax_rate = 0.08
+
     reqired_materials = get_materials(base_id, target_id)
-    
+    lowest_base_entry = min(target_entries, key=lambda e: e["sell_price"])
+    city = lowest_base_entry["city"]
     if not sold_recently(target_entries):
         return {
             "ok": False,
@@ -225,7 +232,8 @@ def evaluate_flip(base_id, target_id, lowest_prices, target_entries):
         }
 
     total_cost = base_price + cost_result["total"]
-    profit = target_price - total_cost
+    profit = target_price * (1 - tax_rate - setup_fee) - total_cost
+
 
     if profit <= 0:
         return {
@@ -236,6 +244,7 @@ def evaluate_flip(base_id, target_id, lowest_prices, target_entries):
     return {
         "ok": True,
         "base_id": base_id,
+        "city": city,
         "base_icon": get_icon_url(base_id),
         "base_name": ITEM_NAMES.get(base_id, base_id) + f' Enchantment {get_item_enchant_level(base_id)}',
         "base_enchant": get_item_enchant_level(base_id),
@@ -248,5 +257,5 @@ def evaluate_flip(base_id, target_id, lowest_prices, target_entries):
         "required_materials": reqired_materials,
         "material_cost": cost_result["total"],
         "total_cost": total_cost,
-        "profit": profit
+        "profit": int(profit)
     }

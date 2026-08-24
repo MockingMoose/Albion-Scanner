@@ -1,8 +1,12 @@
 from analysis.enchant_profit import evaluate_flip, get_item_enchant_level
 from scanner.scan import generate_enchants
 
-def run_flip_scan(base_items, lowest_prices, grouped):
+def run_flip_scan(base_items, lowest_prices, grouped, premium: False):
     results = []
+    if premium:
+        premium = True
+    else:
+        premium = False
 
     for base in base_items:
 
@@ -14,27 +18,27 @@ def run_flip_scan(base_items, lowest_prices, grouped):
             target_entries = grouped.get(target, [])
             if not target_entries:
                 continue
-            result = evaluate_flip(base, target, lowest_prices, target_entries)
+            result = evaluate_flip(base, target, lowest_prices, target_entries, premium)
             if result["ok"]:
                 results.append(result)
 
         if enchants[1] in lowest_prices:
             target_entries = grouped.get(enchants[2], [])
             if target_entries:
-                result = evaluate_flip(enchants[1], enchants[2], lowest_prices, target_entries)
+                result = evaluate_flip(enchants[1], enchants[2], lowest_prices, target_entries, premium)
                 if result["ok"]:
                     results.append(result)
 
             target_entries = grouped.get(enchants[3], [])
             if target_entries:
-                result = evaluate_flip(enchants[1], enchants[3], lowest_prices, target_entries)
+                result = evaluate_flip(enchants[1], enchants[3], lowest_prices, target_entries, premium)
                 if result["ok"]:
                     results.append(result)
 
         if enchants[2] in lowest_prices:
             target_entries = grouped.get(enchants[3], [])
             if target_entries:
-                result = evaluate_flip(enchants[2], enchants[3], lowest_prices, target_entries)
+                result = evaluate_flip(enchants[2], enchants[3], lowest_prices, target_entries, premium)
                 if result["ok"]:
                     results.append(result)
     results.sort(key=lambda r: r["profit"], reverse=True)
