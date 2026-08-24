@@ -23,6 +23,7 @@ dist/
 
 # Storage snapshots (may contain large or personal data)
 storage/market_data.json
+storage/profits.json
 
 # Cache and log files
 *.log
